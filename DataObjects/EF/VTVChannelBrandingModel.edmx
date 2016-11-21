@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="VTVChannelBrandingModel.DataObjects.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Channels">
+          <Key>
+            <PropertyRef Name="Name" />
+          </Key>
+          <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Description" Type="nvarchar" MaxLength="256" />
+          <Property Name="LastTrafficUpdateFilePath" Type="nvarchar" MaxLength="256" />
+          <Property Name="LastTrafficUpdateFileTime" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TrafficEvents">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="ProgramCode" Type="nvarchar" MaxLength="256" Nullable="false" />
+          <Property Name="ChannelName" Type="varchar" MaxLength="50" />
+          <Property Name="ProgramTitle1" Type="nvarchar" MaxLength="256" />
+          <Property Name="ProgramTitle2" Type="nvarchar" MaxLength="256" />
+          <Property Name="CreateTime" Type="datetime" Nullable="false" />
+          <Property Name="UpdateTime" Type="datetime" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_TrafficEvents_Channels">
+          <End Role="Channels" Type="Self.Channels" Multiplicity="0..1" />
+          <End Role="TrafficEvents" Type="Self.TrafficEvents" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Channels">
+              <PropertyRef Name="Name" />
+            </Principal>
+            <Dependent Role="TrafficEvents">
+              <PropertyRef Name="ChannelName" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="VTVChannelBrandingModelDataObjectsStoreContainer">
+          <EntitySet Name="Channels" EntityType="Self.Channels" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TrafficEvents" EntityType="Self.TrafficEvents" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_TrafficEvents_Channels" Association="Self.FK_TrafficEvents_Channels">
+            <End Role="Channels" EntitySet="Channels" />
+            <End Role="TrafficEvents" EntitySet="TrafficEvents" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="VTVChannelBrandingModel.DataObjects" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="ChannelEntity">
+          <Key>
+            <PropertyRef Name="Name" />
+          </Key>
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="LastTrafficUpdateFilePath" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="LastTrafficUpdateFileTime" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="TrafficEvents" Relationship="Self.FK_TrafficEvents_Channels" FromRole="Channels" ToRole="TrafficEvents" />
+        </EntityType>
+        <EntityType Name="TrafficEventEntity">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Guid" Nullable="false" />
+          <Property Name="ProgramCode" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ChannelName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ProgramTitle1" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="ProgramTitle2" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="CreateTime" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="UpdateTime" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="Channel" Relationship="Self.FK_TrafficEvents_Channels" FromRole="TrafficEvents" ToRole="Channels" />
+        </EntityType>
+        <Association Name="FK_TrafficEvents_Channels">
+          <End Role="Channels" Type="VTVChannelBrandingModel.DataObjects.ChannelEntity" Multiplicity="0..1" />
+          <End Role="TrafficEvents" Type="VTVChannelBrandingModel.DataObjects.TrafficEventEntity" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Channels">
+              <PropertyRef Name="Name" />
+            </Principal>
+            <Dependent Role="TrafficEvents">
+              <PropertyRef Name="ChannelName" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="VTVChannelBrandingEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="ChannelEntities" EntityType="VTVChannelBrandingModel.DataObjects.ChannelEntity" />
+          <EntitySet Name="TrafficEventEntities" EntityType="VTVChannelBrandingModel.DataObjects.TrafficEventEntity" />
+          <AssociationSet Name="FK_TrafficEvents_Channels" Association="Self.FK_TrafficEvents_Channels">
+            <End Role="Channels" EntitySet="ChannelEntities" />
+            <End Role="TrafficEvents" EntitySet="TrafficEventEntities" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="VTVChannelBrandingModelDataObjectsStoreContainer" CdmEntityContainer="VTVChannelBrandingEntities">
+          <EntitySetMapping Name="ChannelEntities">
+            <EntityTypeMapping TypeName="VTVChannelBrandingModel.DataObjects.ChannelEntity">
+              <MappingFragment StoreEntitySet="Channels">
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="LastTrafficUpdateFilePath" ColumnName="LastTrafficUpdateFilePath" />
+                <ScalarProperty Name="LastTrafficUpdateFileTime" ColumnName="LastTrafficUpdateFileTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TrafficEventEntities">
+            <EntityTypeMapping TypeName="VTVChannelBrandingModel.DataObjects.TrafficEventEntity">
+              <MappingFragment StoreEntitySet="TrafficEvents">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="ProgramCode" ColumnName="ProgramCode" />
+                <ScalarProperty Name="ChannelName" ColumnName="ChannelName" />
+                <ScalarProperty Name="ProgramTitle1" ColumnName="ProgramTitle1" />
+                <ScalarProperty Name="ProgramTitle2" ColumnName="ProgramTitle2" />
+                <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+                <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

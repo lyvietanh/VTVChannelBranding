@@ -1,0 +1,883 @@
+<data datetime="10/09/2016 00:00:00">
+  <TRAFFICXML description="Station=VTV2 (channel=VTV2) ">
+    <row>
+      <EXTERSTRID>T0_3c9dad22-e21c-4575-b6aa-84d675a6b519</EXTERSTRID>
+      <COD_PROGRA>KGKTCD_NAMANVANAMDUOCLIEU</COD_PROGRA>
+      <DESCRIZIO>Nâng cao năng lực lao động ngành Nấm</DESCRIZIO>
+      <TITLE>Nâng cao năng lực lao động ngành Nấm</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>0</ORA>
+      <TENCM>Kiến thức cộng đồng</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Nâng cao năng lực lao động ngành Nấm</TenCongBo>
+      <TenChuyenMucCongbo>Kiến thức cộng đồng</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_40526552-6a5f-4d86-a2a5-4f4ad1f3e889</EXTERSTRID>
+      <COD_PROGRA>KGPBKT_PHUNUVOICHONGTOIPHAM</COD_PROGRA>
+      <DESCRIZIO>Phụ nữ với công tác phòng chống tội phạm</DESCRIZIO>
+      <TITLE>Phụ nữ với công tác phòng chống tội phạm</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>45000</ORA>
+      <TENCM>Phổ biến kiến thức</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Phụ nữ với công tác phòng chống tội phạm</TenCongBo>
+      <TenChuyenMucCongbo>Phổ biến kiến thức</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_5243fe28-1ee1-4114-a6b1-eb9752f3e5e3</EXTERSTRID>
+      <COD_PROGRA>KGKPTG_CHUNGBENHBATTHUONG_4</COD_PROGRA>
+      <DESCRIZIO>Những chứng bệnh bất thường - Phần  4/4</DESCRIZIO>
+      <TITLE>Những chứng bệnh bất thường - Phần  4/4</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>67500</ORA>
+      <TENCM>Khám phá thế giới (PL)</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Những chứng bệnh bất thường - Phần  4</TenCongBo>
+      <TenChuyenMucCongbo>Khám phá thế giới</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_811e71cc-fb4e-4cba-bdfc-415adb866d98</EXTERSTRID>
+      <COD_PROGRA>KTPPT19_THIENDTDUYEN_TAP_28</COD_PROGRA>
+      <DESCRIZIO>Thiên địa tình duyên - Tập 28</DESCRIZIO>
+      <TITLE>Thiên địa tình duyên - Tập 28</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>135000</ORA>
+      <TENCM>Phim nước ngoài (V2)</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Thiên địa tình duyên - Tập 28</TenCongBo>
+      <TenChuyenMucCongbo>Phim truyện</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_498cb18a-a2ee-428f-b2dd-53821bcead16</EXTERSTRID>
+      <COD_PROGRA>KGHTKP_HAOKHIDATVO</COD_PROGRA>
+      <DESCRIZIO>Hào khí đất võ </DESCRIZIO>
+      <TITLE>Hào khí đất võ </TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>202500</ORA>
+      <TENCM>Hành trình khám phá</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Hào khí đất võ </TenCongBo>
+      <TenChuyenMucCongbo>Hành trình khám phá</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_6968841a-e08d-432e-8acd-cd3ae39ca683</EXTERSTRID>
+      <COD_PROGRA>KGKPTG_KHAMPHATHIENNHIEN_2</COD_PROGRA>
+      <DESCRIZIO>Khám phá thiên nhiên 2/7: Khám bệnh cho cây- Côn trùng trên cánh đồng- Khu rừng mùa hạ.</DESCRIZIO>
+      <TITLE>Khám phá thiên nhiên 2/7: Khám bệnh cho cây- Côn trùng trên cánh đồng- Khu rừng mùa hạ.</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>225000</ORA>
+      <TENCM>Khám phá thế giới (50)</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Khám phá thiên nhiên - Phần 2</TenCongBo>
+      <TenChuyenMucCongbo>Khám phá thế giới</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_8901a04c-c292-4649-af0d-b24e500f041a</EXTERSTRID>
+      <COD_PROGRA>TKBTPS_GOMLAITHIEU</COD_PROGRA>
+      <DESCRIZIO>Tinh hoa nghề Việt: Dòng gốm lái Thiêu</DESCRIZIO>
+      <TITLE>Tinh hoa nghề Việt: Dòng gốm lái Thiêu</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>292500</ORA>
+      <TENCM>Phóng sự (TKBT)</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Dòng gốm Lái Thiêu</TenCongBo>
+      <TenChuyenMucCongbo>Phóng sự</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_44794787-849e-4801-95ec-e03c2559d9cd</EXTERSTRID>
+      <COD_PROGRA>KGBNN_MAYSAYHOTIEUNGUSAC</COD_PROGRA>
+      <DESCRIZIO>Máy sấy hồ tiêu ngũ sắc</DESCRIZIO>
+      <TITLE>Máy sấy hồ tiêu ngũ sắc</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>315000</ORA>
+      <TENCM>Bạn của nhà nông (30)</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Máy sấy hồ tiêu ngũ sắc</TenCongBo>
+      <TenChuyenMucCongbo>Bạn của nhà nông</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_e144ab11-e2cc-4718-834c-340041ad930e</EXTERSTRID>
+      <COD_PROGRA>KGKP_THUYDIENDAPVOM_TAP2</COD_PROGRA>
+      <DESCRIZIO>Thủy điện Đập vòm - Tập 2</DESCRIZIO>
+      <TITLE>Thủy điện Đập vòm - Tập 2</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>360000</ORA>
+      <TENCM>Khám phá</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Thủy điện Đập vòm - Tập 2</TenCongBo>
+      <TenChuyenMucCongbo>Khám phá</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_0112bca0-1f43-4f12-a56b-4ad99d39be78</EXTERSTRID>
+      <COD_PROGRA>KGKPTG_PHIEULUUHOANGDA_7</COD_PROGRA>
+      <DESCRIZIO>Phiêu lưu trong hoang dã 7/13
+"Anaconda - Nữ hoàng của loài trăn"</DESCRIZIO>
+      <TITLE>Phiêu lưu trong hoang dã 7/13
+"Anaconda - Nữ hoàng của loài trăn"</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>405000</ORA>
+      <TENCM>Khám phá thế giới (30)</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Phiêu lưu trong hoang dã - Phần 7</TenCongBo>
+      <TenChuyenMucCongbo>Khám phá thế giới</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_28ff83a5-20f7-439c-907a-5b2dab8ca507</EXTERSTRID>
+      <COD_PROGRA>KGTDTM_SUCBENVOIDAYTHUN</COD_PROGRA>
+      <DESCRIZIO>Rèn luyện sức bền với dây thun</DESCRIZIO>
+      <TITLE>Rèn luyện sức bền với dây thun</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>450000</ORA>
+      <TENCM>Thể dục theo mùa</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Rèn luyện sức bền với dây thun</TenCongBo>
+      <TenChuyenMucCongbo>Thể dục theo mùa</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_4bcf3fb0-6a4e-4b4a-9814-3b243e7b15f3</EXTERSTRID>
+      <COD_PROGRA>KGBCN_SO110</COD_PROGRA>
+      <DESCRIZIO>Số 110</DESCRIZIO>
+      <TITLE>Số 110</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>495000</ORA>
+      <TENCM>Bạn của nhà nông (60)</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Bạn của nhà nông</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_6992c343-cc05-420f-84ef-8e08f44b95fb</EXTERSTRID>
+      <COD_PROGRA>KGSK20_BENHLOANGXUONG</COD_PROGRA>
+      <DESCRIZIO>Tìm hiểu về bệnh loãng xương</DESCRIZIO>
+      <TITLE>Tìm hiểu về bệnh loãng xương</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>585000</ORA>
+      <TENCM>Sống khỏe mỗi ngày (23)</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Tìm hiểu về bệnh loãng xương</TenCongBo>
+      <TenChuyenMucCongbo>Sống khỏe mỗi ngày</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_f0ff84ef-b53f-469c-b5ec-551cf53ad0c4</EXTERSTRID>
+      <COD_PROGRA>LSEYOGADOI</COD_PROGRA>
+      <DESCRIZIO>Yoga đôi</DESCRIZIO>
+      <TITLE>Yoga đôi</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>622500</ORA>
+      <TENCM>Đẹp 24/7</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Yoga đôi</TenCongBo>
+      <TenChuyenMucCongbo>Đẹp 24/7</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_5e7467cf-a9f6-4401-ab2b-d619954679ff</EXTERSTRID>
+      <COD_PROGRA>KGGGD_VIECLAMCUACON1</COD_PROGRA>
+      <DESCRIZIO>Việc làm của con</DESCRIZIO>
+      <TITLE>Việc làm của con</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>630000</ORA>
+      <TENCM>Giờ Gia đình</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Việc làm của con</TenCongBo>
+      <TenChuyenMucCongbo>Giờ Gia đình</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_a51fa8d6-801f-4628-b4a7-da8a5c7cdca9</EXTERSTRID>
+      <COD_PROGRA>KGKPTG_PHIEULUUHOANGDA_8</COD_PROGRA>
+      <DESCRIZIO>Phiêu lưu trong hoang dã 8/13</DESCRIZIO>
+      <TITLE>Phiêu lưu trong hoang dã 8/13</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>675000</ORA>
+      <TENCM>Khám phá thế giới (30)</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Phiêu lưu trong hoang dã - Phần 8</TenCongBo>
+      <TenChuyenMucCongbo>Khám phá thế giới</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_3b7cc938-7688-41da-bf23-dd8a0a402702</EXTERSTRID>
+      <COD_PROGRA>QDNTDD_NHANTIMDONGDOISO176</COD_PROGRA>
+      <DESCRIZIO>Nhắn tìm đồng đội số 176</DESCRIZIO>
+      <TITLE>Nhắn tìm đồng đội số 176</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>720000</ORA>
+      <TENCM>Nhắn tìm đồng đội</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Nhắn tìm đồng đội</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_124e8a99-0d5e-45bb-978f-a0d211250e1a</EXTERSTRID>
+      <COD_PROGRA>QDDTDDSO51</COD_PROGRA>
+      <DESCRIZIO>Số 51</DESCRIZIO>
+      <TITLE>Số 51</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>765000</ORA>
+      <TENCM>Đi tìm đồng đội</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Đi tìm đồng đội</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_6ecb3a9e-c716-4fdc-b11e-a1f6a94b86d7</EXTERSTRID>
+      <COD_PROGRA>TTVNCKN_96LONANTOAN</COD_PROGRA>
+      <DESCRIZIO>Mô hình chăn nuôi lợn an toàn có kiểm soát dịch bệnh</DESCRIZIO>
+      <TITLE>Mô hình chăn nuôi lợn an toàn có kiểm soát dịch bệnh</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>802500</ORA>
+      <TENCM>Nhịp cầu khuyến nông</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Mô hình chăn nuôi lợn an toàn</TenCongBo>
+      <TenChuyenMucCongbo>Nhịp cầu khuyến nông</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_9b062e44-d793-40d4-901d-d76f7b1db04c</EXTERSTRID>
+      <COD_PROGRA>GNMT_VTV2_09102016_0910</COD_PROGRA>
+      <DESCRIZIO>Góc nhìn môi trường</DESCRIZIO>
+      <TITLE>Góc nhìn môi trường</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>825000</ORA>
+      <TENCM>Góc nhìn môi trường</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Góc nhìn môi trường</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_b6ed1dc9-843b-46d9-bfd9-13e7898316df</EXTERSTRID>
+      <COD_PROGRA>KGKPTG_BENTRONGNAOBO_1</COD_PROGRA>
+      <DESCRIZIO>Bên trong não bộ - Tập 1/3
+"Kiểm soát não bộ"</DESCRIZIO>
+      <TITLE>Bên trong não bộ - Tập 1/3
+"Kiểm soát não bộ"</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>847500</ORA>
+      <TENCM>Khám phá thế giới (PL)</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Bên trong não bộ - Phần 1</TenCongBo>
+      <TenChuyenMucCongbo>Khám phá thế giới</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_1ba1b02b-b2c2-4462-98c2-cedeb1c2098d</EXTERSTRID>
+      <COD_PROGRA>TKBTPS_CHETACDATHUCONGVIETNAM</COD_PROGRA>
+      <DESCRIZIO>Tinh hoa nghề Việt: Nghệ thuật chế tác đá thủ công Việt Nam</DESCRIZIO>
+      <TITLE>Tinh hoa nghề Việt: Nghệ thuật chế tác đá thủ công Việt Nam</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>922500</ORA>
+      <TENCM>Phóng sự (TKBT)</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Nghệ thuật chế tác đá thủ công </TenCongBo>
+      <TenChuyenMucCongbo>Phóng sự</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_a7d72077-20ab-4b39-8bdd-09dc5911f379</EXTERSTRID>
+      <COD_PROGRA>KGASXH_CHUYENDOICOCAUCAYTRONG</COD_PROGRA>
+      <DESCRIZIO>Chuyển đổi cơ cấu cây trồng</DESCRIZIO>
+      <TITLE>Chuyển đổi cơ cấu cây trồng</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>967500</ORA>
+      <TENCM>An sinh xã hội</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Chuyển đổi cơ cấu cây trồng</TenCongBo>
+      <TenChuyenMucCongbo>An sinh xã hội</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_bbceb62b-2a11-4772-8dea-f45abe1f8820</EXTERSTRID>
+      <COD_PROGRA>IQQHV_BENHTRIONGUOICAOTUOI</COD_PROGRA>
+      <DESCRIZIO>Bệnh trĩ ở người cao tuổi</DESCRIZIO>
+      <TITLE>Bệnh trĩ ở người cao tuổi</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>997500</ORA>
+      <TENCM>Quý hơn vàng</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Bệnh trĩ ở người cao tuổi</TenCongBo>
+      <TenChuyenMucCongbo>Quý hơn vàng</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_a2702dfa-957e-4999-b4f4-78dc2465b2ec</EXTERSTRID>
+      <COD_PROGRA>STCB_CONGVEOCOTSONGVIDEOCAP</COD_PROGRA>
+      <DESCRIZIO>Cong vẹo cột sống vì đeo cặp nặng</DESCRIZIO>
+      <TITLE>Cong vẹo cột sống vì đeo cặp nặng</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>997525</ORA>
+      <TENCM>Cảnh báo</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Cong vẹo cột sống vì đeo cặp nặng</TenCongBo>
+      <TenChuyenMucCongbo>Cảnh báo</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_d4af9256-827e-4cfb-bd9a-aa3270cd937a</EXTERSTRID>
+      <COD_PROGRA>KGHDLG_HOACHATXULYTHITOITHIU</COD_PROGRA>
+      <DESCRIZIO>Hoá chất xử lý thịt ôi thiu</DESCRIZIO>
+      <TITLE>Hoá chất xử lý thịt ôi thiu</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>1027500</ORA>
+      <TENCM>Sạch và bẩn</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Hoá chất xử lý thịt ôi thiu</TenCongBo>
+      <TenChuyenMucCongbo>Sạch và bẩn</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_d383f510-7a61-4be6-8567-125eccd8a39d</EXTERSTRID>
+      <COD_PROGRA>TVMTDCS_CONDAUTUONGLAI</COD_PROGRA>
+      <DESCRIZIO>Con dâu tương lai</DESCRIZIO>
+      <TITLE>Con dâu tương lai</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>1035000</ORA>
+      <TENCM>Thông điệp cuộc sống</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Con dâu tương lai</TenCongBo>
+      <TenChuyenMucCongbo>Thông điệp cuộc sống</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_57168c3c-c943-413f-8f5c-34281b88c1d4</EXTERSTRID>
+      <COD_PROGRA>KTPPT11_HAYSONGBENANH_TAP_43</COD_PROGRA>
+      <DESCRIZIO>Hãy sống bên anh _ Tập  43/66</DESCRIZIO>
+      <TITLE>Hãy sống bên anh _ Tập  43/66</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>1057500</ORA>
+      <TENCM>Phim truyện 11h45 (V2)</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Hãy sống bên anh - Tập  43</TenCongBo>
+      <TenChuyenMucCongbo>Phim truyện</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_647284ce-d795-4a51-a1f4-a263e6056477</EXTERSTRID>
+      <COD_PROGRA>MMCLCS_TACHAICUABIARUOU_PL2</COD_PROGRA>
+      <DESCRIZIO>Giải độc, bảo vệ gan trước tác hại của bia rượu</DESCRIZIO>
+      <TITLE>Giải độc, bảo vệ gan trước tác hại của bia rượu</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>1125000</ORA>
+      <TENCM>Chất lượng cuộc sống</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Bảo vệ gan trước tác hại của bia rượu</TenCongBo>
+      <TenChuyenMucCongbo>Chất lượng cuộc sống</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_19233035-510c-413a-9630-4b9227e2b6de</EXTERSTRID>
+      <COD_PROGRA>KG_PTBV_CHUYENNUOCMEKONG</COD_PROGRA>
+      <DESCRIZIO>Chuyển nước trên dòng MeKong</DESCRIZIO>
+      <TITLE>Chuyển nước trên dòng MeKong</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>1192500</ORA>
+      <TENCM>Phát triển bền vững</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Phát triển bền vững</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_c2337b67-99bb-4996-872f-2cbb7f1562df</EXTERSTRID>
+      <COD_PROGRA>LSECHUNGTIEUDEM</COD_PROGRA>
+      <DESCRIZIO>Chứng tiểu đêm</DESCRIZIO>
+      <TITLE>Chứng tiểu đêm</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>1215000</ORA>
+      <TENCM>Hãy chia sẻ cùng chúng tôi</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Chứng tiểu đêm</TenCongBo>
+      <TenChuyenMucCongbo>Hãy chia sẻ cùng chúng tôi</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_db3cb273-b890-4227-b900-c5f4f83a510e</EXTERSTRID>
+      <COD_PROGRA>ALKDPL_HANGRAOKYTHUATTBT</COD_PROGRA>
+      <DESCRIZIO>Hàng rào kỹ thuật TBT</DESCRIZIO>
+      <TITLE>Hàng rào kỹ thuật TBT</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>1260000</ORA>
+      <TENCM>Kinh doanh và pháp luật</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Hàng rào kỹ thuật TBT</TenCongBo>
+      <TenChuyenMucCongbo>Kinh doanh và pháp luật</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_49d67377-a6d1-47f9-b780-9f3d741e8c90</EXTERSTRID>
+      <COD_PROGRA>KGTLKG_DONGVONKETNOI</COD_PROGRA>
+      <DESCRIZIO>Đồng vốn kết nối sức mạnh nhà nông</DESCRIZIO>
+      <TITLE>Đồng vốn kết nối sức mạnh nhà nông</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>1305000</ORA>
+      <TENCM>Phim tài liệu KG</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Đồng vốn kết nối sức mạnh nhà nông</TenCongBo>
+      <TenChuyenMucCongbo>Phim tài liệu khoa học</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_191eddc0-34b0-4e5e-9978-df758e5e9ff7</EXTERSTRID>
+      <COD_PROGRA>TKBTPS_NGHEDONGXUONGORACHBADAI</COD_PROGRA>
+      <DESCRIZIO>Nghề đóng xuồng ở rạch Bà Đài</DESCRIZIO>
+      <TITLE>Nghề đóng xuồng ở rạch Bà Đài</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>1350000</ORA>
+      <TENCM>Phóng sự (TKBT)</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Nghề đóng xuồng ở rạch Bà Đài</TenCongBo>
+      <TenChuyenMucCongbo>Phóng sự</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_f6da4d7c-8be5-415f-a6eb-54edf0b3f43c</EXTERSTRID>
+      <COD_PROGRA>KGKNTH_PLBAYTINDUNGDEN</COD_PROGRA>
+      <DESCRIZIO>Bẫy bán hàng đa cấp</DESCRIZIO>
+      <TITLE>Bẫy bán hàng đa cấp</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>1372500</ORA>
+      <TENCM>Kỹ năng thoát hiểm</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Bẫy bán hàng đa cấp</TenCongBo>
+      <TenChuyenMucCongbo>Kỹ năng thoát hiểm</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_83bccdc5-519f-4cb3-9442-0a82c1ce54e7</EXTERSTRID>
+      <COD_PROGRA>KGKPTG_KHAMPHATHIENNHIEN_4</COD_PROGRA>
+      <DESCRIZIO>Khám phá thiên nhiên - Phần 4/7</DESCRIZIO>
+      <TITLE>Khám phá thiên nhiên - Phần 4/7</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>1395000</ORA>
+      <TENCM>Khám phá thế giới (50)</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Khám phá thiên nhiên - Phần 4</TenCongBo>
+      <TenChuyenMucCongbo>Khám phá thế giới</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_09c12383-b7a9-44ea-b420-c9b980ab1ebc</EXTERSTRID>
+      <COD_PROGRA>KGNCUD_SANXUATKINHDOANH</COD_PROGRA>
+      <DESCRIZIO>Gắn kết hoạt động nghiên cứu khoa học với đào tạo và sản xuất kinh doanh</DESCRIZIO>
+      <TITLE>Gắn kết hoạt động nghiên cứu khoa học với đào tạo và sản xuất kinh doanh</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>1462500</ORA>
+      <TENCM>Nghiên cứu và ứng dụng</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Nghiên cứu khoa học với sản xuất kinh doanh</TenCongBo>
+      <TenChuyenMucCongbo>Nghiên cứu và ứng dụng</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_1009e9ee-61ca-4d15-9296-74d1e9808d36</EXTERSTRID>
+      <COD_PROGRA>BHDPHH_NGOINHAVUIVECUAMICKEY45</COD_PROGRA>
+      <DESCRIZIO>Ngôi nhà vui vẻ của Mickey tập 45</DESCRIZIO>
+      <TITLE>Ngôi nhà vui vẻ của Mickey tập 45</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>1485000</ORA>
+      <TENCM>Phim hoạt hình (Disney Club)</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Ngôi nhà vui vẻ của Mickey - Tập 45</TenCongBo>
+      <TenChuyenMucCongbo>Phim hoạt hình</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_f2a3f4d8-9f5a-4690-b51a-acf4dfee23cf</EXTERSTRID>
+      <COD_PROGRA>TBGO_VTV2_09102016_1658</COD_PROGRA>
+      <DESCRIZIO>Thông báo - Ghi ơn</DESCRIZIO>
+      <TITLE>Thông báo - Ghi ơn</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>1527000</ORA>
+      <TENCM>Thông báo - Ghi ơn</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Thông báo - Ghi ơn</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_634e5cdc-262f-45ca-9fd0-4202faa1207b</EXTERSTRID>
+      <COD_PROGRA>KGSKGP_SANGKIENVAGIAIPHAPSO19</COD_PROGRA>
+      <DESCRIZIO>Sáng kiến và giải pháp số 19: Giải pháp hữu ích trong  nông nghiệp </DESCRIZIO>
+      <TITLE>Sáng kiến và giải pháp số 19: Giải pháp hữu ích trong  nông nghiệp </TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>1530000</ORA>
+      <TENCM>Sáng kiến - Giải pháp</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Giải pháp trong  nông nghiệp</TenCongBo>
+      <TenChuyenMucCongbo>Sáng kiến - Giải pháp</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_a0bd65a9-a074-435f-954a-d22e6e46d505</EXTERSTRID>
+      <COD_PROGRA>KGSKDB_UNGTHU</COD_PROGRA>
+      <DESCRIZIO>Sàng lọc, phát hiện sớm ung thư vú và ung thư tuyến tiền liệt</DESCRIZIO>
+      <TITLE>Sàng lọc, phát hiện sớm ung thư vú và ung thư tuyến tiền liệt</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>1575000</ORA>
+      <TENCM>Sống khỏe mỗi ngày - Đặc biệt</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Phát hiện sớm ung thư vú và tuyến tiền liệt</TenCongBo>
+      <TenChuyenMucCongbo>SKMN đặc biệt</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_d8f5d710-6afa-41fe-a8a5-23ec04c64c49</EXTERSTRID>
+      <COD_PROGRA>KTPPT19_THIENDTDUYEN_TAP29</COD_PROGRA>
+      <DESCRIZIO>Thiên địa tình duyên - Tập 29</DESCRIZIO>
+      <TITLE>Thiên địa tình duyên - Tập 29</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>1710000</ORA>
+      <TENCM>Phim truyện 19h00 (V2)</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Thiên địa tình duyên - Tập 29</TenCongBo>
+      <TenChuyenMucCongbo>Phim truyện</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_d1851369-f7a2-4725-b0f6-e8ccfa43ae3d</EXTERSTRID>
+      <COD_PROGRA>KTPPTN_TAYDUKY_TAP30</COD_PROGRA>
+      <DESCRIZIO>Tây du ký - Tập 30</DESCRIZIO>
+      <TITLE>Tây du ký - Tập 30</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>1785000</ORA>
+      <TENCM>Phim ngắn (30)</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Tây du ký - Tập 30</TenCongBo>
+      <TenChuyenMucCongbo>Phim truyện</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_df87b533-4ec8-4932-94fe-de366c7198e2</EXTERSTRID>
+      <COD_PROGRA>TVMTDCS_NIEMTIN</COD_PROGRA>
+      <DESCRIZIO>Niềm tin</DESCRIZIO>
+      <TITLE>Niềm tin</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>1837500</ORA>
+      <TENCM>Thông điệp cuộc sống</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Thông điệp cuộc sống</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_bba9937f-89c9-435e-b871-dfb1a063d4c2</EXTERSTRID>
+      <COD_PROGRA>KGSVB_LAMDUNGDOUONGCOCON</COD_PROGRA>
+      <DESCRIZIO>Lạm dụng đồ uống có cồn</DESCRIZIO>
+      <TITLE>Lạm dụng đồ uống có cồn</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>1845000</ORA>
+      <TENCM>Sạch và bẩn</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Lạm dụng đồ uống có cồn</TenCongBo>
+      <TenChuyenMucCongbo>Sạch và bẩn</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_b394c00e-5b40-43a5-b28b-46596875eba2</EXTERSTRID>
+      <COD_PROGRA>CVMPNH_NGUOIPHUNUHANHPHUC21</COD_PROGRA>
+      <DESCRIZIO>Người phụ nữ hạnh phúc 21</DESCRIZIO>
+      <TITLE>Người phụ nữ hạnh phúc 21</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>1852500</ORA>
+      <TENCM>Người phụ nữ hạnh phúc</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Người phụ nữ hạnh phúc 21</TenCongBo>
+      <TenChuyenMucCongbo>Người phụ nữ hạnh phúc</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_5b1eb914-b287-460c-b457-d690c366dfe2</EXTERSTRID>
+      <COD_PROGRA>LSETRANGDIEMYOONA</COD_PROGRA>
+      <DESCRIZIO>Trang điểm theo phong cách Yoona</DESCRIZIO>
+      <TITLE>Trang điểm theo phong cách Yoona</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>1882500</ORA>
+      <TENCM>Đẹp 24/7</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Trang điểm phong cách Yoona</TenCongBo>
+      <TenChuyenMucCongbo>Đẹp 24/7</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_66d9ceeb-7adc-4c21-a152-128b19aaa7f5</EXTERSTRID>
+      <COD_PROGRA>KGSXA_SONGXANH_AILACHUYENGIA6</COD_PROGRA>
+      <DESCRIZIO>Sống xanh - Ai là chuyên gia số 6</DESCRIZIO>
+      <TITLE>Sống xanh - Ai là chuyên gia số 6</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>1890000</ORA>
+      <TENCM>Sống Xanh: Ai là chuyên gia ?</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Sống Xanh: Ai là chuyên gia ?</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_30df0694-9dcd-4f39-95b0-3e5ec4145b16</EXTERSTRID>
+      <COD_PROGRA>KGKP_THUYDIENLAICHAU_TAP1</COD_PROGRA>
+      <DESCRIZIO>Thủy điện Lai Châu - Tập 1</DESCRIZIO>
+      <TITLE>Thủy điện Lai Châu - Tập 1</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>1935000</ORA>
+      <TENCM>Khám phá</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Thủy điện Lai Châu - Tập 1</TenCongBo>
+      <TenChuyenMucCongbo>Khám phá</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_f913e5ed-d4ab-47b5-a74f-44826175cd60</EXTERSTRID>
+      <COD_PROGRA>KG_PTBV_LENTROIGOIMUA</COD_PROGRA>
+      <DESCRIZIO>Lên trời gọi mưa</DESCRIZIO>
+      <TITLE>Lên trời gọi mưa</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>1957500</ORA>
+      <TENCM>Phát triển bền vững</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Lên trời gọi mưa</TenCongBo>
+      <TenChuyenMucCongbo>Phát triển bền vững</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_ad7703ca-fed9-45ab-8e84-0cab36d6ba6f</EXTERSTRID>
+      <COD_PROGRA>BT_VTV2_09102016_2200</COD_PROGRA>
+      <DESCRIZIO>Bản tin 22h00</DESCRIZIO>
+      <TITLE>Bản tin 22h00</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>1980000</ORA>
+      <TENCM>Bản tin 22h00</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Bản tin 22h00</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_162cb8ce-ac34-4dde-b0e4-17f62b9d0859</EXTERSTRID>
+      <COD_PROGRA>KG7NCN_XEVADOISONGSO17</COD_PROGRA>
+      <DESCRIZIO>7 ngày công nghệ số 106: Xe và đời sống số 17</DESCRIZIO>
+      <TITLE>7 ngày công nghệ số 106: Xe và đời sống số 17</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>2040000</ORA>
+      <TENCM>Nhịp sống Công nghệ</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Nhịp sống Công nghệ</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_799eeae6-c3c1-493c-9ea8-46310f298ce0</EXTERSTRID>
+      <COD_PROGRA>KGXHNV_KETNOIYEUTHUONG</COD_PROGRA>
+      <DESCRIZIO>Kết nối yêu thương</DESCRIZIO>
+      <TITLE>Kết nối yêu thương</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>2062500</ORA>
+      <TENCM>Tạp chí Xã hội</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Tạp chí Xã hội</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_af2ac84c-7cdb-4b44-9df9-5c5659a90ce3</EXTERSTRID>
+      <COD_PROGRA>KGKPTG_KHAMPHATHIENNHIEN_3</COD_PROGRA>
+      <DESCRIZIO>Khám phá thiên nhiên 3/7</DESCRIZIO>
+      <TITLE>Khám phá thiên nhiên 3/7</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>09/10/2016</DATA>
+      <DATA_SCAD>19/10/2016</DATA_SCAD>
+      <ORA>2085000</ORA>
+      <TENCM>Khám phá thế giới (50)</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV2</KENHPS>
+      <KENHPSHT>VTV2</KENHPSHT>
+      <TenCongBo>Khám phá thiên nhiên - Phần 3</TenCongBo>
+      <TenChuyenMucCongbo>Khám phá thế giới</TenChuyenMucCongbo>
+    </row>
+  </TRAFFICXML>
+</data>

@@ -1,0 +1,176 @@
+﻿<Window x:Class="VTVTrafficDataManager.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        xmlns:prism="http://prismlibrary.com/"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        xmlns:root="clr-namespace:VTVTrafficDataManager"
+        xmlns:model="clr-namespace:VTVTrafficDataManager.Models"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:ui="clr-namespace:ChiDuc.General.WPF.UI;assembly=ChiDuc.General.WPF.UI"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal" 
+        TextOptions.TextRenderingMode="Auto"        
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{StaticResource MaterialDesignFont}"
+        Icon="/favicon.ico"
+        WindowStyle="SingleBorderWindow" ResizeMode="CanResizeWithGrip" WindowStartupLocation="CenterScreen"
+        Title="{Binding WindowTitle, Source={x:Static root:AppData.Default}}" Height="700" Width="1000" MinHeight="700" MinWidth="1000">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Styles/Theme.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Window.InputBindings>
+        <KeyBinding Modifiers="Alt" Key="F4" Command="{Binding ExitApplicationCommand}" />
+    </Window.InputBindings>
+    <!--<Grid>
+        <ContentControl prism:RegionManager.RegionName="ContentRegion" />
+    </Grid>-->
+
+    <materialDesign:DialogHost Identifier="RootDialog" IsOpen="{Binding IsRootDialogOpenning}">
+        <DockPanel>
+            <!-- MENU -->
+            <Menu DockPanel.Dock="Top" IsMainMenu="True" Height="32">
+                <MenuItem Header="_Hệ thống" Height="32">
+                    <MenuItem Header="_Thiết lập.." Command="{Binding OpenSettingWindowCommand}">
+                        <MenuItem.Icon>
+                            <materialDesign:PackIcon Kind="Settings" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <Separator />
+                    <MenuItem Header="Th_oát chương trình" InputGestureText="Alt+F4" Command="{Binding ExitApplicationCommand}">
+                        <MenuItem.Icon>
+                            <materialDesign:PackIcon Kind="ExitToApp" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="_Trợ giúp" Height="32">
+                    <MenuItem Header="_Giới thiệu chương trình" Command="{Binding OpenAboutWindowCommand}">
+                        <MenuItem.Icon>
+                            <materialDesign:PackIcon Kind="Information" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+            </Menu>
+
+            <!-- HEADER BAR -->
+            <materialDesign:ColorZone DockPanel.Dock="Top" Padding="8" materialDesign:ShadowAssist.ShadowDepth="Depth1" Mode="PrimaryDark">
+                <DockPanel>
+                    <materialDesign:PopupBox DockPanel.Dock="Left" 
+                                             Style="{StaticResource MaterialDesignMultiFloatingActionAccentPopupBox}" 
+                                             PopupMode="Click"
+                                             PlacementMode="BottomAndAlignLeftEdges" StaysOpen="False">
+                        <materialDesign:PopupBox.ToggleContent>
+                            <materialDesign:PackIcon Kind="PlaylistPlay" Width="24" Height="24" />
+                        </materialDesign:PopupBox.ToggleContent>
+                        <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth1" Padding="16">
+                            <ListBox ItemsSource="{Binding Channels, Source={x:Static root:AppData.Default}}"
+                                     SelectedItem="{Binding ChannelSelected}">
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate DataType="{x:Type model:ChannelModel}">
+                                        <RadioButton Content="{Binding Title}" ContentStringFormat="{}Kênh {0}" GroupName="Channels">
+                                            <RadioButton.IsChecked>
+                                                <Binding Path="IsSelected"
+                                                         RelativeSource="{RelativeSource AncestorType=ListBoxItem}"
+                                                         Mode="TwoWay" />
+                                            </RadioButton.IsChecked>
+                                        </RadioButton>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+                            </ListBox>
+                        </materialDesign:Card>
+                    </materialDesign:PopupBox>
+                    <StackPanel DockPanel.Dock="Right" Orientation="Horizontal">
+                        <materialDesign:ColorZone Mode="Standard" Padding="8 0 0 0" CornerRadius="2" Panel.ZIndex="1"
+                                                  Margin="0 0 0 0" VerticalAlignment="Center"
+                                                  materialDesign:ShadowAssist.ShadowDepth="Depth1">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+                                <TextBox Grid.Column="0" Margin="0 0 8 0" Padding="0"
+                                         Text="{Binding SearchTrafficEventKeyWord, UpdateSourceTrigger=PropertyChanged}"
+                                         materialDesign:HintAssist.Hint="Tìm theo program code" 
+                                         materialDesign:TextFieldAssist.DecorationVisibility="Hidden" BorderThickness="0"
+                                         MinWidth="200" MaxWidth="200" VerticalAlignment="Center">
+                                    <TextBox.InputBindings>
+                                        <KeyBinding Key="Return" Command="{Binding SearchTrafficEventCommand}" />
+                                    </TextBox.InputBindings>
+                                </TextBox>
+                                <Button Grid.Column="2" Style="{DynamicResource MaterialDesignFlatButton}" Padding="8 0" ToolTip="Xóa kết quả tìm kiếm" Command="{Binding ClearSearchTrafficEventCommand}">
+                                    <materialDesign:PackIcon Kind="Close" />
+                                </Button>
+                                <Button Grid.Column="1" Style="{DynamicResource MaterialDesignFlatButton}" Padding="8 0" ToolTip="Tìm..." Command="{Binding SearchTrafficEventCommand}">
+                                    <materialDesign:PackIcon Kind="Magnify" />
+                                </Button>
+                            </Grid>
+                        </materialDesign:ColorZone>
+                    </StackPanel>
+                    <TextBlock Text="{Binding ChannelSelected.Title, StringFormat='{}Kênh {0}'}" Style="{StaticResource MaterialDesignTitleTextBlock}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="8 0 0 0" />
+                </DockPanel>
+            </materialDesign:ColorZone>
+
+            <!-- STATUS BAR -->
+            <StatusBar DockPanel.Dock="Bottom" Padding="8 0" Background="{StaticResource MaterialDesignChipBackground}">
+                <TextBlock>
+                    <Run Text="Có"/>
+                    <Run Text="{Binding Path=Items.Count, ElementName=fwdgTrafficEvents, Mode=OneWay}" FontWeight="Bold" />
+                    <Run Text="sự kiện được hiển thị"/>
+                    <TextBlock>
+                        <TextBlock.Style>
+                            <Style TargetType="TextBlock">
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding LastSearchTrafficEventKeyWord}" Value="">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </TextBlock.Style>
+                        <Run Text="với từ khóa" />
+                        <Run Text="{Binding LastSearchTrafficEventKeyWord}" FontWeight="Bold" />
+                    </TextBlock>
+                </TextBlock>
+                <Separator Margin="8 4"/>
+                <TextBlock>
+                    <Run Text="Cập nhật lần cuối: "/>
+                    <Run Text="{Binding ChannelSelected.LastTrafficUpdateFileTime, StringFormat='dd/MM/yyyy HH:mm:ss'}" FontWeight="Bold" />
+                    <Run Text="-"/>
+                    <Run Text="{Binding ChannelSelected.LastTrafficUpdateFilePath}" FontWeight="Bold" />
+                </TextBlock>
+            </StatusBar>
+
+            <!-- CONTENT -->
+            <ui:FontWheelDataGrid x:Name="fwdgTrafficEvents"
+                                  Style="{StaticResource MaterialDesignDataGrid}" 
+                                  ItemsSource="{Binding ChannelSelected.TrafficEvents}"
+                                  ClipboardCopyMode="None" 
+                                  SelectionMode="Single"
+                                  Margin="8" IsReadOnly="True"
+                                  CanUserSortColumns="True" CanUserAddRows="False" AutoGenerateColumns="False"
+                                  materialDesign:DataGridAssist.CellPadding="8" materialDesign:DataGridAssist.ColumnHeaderPadding="4 8">
+                <DataGrid.Resources>
+                    <Style TargetType="TextBlock" x:Key="DataGridTextElementStyle">
+                        <Setter Property="TextAlignment" Value="Left" />
+                        <Setter Property="TextWrapping" Value="WrapWithOverflow" />
+                    </Style>
+                </DataGrid.Resources>
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding ProgramCode}" Header="Program code" Width="200" EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnEditingStyle}" />
+                    <DataGridTextColumn Binding="{Binding ProgramTitle1}" Header="Tên mũ" Width="*" ElementStyle="{StaticResource DataGridTextElementStyle}" />
+                    <DataGridTextColumn Binding="{Binding ProgramTitle2}" Header="Tên chương trình" Width="*" ElementStyle="{StaticResource DataGridTextElementStyle}" />
+                    <DataGridTextColumn Binding="{Binding UpdateTime, StringFormat='{}{0:dd/MM/yyyy HH:mm:ss}'}" Header="Cập nhật lần cuối" Width="Auto" EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnEditingStyle}" />
+                </DataGrid.Columns>
+            </ui:FontWheelDataGrid>
+
+        </DockPanel>
+    </materialDesign:DialogHost>
+</Window>

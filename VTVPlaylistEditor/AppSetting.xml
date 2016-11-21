@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AppSetting>
+  <General>
+    <Application Type="HOST" HostName="127.0.0.1" HostPort="55500" />
+    <CharacterFilter EnableAsciiCharacter="True" UserValidCharacter="áàạãảăắằặẵẳâấầậẫẩéèẹẽẻêếềệễểíìịĩỉúùụũủưứừựữửóòọõỏơớờợỡởôốồộỗổýỳỵỹỷđ" ConvertInvalidCharacterTo="" />
+    <MuCImporterProgram Enable="True" DelayInterval="00:00:03" FilePath="C:\Program Files (x86)\Vizrt\Viz Multichannel\PlayList Importer\PlayListImporter.exe" />
+    <Cleaner Enable="True" AutoCleanAtTime="00:30:00" />
+    <TrafficDataBroswer UpdateInterval="00:00:10" />
+    <ConnectionStrings>
+      <ConnectionString ServerName="localhost" DatabaseName="db_VTVChannelBranding" UserName="sa" Password="123456" ConnectionTimeOut="00:00:03" />
+      <ConnectionString ServerName="192.168.0.222" DatabaseName="db_VTVChannelBranding" UserName="sa" Password="123456" ConnectionTimeOut="00:00:03" />
+    </ConnectionStrings>
+  </General>
+  <Channels>
+    <Channel Name="SEC2" Title="VTV3">
+      <DateFormatString Value="yyyyMMdd" />
+      <CountOfPreviousDays Value="0" />
+      <CountOfNextDays Value="2" />
+      <PlaylistUpdateInterval Value="00:00:05" />
+      <PlaylistFolderPath Value="Y:\" />
+      <OlderPlaylistFolderPath Value="Y:\PLAYLIST\temp" />
+      <MergePlaylistFolderPath Value="Y:\PLAYLIST" />
+      <MaximumStringLength Value="95" />
+      <MinimumPrimaryEventDuration Value="00:06:30" />
+      <MaximumCountDownDuration Value="00:10:00" />
+      <CustomPrimaryEventContainProgramCodeFilter Value="TTNBCCL" />
+      <CustomLiveEventContainProgramCodeFilter Value="360T_VTV6;BTVV_VTV6" />
+      <CustomAdvertismentEventContainProgramCodeFilter Value="QC;CDQB" />
+      <Page>
+        <Clock Name="DONGHO_3-9" />
+        <Clear Name="clear" />
+        <NowProgram Name="Dang_xem_8-9" Offset="00:00:30" />
+        <NextProgram Name="Tiep_theo_8-9" Offset="00:03:00" Duration="00:00:30" />
+        <CountDown Name="count_down_8-9" Offset="00:02:00" />
+        <ImageSpecialProgram Name="dac_sac" Duration="00:00:13" />
+        <VideoSpecialProgram Name="dac_sac_video" Duration="00:00:13" />
+      </Page>
+      <ComingUp EnableRoundTime="True">
+        <CToday>
+          <Block Name="BL1" ProgramCode="DH.V6.HOMNAY.00H-12H" EndTime="11:59:00" />
+          <Block Name="BL2" ProgramCode="DH.V6.HOMNAY.06H-12H" EndTime="11:59:00" />
+          <Block Name="BL3" ProgramCode="DH.V6.HOMNAY.12H-24H" EndTime="18:00:00" />
+          <Block Name="BL4" ProgramCode="DH.V6.HOMNAY.18H-24H" EndTime="23:59:00" />
+          <TimeRange Name="TR1" ProgramCode="tested" />
+          <TimeRange Name="TR2" ProgramCode="tested" />
+          <TimeRange Name="TR3" ProgramCode="tested" />
+        </CToday>
+        <CTomorrow>
+          <Block Name="BL1" ProgramCode="DH.V6.NGAYMAI.00H-24H" BeginTime="00:00:00" EndTime="23:59:00" />
+        </CTomorrow>
+      </ComingUp>
+    </Channel>
+  </Channels>
+</AppSetting>

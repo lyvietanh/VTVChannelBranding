@@ -1,0 +1,895 @@
+﻿<Window x:Class="VTVPlaylistEditor.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="http://prismlibrary.com/"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:root="clr-namespace:VTVPlaylistEditor"
+        xmlns:model="clr-namespace:VTVPlaylistEditor.Models"
+        xmlns:viewmodel="clr-namespace:VTVPlaylistEditor.ViewModels"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:ui="clr-namespace:ChiDuc.General.WPF.UI;assembly=ChiDuc.General.WPF.UI"
+        xmlns:uibehavior="clr-namespace:ChiDuc.General.WPF.UI.Behaviors;assembly=ChiDuc.General.WPF.UI"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="14"
+        TextOptions.TextFormattingMode="Ideal" 
+        TextOptions.TextRenderingMode="Auto"        
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{StaticResource MaterialDesignFont}"
+        Icon="/favicon.ico"
+        WindowStyle="SingleBorderWindow" ResizeMode="CanResizeWithGrip" WindowStartupLocation="CenterScreen"
+        Title="{Binding WindowTitle, Source={x:Static root:AppData.Default}}" Height="700" Width="1000" MinHeight="700" MinWidth="1000">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Styles/Theme.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Window.InputBindings>
+        <KeyBinding Modifiers="Alt" Key="F4" Command="{Binding ExitApplicationCommand}" />
+    </Window.InputBindings>
+    <!--<Grid>
+        <ContentControl prism:RegionManager.RegionName="ContentRegion" />
+    </Grid>-->
+    <materialDesign:DialogHost Identifier="RootDialog" IsOpen="{Binding IsRootDialogOpenning}" CloseOnClickAway="True">
+        <DockPanel>
+            <!-- MENU -->
+            <Menu DockPanel.Dock="Top" IsMainMenu="True" Height="32">
+                <MenuItem Header="_Hệ thống" Height="32">
+                    <MenuItem Header="_Thiết lập.." Command="{Binding OpenSettingWindowCommand}">
+                        <MenuItem.Icon>
+                            <materialDesign:PackIcon Kind="Settings" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <Separator />
+                    <MenuItem Header="Th_oát chương trình" InputGestureText="Alt+F4" Command="{Binding ExitApplicationCommand}">
+                        <MenuItem.Icon>
+                            <materialDesign:PackIcon Kind="ExitToApp" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="_Trợ giúp" Height="32">
+                    <MenuItem Header="_Giới thiệu chương trình" Command="{Binding OpenAboutWindowCommand}">
+                        <MenuItem.Icon>
+                            <materialDesign:PackIcon Kind="Information" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+            </Menu>
+
+            <!-- MAIN HEADER BAR -->
+            <materialDesign:ColorZone DockPanel.Dock="Top" Padding="8" materialDesign:ShadowAssist.ShadowDepth="Depth1" Mode="PrimaryDark">
+                <DockPanel>
+                    <materialDesign:PopupBox DockPanel.Dock="Left"
+                                             Style="{StaticResource MaterialDesignMultiFloatingActionAccentPopupBox}" 
+                                             PopupMode="Click"
+                                             PlacementMode="BottomAndAlignLeftEdges" StaysOpen="False">
+                        <materialDesign:PopupBox.ToggleContent>
+                            <materialDesign:PackIcon Kind="PlaylistPlay" Width="24" Height="24" />
+                        </materialDesign:PopupBox.ToggleContent>
+                        <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth1" Padding="16">
+                            <ListBox ItemsSource="{Binding Channels, Source={x:Static root:AppData.Default}}"
+                                     SelectedItem="{Binding ChannelSelected}">
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate DataType="{x:Type model:ChannelModel}">
+                                        <RadioButton GroupName="Channels">
+                                            <RadioButton.IsChecked>
+                                                <Binding Path="IsSelected"
+                                                         RelativeSource="{RelativeSource AncestorType=ListBoxItem}"
+                                                         Mode="TwoWay" />
+                                            </RadioButton.IsChecked>
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBlock Text="{Binding Title, StringFormat='{}Kênh {0}'}" />
+                                                <materialDesign:PackIcon Kind="AlertOutline" Foreground="Goldenrod" Margin="8 0 0 0" VerticalAlignment="Center" Width="16" Height="16">
+                                                    <materialDesign:PackIcon.Style>
+                                                        <Style TargetType="{x:Type materialDesign:PackIcon}">
+                                                            <Setter Property="Visibility" Value="Collapsed"/>
+                                                            <Style.Triggers>
+                                                                <DataTrigger Binding="{Binding HasNewEvent}" Value="True">
+                                                                    <Setter Property="Visibility" Value="Visible"/>
+                                                                </DataTrigger>
+                                                            </Style.Triggers>
+                                                        </Style>
+                                                    </materialDesign:PackIcon.Style>
+                                                </materialDesign:PackIcon>
+                                            </StackPanel>
+                                        </RadioButton>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+                            </ListBox>
+                        </materialDesign:Card>
+                    </materialDesign:PopupBox>
+                    <TextBlock DockPanel.Dock="Left" Text="{Binding ChannelSelected.Title, StringFormat='{}Kênh {0}'}" Style="{StaticResource MaterialDesignTitleTextBlock}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="8 0 32 0" />
+                    <StackPanel DockPanel.Dock="Right" Orientation="Horizontal" VerticalAlignment="Center">
+                        <TextBlock Text="Tra cứu dữ liệu Traffic:" Margin="0 1 8 0" />
+                        <ToggleButton Style="{StaticResource MaterialDesignSwitchAccentToggleButton}" IsChecked="{Binding IsSearchTrafficEventOpenning}" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Lịch phát sóng ngày:" IsEnabled="False" VerticalAlignment="Center" Margin="0 0 8 0" />
+                        <ListBox ItemsSource="{Binding ChannelSelected.Playlists}" 
+                                 SelectedItem="{Binding ChannelSelected.PlaylistSelected}"
+                                 materialDesign:ListBoxAssist.IsToggle="False"
+                                 IsSynchronizedWithCurrentItem="True" 
+                                 Cursor="Hand"
+                                 Style="{StaticResource MaterialDesignToolToggleListBox}" VerticalAlignment="Center">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate DataType="{x:Type model:PlaylistModel}">
+                                    <StackPanel Orientation="Horizontal">
+                                        <materialDesign:PackIcon Kind="Play" Foreground="{StaticResource PrimaryHueDarkBrush}" Margin="0 0 8 0">
+                                            <materialDesign:PackIcon.Style>
+                                                <Style TargetType="{x:Type materialDesign:PackIcon}">
+                                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                                    <Style.Triggers>
+                                                        <DataTrigger Binding="{Binding Date, Converter={StaticResource DateOffsetByTodayValueConverter}}" Value="0">
+                                                            <Setter Property="Visibility" Value="Visible"/>
+                                                        </DataTrigger>
+                                                    </Style.Triggers>
+                                                </Style>
+                                            </materialDesign:PackIcon.Style>
+                                        </materialDesign:PackIcon>
+                                        <TextBlock Text="{Binding Date, StringFormat='{}{0:dd/MM/yyyy}'}" VerticalAlignment="Center">
+                                            <TextBlock.Style>
+                                                <Style TargetType="TextBlock">
+                                                    <Style.Triggers>
+                                                        <DataTrigger Binding="{Binding Path=IsSelected, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ListBoxItem }}}" Value="True">
+                                                            <Setter Property="TextBlock.FontWeight" Value="SemiBold"/>
+                                                        </DataTrigger>
+                                                    </Style.Triggers>
+                                                </Style>
+                                            </TextBlock.Style>
+                                        </TextBlock>
+                                        <materialDesign:PackIcon Kind="AlertOutline" Foreground="Goldenrod" Visibility="{Binding HasNewEvent, Converter={StaticResource BooleanToVisibilityConverter}}" Margin="8 0 0 0" VerticalAlignment="Center" Width="16" Height="16">
+                                            <materialDesign:PackIcon.Style>
+                                                <Style TargetType="{x:Type materialDesign:PackIcon}">
+                                                    <Setter Property="Opacity" Value="0"/>
+                                                    <Style.Triggers>
+                                                        <Trigger Property="Opacity" Value="0">
+                                                            <Trigger.EnterActions>
+                                                                <BeginStoryboard>
+                                                                    <Storyboard>
+                                                                        <DoubleAnimation AutoReverse="True" RepeatBehavior="Forever" Storyboard.TargetProperty="Opacity" From="1" To="0.25" Duration="0:0:1"/>
+                                                                    </Storyboard>
+                                                                </BeginStoryboard>
+                                                            </Trigger.EnterActions>
+                                                        </Trigger>
+                                                    </Style.Triggers>
+                                                </Style>
+                                            </materialDesign:PackIcon.Style>
+                                        </materialDesign:PackIcon>
+                                        <materialDesign:PackIcon Kind="ContentSave" Visibility="{Binding IsProcessingPlaylist, Converter={StaticResource BooleanToVisibilityConverter}}"  Margin="8 0 0 0" VerticalAlignment="Center" Width="16" Height="16">
+                                            <materialDesign:PackIcon.Style>
+                                                <Style TargetType="{x:Type materialDesign:PackIcon}">
+                                                    <Setter Property="Opacity" Value="0"/>
+                                                    <Style.Triggers>
+                                                        <Trigger Property="Opacity" Value="0">
+                                                            <Trigger.EnterActions>
+                                                                <BeginStoryboard>
+                                                                    <Storyboard>
+                                                                        <DoubleAnimation AutoReverse="True" RepeatBehavior="Forever" Storyboard.TargetProperty="Opacity" From="1" To="0.25" Duration="0:0:1"/>
+                                                                    </Storyboard>
+                                                                </BeginStoryboard>
+                                                            </Trigger.EnterActions>
+                                                        </Trigger>
+                                                    </Style.Triggers>
+                                                </Style>
+                                            </materialDesign:PackIcon.Style>
+                                        </materialDesign:PackIcon>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </StackPanel>
+                </DockPanel>
+            </materialDesign:ColorZone>
+
+            <!-- MAIN CONTENT -->
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="6*" MinHeight="300" />
+                    <ui:CustomRowDefinition Height="8" IsVisible="{Binding IsSearchTrafficEventOpenning}" />
+                    <ui:CustomRowDefinition Height="4*" MinHeight="200" IsVisible="{Binding IsSearchTrafficEventOpenning}" />
+                </Grid.RowDefinitions>
+
+                <!-- PLAYLIST AREA -->
+                <materialDesign:DialogHost Grid.Row="0" Identifier="PlaylistDialog" IsOpen="{Binding IsPlaylistDialogOpenning}" DialogContent="{Binding PlaylistDialogContent}" CloseOnClickAway="False">
+                    <materialDesign:DialogHost.DialogContentTemplate>
+                        <DataTemplate>
+                            <ContentPresenter Content="{Binding}">
+                                <ContentPresenter.Style>
+                                    <Style TargetType="ContentPresenter">
+                                        <Setter Property="Margin" Value="16" />
+                                        <Style.Triggers>
+                                            <Trigger Property="Content" Value="{x:Null}">
+                                                <Setter Property="Margin" Value="0" />
+                                            </Trigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </ContentPresenter.Style>
+                            </ContentPresenter>
+                        </DataTemplate>
+                    </materialDesign:DialogHost.DialogContentTemplate>
+                    <DockPanel>
+                        <!-- HEADER BAR -->
+                        <materialDesign:ColorZone DockPanel.Dock="Top" Padding="8" Background="WhiteSmoke" materialDesign:ShadowAssist.ShadowDepth="Depth1" Mode="Standard">
+                            <DockPanel>
+                                <StackPanel DockPanel.Dock="Left" Orientation="Horizontal">
+                                    <TextBlock Text="{Binding ChannelSelected.PlaylistSelected.Date, StringFormat='{}Dữ liệu của ngày {0:dd/MM/yyyy}'}" Style="{StaticResource MaterialDesignSubheadingTextBlock}" VerticalAlignment="Center" Margin="8 0" />
+                                    <Rectangle Style="{StaticResource HeaderBarSeparator}" />
+                                    <materialDesign:PackIcon Kind="Filter" Margin="0 0 0 8" VerticalAlignment="Bottom" Foreground="{Binding ElementName=PlaylistFilterComboBox, Path=BorderBrush}" />
+                                    <ComboBox Grid.Row="2" Grid.Column="3" x:Name="PlaylistFilterComboBox" Style="{StaticResource MaterialDesignFloatingHintComboBox}" Margin="8 0 8 0" SelectedIndex="{Binding PlaylistFilterSelectedIndex}" materialDesign:HintAssist.Hint="Lọc dữ liệu">
+                                        <ComboBoxItem>Tất cả sự kiện</ComboBoxItem>
+                                        <ComboBoxItem>Chỉ hiện sự kiện chính</ComboBoxItem>
+                                    </ComboBox>
+                                    <Button Command="{Binding ProcessSelectedPlaylistCommand}" Style="{StaticResource MaterialDesignFlatButton}" VerticalAlignment="Bottom" Margin="8 0">
+                                        <Button.Content>
+                                            <StackPanel Orientation="Horizontal">
+                                                <materialDesign:PackIcon Kind="ContentSave" Margin="0 0 8 0" />
+                                                <TextBlock Text="Xử lý lịch phát sóng" />
+                                            </StackPanel>
+                                        </Button.Content>
+                                    </Button>
+                                </StackPanel>
+                            </DockPanel>
+                        </materialDesign:ColorZone>
+
+                        <!-- STATUS BAR -->
+                        <StatusBar DockPanel.Dock="Bottom" Padding="8 0" Background="{StaticResource MaterialDesignChipBackground}">
+                            <TextBlock>
+                            <Run Text="Có" />
+                            <Run Text="{Binding Path=Items.Count, ElementName=PlaylistDataGrid, Mode=OneWay}" FontWeight="Bold" />
+                            <Run Text="/" />
+                            <Run Text="{Binding Path=ChannelSelected.PlaylistSelected.Events.Count, Mode=OneWay}" FontWeight="Bold" />
+                            <Run Text="sự kiện được hiển thị" />
+                            </TextBlock>
+                            <Separator Margin="8 4"/>
+                            <TextBlock>
+                            <Run Text="Cập nhật lần cuối: "/>
+                            <Run Text="{Binding ChannelSelected.PlaylistSelected.LastPlaylistUpdateFileTime, StringFormat='dd/MM/yyyy HH:mm:ss'}" FontWeight="Bold" />
+                            <Run Text="-"/>
+                            <Run Text="{Binding ChannelSelected.PlaylistSelected.LastPlaylistUpdateFilePath}" FontWeight="Bold" />
+                            </TextBlock>
+                        </StatusBar>
+
+                        <!-- CONTENT: PLAYLIST -->
+                        <ui:FontWheelDataGrid x:Name="PlaylistDataGrid" 
+                                          Margin="8"
+                                          ClipboardCopyMode="None" 
+                                          ItemsSource="{Binding ChannelSelected.PlaylistSelected.Events}" 
+                                          SelectedItem="{Binding EventSelected}" 
+                                          SelectionMode="Single"
+                                          CanUserAddRows="False" 
+                                          CanUserDeleteRows="False" 
+                                          CanUserResizeColumns="True"
+                                          CanUserSortColumns="False" 
+                                          Style="{StaticResource MaterialDesignDataGrid}" 
+                                          AutoGenerateColumns="False"
+                                          materialDesign:DataGridAssist.CellPadding="8" materialDesign:DataGridAssist.ColumnHeaderPadding="4 8">
+                            <DataGrid.Resources>
+                                <viewmodel:BindingProxy x:Key="proxy" Data="{Binding}" />
+                                <Style TargetType="{x:Type DataGridCell}" x:Key="CellStyle">
+                                    <Setter Property="VerticalContentAlignment" Value="Center" />
+                                    <Setter Property="IsTabStop" Value="False"/>
+                                    <Setter Property="Foreground" Value="Black" />
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding IsReadOnly}" Value="False">
+                                            <Setter Property="Foreground" Value="Black" />
+                                        </DataTrigger>
+                                        <Trigger Property="IsReadOnly" Value="True">
+                                            <Setter Property="Foreground" Value="#777" />
+                                        </Trigger>
+                                        <DataTrigger Binding="{Binding IsUserPrimaryEvent}" Value="False">
+                                            <Setter Property="Foreground" Value="#777" />
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding IsComingUpEvent}" Value="True">
+                                            <Setter Property="Foreground" Value="Green" />
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                                <Style TargetType="{x:Type DataGridCell}" x:Key="EditableCellStyle" BasedOn="{StaticResource CellStyle}">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding IsReadOnly}" Value="True">
+                                            <Setter Property="Foreground" Value="#777" />
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding IsLiveEvent}" Value="True">
+                                            <Setter Property="Foreground" Value="Black" />
+                                            <Setter Property="FontWeight" Value="SemiBold" />
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding Status}" Value="1">
+                                            <Setter Property="Foreground" Value="#FFAB00" />
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding Modify}" Value="1">
+                                            <Setter Property="Foreground" Value="Blue" />
+                                        </DataTrigger>
+                                        <MultiDataTrigger>
+                                            <MultiDataTrigger.Conditions>
+                                                <Condition Binding="{Binding IsUserPrimaryEvent}" Value="False" />
+                                                <Condition Binding="{Binding IsLiveEvent}" Value="False" />
+                                                <Condition Binding="{Binding IsComingUpEvent}" Value="False" />
+                                            </MultiDataTrigger.Conditions>
+                                            <MultiDataTrigger.Setters>
+                                                <Setter Property="Foreground" Value="#777" />
+                                                <Setter Property="FontStyle" Value="Italic" />
+                                            </MultiDataTrigger.Setters>
+                                        </MultiDataTrigger>
+                                        <DataTrigger Binding="{Binding IsComingUpEvent}" Value="True">
+                                            <Setter Property="Foreground" Value="Green" />
+                                            <Setter Property="FontWeight" Value="SemiBold" />
+                                            <Setter Property="FontStyle" Value="Normal" />
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                                <Style TargetType="{x:Type DataGridCell}" x:Key="CheckBoxCellStyle" BasedOn="{StaticResource CellStyle}">
+                                    <Setter Property="IsEnabled" Value="True" />
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding IsUserPrimaryEvent}" Value="False">
+                                            <Setter Property="IsEnabled" Value="True" />
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding IsLiveEvent}" Value="True">
+                                            <Setter Property="IsEnabled" Value="False" />
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                                <Style TargetType="{x:Type DataGridCell}" x:Key="ShowNowProgramCheckBoxCellStyle" BasedOn="{StaticResource CheckBoxCellStyle}">
+                                    <Setter Property="IsEnabled" Value="False" />
+                                    <Style.Triggers>
+                                        <MultiDataTrigger>
+                                            <MultiDataTrigger.Conditions>
+                                                <Condition Binding="{Binding IsUserPrimaryEvent}" Value="True" />
+                                                <Condition Binding="{Binding CanShowCG}" Value="True" />
+                                                <Condition Binding="{Binding IsValidTenMuLength}" Value="True" />
+                                                <Condition Binding="{Binding IsValidTenCtLength}" Value="True" />
+                                            </MultiDataTrigger.Conditions>
+                                            <MultiDataTrigger.Setters>
+                                                <Setter Property="IsEnabled" Value="True" />
+                                            </MultiDataTrigger.Setters>
+                                        </MultiDataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                                <Style TargetType="{x:Type DataGridCell}" x:Key="ShowNextProgramCheckBoxCellStyle" BasedOn="{StaticResource CheckBoxCellStyle}">
+                                    <Setter Property="IsEnabled" Value="False" />
+                                    <Style.Triggers>
+                                        <MultiDataTrigger>
+                                            <MultiDataTrigger.Conditions>
+                                                <Condition Binding="{Binding IsUserPrimaryEvent}" Value="True" />
+                                                <Condition Binding="{Binding CanShowCG}" Value="True" />
+                                                <Condition Binding="{Binding NextPENotSameProgramCode.IsUserPrimaryEvent}" Value="True" />
+                                                <Condition Binding="{Binding NextPENotSameProgramCode.IsValidTenMuLength}" Value="True" />
+                                                <Condition Binding="{Binding NextPENotSameProgramCode.IsValidTenCtLength}" Value="True" />
+                                                <Condition Binding="{Binding NextPENotSameProgramCode.CanShowCG}" Value="True" />
+                                            </MultiDataTrigger.Conditions>
+                                            <MultiDataTrigger.Setters>
+                                                <Setter Property="IsEnabled" Value="True" />
+                                            </MultiDataTrigger.Setters>
+                                        </MultiDataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                                <Style TargetType="{x:Type CheckBox}" x:Key="CustomDataGridCheckBoxElementStyle" BasedOn="{StaticResource DataGridCheckBoxElementStyle}">
+                                    <Setter Property="IsEnabled" Value="False" />
+                                    <Style.Triggers>
+                                        <MultiDataTrigger>
+                                            <MultiDataTrigger.Conditions>
+                                                <Condition Binding="{Binding IsReadOnly}" Value="False" />
+                                                <Condition Binding="{Binding IsUserPrimaryEvent}" Value="True" />
+                                            </MultiDataTrigger.Conditions>
+                                            <MultiDataTrigger.Setters>
+                                                <Setter Property="IsEnabled" Value="True" />
+                                            </MultiDataTrigger.Setters>
+                                        </MultiDataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                                <Style TargetType="{x:Type Button}" x:Key="CustomDataGridButtonElementStyle" BasedOn="{StaticResource DataGridButtonElementStyle}">
+                                    <Setter Property="IsEnabled" Value="False" />
+                                    <Style.Triggers>
+                                        <MultiDataTrigger>
+                                            <MultiDataTrigger.Conditions>
+                                                <Condition Binding="{Binding IsReadOnly}" Value="False" />
+                                                <Condition Binding="{Binding IsUserPrimaryEvent}" Value="True" />
+                                            </MultiDataTrigger.Conditions>
+                                            <MultiDataTrigger.Setters>
+                                                <Setter Property="IsEnabled" Value="True" />
+                                            </MultiDataTrigger.Setters>
+                                        </MultiDataTrigger>
+                                        <DataTrigger Binding="{Binding IsComingUpEvent}" Value="True">
+                                            <Setter Property="IsEnabled" Value="True" />
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </DataGrid.Resources>
+                            <i:Interaction.Behaviors>
+                                <uibehavior:DataGridRowReadOnlyBehavior />
+                            </i:Interaction.Behaviors>
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="BeginningEdit">
+                                    <i:InvokeCommandAction Command="{Binding BeginningEditCommand}" CommandParameter="{Binding ElementName=PlaylistDataGrid}" />
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+                            <!--<DataGrid.InputBindings>
+                            <KeyBinding Key="C" Modifiers="Ctrl" Command="{Binding CopyTextInCellCommand}" CommandParameter="{Binding ElementName=PlaylistDataGrid}" />
+                            -->
+                            <!--<KeyBinding Key="X" Modifiers="Ctrl" Command="{Binding CutTextInCellCommand}" CommandParameter="{Binding ElementName=PlaylistDataGrid}" />
+                                                <KeyBinding Key="V" Modifiers="Ctrl" Command="{Binding PasteTextToCellCommand}" CommandParameter="{Binding ElementName=PlaylistDataGrid}" />
+                                                <KeyBinding Key="Space" Command="{Binding PressKeyOnCellCommand}" CommandParameter="{Binding ElementName=PlaylistDataGrid}" />-->
+                            <!--
+                        </DataGrid.InputBindings>-->
+                            <DataGrid.RowStyle>
+                                <Style TargetType="DataGridRow">
+                                    <Setter Property="Foreground" Value="#777" />
+                                    <Setter Property="ContextMenu">
+                                        <Setter.Value>
+                                            <ContextMenu>
+                                                <MenuItem Header="Đồng bộ nội dung từ Traffic" Visibility="{Binding IsLiveEvent, Converter={StaticResource InvertableBooleanToVisibilityConverter}, ConverterParameter=Inverted}" FontWeight="Bold" Command="{Binding Data.SyncDataFromTrafficToSelectedEventCommand, Source={StaticResource proxy}}" />
+                                                <Separator Visibility="{Binding IsLiveEvent, Converter={StaticResource InvertableBooleanToVisibilityConverter}, ConverterParameter=Inverted}" />
+                                                <MenuItem Header="Quay về mặc định" Command="{Binding Data.SetSelectedEventToDefaultCommand, Source={StaticResource proxy}}"/>
+                                                <Separator Visibility="{Binding IsLiveEvent, Converter={StaticResource InvertableBooleanToVisibilityConverter}, ConverterParameter=Inverted}" />
+                                                <MenuItem Header="SỰ KIỆN CHÍNH" Visibility="{Binding IsLiveEvent, Converter={StaticResource InvertableBooleanToVisibilityConverter}, ConverterParameter=Inverted}" IsChecked="{Binding IsUserPrimaryEvent}" Command="{Binding Data.SetSelectedEventToUserEventCommand, Source={StaticResource proxy}}" CommandParameter="True" />
+                                                <MenuItem Header="ĐỆM" Visibility="{Binding IsLiveEvent, Converter={StaticResource InvertableBooleanToVisibilityConverter}, ConverterParameter=Inverted}" IsChecked="{Binding IsUserPrimaryEvent, Converter={StaticResource InvertBooleanValueConverter}}" Command="{Binding Data.SetSelectedEventToUserEventCommand, Source={StaticResource proxy}}" CommandParameter="False" />
+                                            </ContextMenu>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="{x:Type DataGridRow}">
+                                                <Border x:Name="DGR_Border"
+                                                                        BorderBrush="{TemplateBinding BorderBrush}"
+                                                                        BorderThickness="{TemplateBinding BorderThickness}"
+                                                                        Background="{TemplateBinding Background}"
+                                                                        SnapsToDevicePixels="True"
+                                                                        IsHitTestVisible="{Binding IsLocking,Converter={StaticResource InvertBooleanValueConverter}}"
+                                                                        CornerRadius="0">
+                                                    <SelectiveScrollingGrid>
+                                                        <SelectiveScrollingGrid.ColumnDefinitions>
+                                                            <ColumnDefinition Width="Auto" />
+                                                            <ColumnDefinition Width="*" />
+                                                        </SelectiveScrollingGrid.ColumnDefinitions>
+                                                        <SelectiveScrollingGrid.RowDefinitions>
+                                                            <RowDefinition Height="*" />
+                                                            <RowDefinition Height="Auto" />
+                                                        </SelectiveScrollingGrid.RowDefinitions>
+                                                        <!-- IsOnTime -->
+                                                        <Border Grid.Column="1" Grid.RowSpan="2" Panel.ZIndex="0"
+                                                                                BorderThickness="2" 
+                                                                                BorderBrush="DarkGreen" 
+                                                                                CornerRadius="0 0 0 0"
+                                                                                Margin="0,0,1,1"
+                                                                                SnapsToDevicePixels="True">
+                                                            <Border.Style>
+                                                                <Style TargetType="Border">
+                                                                    <Setter Property="Visibility" Value="Collapsed" />
+                                                                    <Style.Triggers>
+                                                                        <DataTrigger Binding="{Binding IsOnTime}" Value="True">
+                                                                            <Setter Property="Visibility" Value="Visible" />
+                                                                        </DataTrigger>
+                                                                    </Style.Triggers>
+                                                                </Style>
+                                                            </Border.Style>
+                                                            <Border Background="DarkGreen"
+                                                                                Opacity="0.5"
+                                                                                SnapsToDevicePixels="True">
+                                                            </Border>
+                                                        </Border>
+                                                        <DataGridCellsPresenter Grid.Column="1" Panel.ZIndex="1" ItemsPanel="{TemplateBinding ItemsPanel}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" />
+                                                        <DataGridDetailsPresenter Grid.Column="1" Panel.ZIndex="2" Grid.Row="1"
+                                                                                                  SelectiveScrollingGrid.SelectiveScrollingOrientation="{Binding AreRowDetailsFrozen, ConverterParameter={x:Static SelectiveScrollingOrientation.Vertical}, Converter={x:Static DataGrid.RowDetailsScrollingConverter}, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" 
+                                                                                                  Visibility="{TemplateBinding DetailsVisibility}" />
+                                                        <DataGridRowHeader Grid.RowSpan="2" Panel.ZIndex="3"
+                                                                                           SelectiveScrollingGrid.SelectiveScrollingOrientation="Vertical"
+                                                                                           Visibility="{Binding HeadersVisibility, ConverterParameter={x:Static DataGridHeadersVisibility.Row}, Converter={x:Static DataGrid.HeadersVisibilityConverter}, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" />
+                                                        <!-- IsLocking -->
+                                                        <Border Grid.Column="1" Grid.RowSpan="2" Panel.ZIndex="4"
+                                                                                BorderBrush="#263238"
+                                                                                BorderThickness="2"
+                                                                                CornerRadius="0 0 0 0"
+                                                                                Margin="0,0,1,1"
+                                                                                SnapsToDevicePixels="True">
+                                                            <Border.Style>
+                                                                <Style TargetType="Border">
+                                                                    <Setter Property="Visibility" Value="Collapsed" />
+                                                                    <Style.Triggers>
+                                                                        <DataTrigger Binding="{Binding IsLocking}" Value="True">
+                                                                            <Setter Property="Visibility" Value="Visible" />
+                                                                        </DataTrigger>
+                                                                    </Style.Triggers>
+                                                                </Style>
+                                                            </Border.Style>
+                                                            <Border Background="#263238"
+                                                                                SnapsToDevicePixels="True">
+                                                                <Border.Style>
+                                                                    <Style TargetType="Border">
+                                                                        <Setter Property="Opacity" Value="1.0"/>
+                                                                        <Style.Triggers>
+                                                                            <Trigger Property="Opacity" Value="1.0">
+                                                                                <Trigger.EnterActions>
+                                                                                    <BeginStoryboard>
+                                                                                        <Storyboard>
+                                                                                            <DoubleAnimation AutoReverse="True" RepeatBehavior="Forever" Storyboard.TargetProperty="Opacity" From="1.0" To="0.7" Duration="0:0:0.75"/>
+                                                                                        </Storyboard>
+                                                                                    </BeginStoryboard>
+                                                                                </Trigger.EnterActions>
+                                                                            </Trigger>
+                                                                        </Style.Triggers>
+                                                                    </Style>
+                                                                </Border.Style>
+                                                                <TextBlock Foreground="Yellow" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                                                                    <Run Text="Sự kiện này đang được sửa bởi" />
+                                                                                    <Run Text="{Binding LockedBy.UserName, Mode=OneWay}" FontWeight="Bold" />
+                                                                </TextBlock>
+                                                            </Border>
+                                                        </Border>
+                                                    </SelectiveScrollingGrid>
+                                                </Border>
+                                                <ControlTemplate.Triggers>
+                                                    <Trigger Property="IsMouseOver" Value="True">
+                                                        <Setter TargetName="DGR_Border" Property="Background" Value="LightGray" />
+                                                    </Trigger>
+                                                    <Trigger Property="IsSelected" Value="True">
+                                                        <Setter TargetName="DGR_Border" Property="Background" Value="Gray" />
+                                                    </Trigger>
+                                                </ControlTemplate.Triggers>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding IsReadOnly}" Value="True">
+                                            <Setter Property="uibehavior:ReadOnlyService.IsReadOnly" Value="True" />
+                                            <Setter Property="Foreground" Value="#777" />
+                                            <Setter Property="ContextMenu" Value="{x:Null}" />
+                                        </DataTrigger>
+                                        <!--<DataTrigger Binding="{Binding IsLiveEvent}" Value="True">
+                                                            <Setter Property="ContextMenu" Value="{x:Null}" />
+                                                        </DataTrigger>-->
+                                        <DataTrigger Binding="{Binding IsTimeElapsed}" Value="True">
+                                            <Setter Property="Background" Value="#e3e3e3" />
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </DataGrid.RowStyle>
+                            <DataGrid.Columns>
+                                <DataGridTemplateColumn Header="STT" CellStyle="{StaticResource CellStyle}" Width="Auto" IsReadOnly="True" CanUserResize="False" >
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding STT}" ToolTip="{Binding EventId}" Style="{StaticResource DataGridTextElementStyle}" />
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                                <DataGridTemplateColumn Header="Program code" CellStyle="{StaticResource CellStyle}" Width="150" IsReadOnly="True">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding ProgramCode}" ToolTip="{Binding ProgramCode}" Style="{StaticResource DataGridTextElementStyle}" />
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                                <DataGridTextColumn Header="Dự kiến" Binding="{Binding BeginTime}" CellStyle="{StaticResource CellStyle}" ElementStyle="{StaticResource DataGridTextElementStyle}" Width="90" IsReadOnly="True" CanUserResize="False" />
+                                <DataGridTextColumn Header="Thời lượng" Binding="{Binding Duration}" CellStyle="{StaticResource CellStyle}" ElementStyle="{StaticResource DataGridTextElementStyle}" Width="90" IsReadOnly="True" CanUserResize="False" />
+                                <DataGridTemplateColumn Header="Tên mũ" Width="*" CanUserResize="True">
+                                    <DataGridTemplateColumn.CellStyle>
+                                        <Style TargetType="DataGridCell" BasedOn="{StaticResource EditableCellStyle}">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding IsValidTenMuLength, UpdateSourceTrigger=PropertyChanged}" Value="False">
+                                                    <Setter Property="Foreground" Value="Red" />
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </DataGridTemplateColumn.CellStyle>
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding TenMu}" Style="{StaticResource DataGridTextElementStyle}" />
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                    <DataGridTemplateColumn.CellEditingTemplate>
+                                        <DataTemplate>
+                                            <DockPanel>
+                                                <TextBlock DockPanel.Dock="Bottom" Padding="2,1" HorizontalAlignment="Stretch" TextAlignment="Right" Background="WhiteSmoke">
+                                                    <TextBlock.Style>
+                                                        <Style TargetType="TextBlock">
+                                                            <Setter Property="Foreground" Value="Black" />
+                                                        </Style>
+                                                    </TextBlock.Style>
+                                                                    <Run Text="{Binding Path=Text.Length, Mode=OneWay, NotifyOnTargetUpdated=True, ElementName=txt}" Tag="{Binding DataContext.ChannelSelected.Setting.MaximumStringLength, Mode=OneWay, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}">
+                                                                        <Run.Style>
+                                                                            <Style TargetType="Run">
+                                                                                <Setter Property="Foreground">
+                                                                                    <Setter.Value>
+                                                                                        <MultiBinding Converter="{StaticResource BrushGreaterThanMultiValueConverter}">
+                                                                                            <Binding Path="Text" RelativeSource="{RelativeSource Mode=Self}"/>
+                                                                                            <Binding Path="Tag" RelativeSource="{RelativeSource Mode=Self}"/>
+                                                                                        </MultiBinding>
+                                                                                    </Setter.Value>
+                                                                                </Setter>
+                                                                            </Style>
+                                                                        </Run.Style>
+                                                                    </Run>
+                                                                    <Run Text="/" />
+                                                                    <Run Text="{Binding DataContext.ChannelSelected.Setting.MaximumStringLength, Mode=OneWay, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}},StringFormat='{}{0} ký tự'}" />
+                                                </TextBlock>
+                                                <TextBox x:Name="txt" Text="{Binding TenMu, UpdateSourceTrigger=LostFocus}" IsReadOnly="{Binding IsReadOnly}" Style="{StaticResource CellEditingTemplateTextElementStyle}" CharacterCasing="Upper">
+                                                    <i:Interaction.Triggers>
+                                                        <i:EventTrigger EventName="Loaded">
+                                                            <uibehavior:TakeFocusAndSelectTextOnVisibleBehavior />
+                                                        </i:EventTrigger>
+                                                        <i:EventTrigger EventName="LostFocus">
+                                                            <i:InvokeCommandAction Command="{Binding Path=DataContext.CellEditingLostFocusCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}" CommandParameter="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type DataGrid}}}" />
+                                                        </i:EventTrigger>
+                                                    </i:Interaction.Triggers>
+                                                </TextBox>
+                                            </DockPanel>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellEditingTemplate>
+                                </DataGridTemplateColumn>
+                                <DataGridTemplateColumn Header="Tên chương trình" Width="*" CanUserResize="True">
+                                    <DataGridTemplateColumn.CellStyle>
+                                        <Style TargetType="DataGridCell" BasedOn="{StaticResource EditableCellStyle}">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding IsValidTenCtLength, UpdateSourceTrigger=PropertyChanged}" Value="False">
+                                                    <Setter Property="Foreground" Value="Red" />
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </DataGridTemplateColumn.CellStyle>
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding TenCt}" Style="{StaticResource DataGridTextElementStyle}" />
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                    <DataGridTemplateColumn.CellEditingTemplate>
+                                        <DataTemplate>
+                                            <DockPanel>
+                                                <TextBlock DockPanel.Dock="Bottom" Padding="2,1" HorizontalAlignment="Stretch" TextAlignment="Right" Background="WhiteSmoke">
+                                                    <TextBlock.Style>
+                                                        <Style TargetType="TextBlock">
+                                                            <Setter Property="Foreground" Value="Black" />
+                                                        </Style>
+                                                    </TextBlock.Style>
+                                                                    <Run Text="{Binding Path=Text.Length, Mode=OneWay, NotifyOnTargetUpdated=True, ElementName=txt}" Tag="{Binding DataContext.ChannelSelected.Setting.MaximumStringLength, Mode=OneWay, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}">
+                                                                        <Run.Style>
+                                                                            <Style TargetType="Run">
+                                                                                <Setter Property="Foreground">
+                                                                                    <Setter.Value>
+                                                                                        <MultiBinding Converter="{StaticResource BrushGreaterThanMultiValueConverter}">
+                                                                                            <Binding Path="Text" RelativeSource="{RelativeSource Mode=Self}"/>
+                                                                                            <Binding Path="Tag" RelativeSource="{RelativeSource Mode=Self}"/>
+                                                                                        </MultiBinding>
+                                                                                    </Setter.Value>
+                                                                                </Setter>
+                                                                            </Style>
+                                                                        </Run.Style>
+                                                                    </Run>
+                                                                    <Run Text="/" />
+                                                                    <Run Text="{Binding DataContext.ChannelSelected.Setting.MaximumStringLength, Mode=OneWay, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}},StringFormat='{}{0} ký tự'}" />
+                                                </TextBlock>
+                                                <TextBox x:Name="txt" Text="{Binding TenCt, UpdateSourceTrigger=LostFocus}" IsReadOnly="{Binding IsReadOnly}" Style="{StaticResource CellEditingTemplateTextElementStyle}" CharacterCasing="Upper">
+                                                    <i:Interaction.Triggers>
+                                                        <i:EventTrigger EventName="Loaded">
+                                                            <uibehavior:TakeFocusAndSelectTextOnVisibleBehavior />
+                                                        </i:EventTrigger>
+                                                        <i:EventTrigger EventName="LostFocus">
+                                                            <i:InvokeCommandAction Command="{Binding Path=DataContext.CellEditingLostFocusCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}" CommandParameter="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type DataGrid}}}" />
+                                                        </i:EventTrigger>
+                                                    </i:Interaction.Triggers>
+                                                </TextBox>
+                                            </DockPanel>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellEditingTemplate>
+                                </DataGridTemplateColumn>
+                                <!-- Đồ họa -->
+                                <DataGridTemplateColumn IsReadOnly="True" CellStyle="{StaticResource CheckBoxCellStyle}" Width="Auto" CanUserResize="False">
+                                    <DataGridTemplateColumn.Header>
+                                        <CheckBox Content="ĐH" ToolTip="Đồ họa" Style="{StaticResource CheckBoxStyle}" HorizontalAlignment="Center" IsChecked="{Binding DataContext.ChannelSelected.PlaylistSelected.CanShowAllCG, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Command="{Binding DataContext.CheckBoxColumnCheckedChangedCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}" />
+                                    </DataGridTemplateColumn.Header>
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <CheckBox ToolTip="Đồ họa" IsChecked="{Binding CanShowCG, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource CustomDataGridCheckBoxElementStyle}" Command="{Binding DataContext.CheckBoxCellCheckedChangedCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}" CommandParameter="{Binding DataContext, RelativeSource={RelativeSource Mode=Self}}" />
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                                <!-- Đang xem -->
+                                <DataGridTemplateColumn IsReadOnly="True" CellStyle="{StaticResource ShowNowProgramCheckBoxCellStyle}" Width="65" CanUserResize="False">
+                                    <DataGridTemplateColumn.Header>
+                                        <CheckBox Content="ĐX" ToolTip="Đang xem" Style="{StaticResource CheckBoxStyle}" IsEnabled="{Binding DataContext.ChannelSelected.PlaylistSelected.CanShowAllCG, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}, Converter={StaticResource NullableBooleanToEnableValueConverter}}" IsChecked="{Binding DataContext.ChannelSelected.PlaylistSelected.CanShowAllNowProgram, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Command="{Binding DataContext.CheckBoxColumnCheckedChangedCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}" />
+                                    </DataGridTemplateColumn.Header>
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <CheckBox ToolTip="Đang xem" IsChecked="{Binding CanShowNowProgram, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource CustomDataGridCheckBoxElementStyle}" Command="{Binding DataContext.CheckBoxCellCheckedChangedCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}" CommandParameter="{Binding DataContext, RelativeSource={RelativeSource Mode=Self}}" />
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                                <!-- Tiếp theo -->
+                                <DataGridTemplateColumn IsReadOnly="True" CellStyle="{StaticResource ShowNextProgramCheckBoxCellStyle}" Width="65" CanUserResize="False">
+                                    <DataGridTemplateColumn.Header>
+                                        <CheckBox Content="TT" ToolTip="Tiếp theo" Style="{StaticResource CheckBoxStyle}" IsEnabled="{Binding DataContext.ChannelSelected.PlaylistSelected.CanShowAllCG, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}, Converter={StaticResource NullableBooleanToEnableValueConverter}}"  IsChecked="{Binding DataContext.ChannelSelected.PlaylistSelected.CanShowAllNextProgram, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Command="{Binding DataContext.CheckBoxColumnCheckedChangedCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}" />
+                                    </DataGridTemplateColumn.Header>
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <CheckBox ToolTip="Tiếp theo" IsChecked="{Binding CanShowNextProgram, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource CustomDataGridCheckBoxElementStyle}" Command="{Binding DataContext.CheckBoxCellCheckedChangedCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}" CommandParameter="{Binding DataContext, RelativeSource={RelativeSource Mode=Self}}" />
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                                <!-- Đếm ngược -->
+                                <DataGridTemplateColumn IsReadOnly="True" CellStyle="{StaticResource ShowNextProgramCheckBoxCellStyle}" Width="65" CanUserResize="False">
+                                    <DataGridTemplateColumn.Header>
+                                        <CheckBox Content="ĐN" ToolTip="Đếm ngược" Style="{StaticResource CheckBoxStyle}" IsEnabled="{Binding DataContext.ChannelSelected.PlaylistSelected.CanShowAllCG, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}, Converter={StaticResource NullableBooleanToEnableValueConverter}}" IsChecked="{Binding DataContext.ChannelSelected.PlaylistSelected.CanShowAllCountDown, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Command="{Binding DataContext.CheckBoxColumnCheckedChangedCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}" />
+                                    </DataGridTemplateColumn.Header>
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <CheckBox ToolTip="Đếm ngược" IsChecked="{Binding CanShowCountDown, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource CustomDataGridCheckBoxElementStyle}" Command="{Binding DataContext.CheckBoxCellCheckedChangedCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}" CommandParameter="{Binding DataContext, RelativeSource={RelativeSource Mode=Self}}" />
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                                <!-- Đặc sắc -->
+                                <DataGridTemplateColumn IsReadOnly="True" CellStyle="{StaticResource ShowNowProgramCheckBoxCellStyle}" Width="65" CanUserResize="False">
+                                    <DataGridTemplateColumn.Header>
+                                        <TextBlock Text="ĐS" ToolTip="Đặc sắc" />
+                                    </DataGridTemplateColumn.Header>
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <CheckBox ToolTip="Đặc sắc" IsChecked="{Binding CanShowSpecial, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource CustomDataGridCheckBoxElementStyle}" Command="{Binding DataContext.CheckBoxCellCheckedChangedCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}" CommandParameter="{Binding DataContext, RelativeSource={RelativeSource Mode=Self}}" />
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                                <!-- Nút chức năng -->
+                                <DataGridTemplateColumn CellStyle="{StaticResource CellStyle}" Width="50" CanUserResize="False">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Command="{Binding DataContext.OpenSpecialSettingEventCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}" CommandParameter="{Binding}">
+                                                <Button.Style>
+                                                    <Style TargetType="Button" BasedOn="{StaticResource CustomDataGridButtonElementStyle}">
+                                                        <Setter Property="Content" Value="..." />
+                                                        <Setter Property="ToolTip" Value="" />
+                                                        <Style.Triggers>
+                                                            <DataTrigger Binding="{Binding IsComingUpEvent}" Value="True">
+                                                                <Setter Property="Content">
+                                                                    <Setter.Value>
+                                                                        <StackPanel Orientation="Horizontal">
+                                                                            <materialDesign:PackIcon Kind="PlaylistCheck" />
+                                                                        </StackPanel>
+                                                                    </Setter.Value>
+                                                                </Setter>
+                                                                <Setter Property="ToolTip" Value="Mở tập tin giới thiệu chương trình đã xử lý..." />
+                                                            </DataTrigger>
+                                                        </Style.Triggers>
+                                                    </Style>
+                                                </Button.Style>
+                                            </Button>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </ui:FontWheelDataGrid>
+                    </DockPanel>
+                </materialDesign:DialogHost>
+
+                <!-- GRID SPLITTER -->
+                <GridSplitter Grid.Row="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" />
+
+                <!-- TRAFFIC AREA -->
+                <DockPanel Grid.Row="2" Visibility="{Binding IsSearchTrafficEventOpenning, Converter={StaticResource BooleanToVisibilityConverter}}">
+                    <DockPanel.Style>
+                        <Style TargetType="DockPanel">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding IsSearchTrafficEventOpenning}" Value="True">
+                                    <Setter Property="FocusManager.FocusedElement" Value="{Binding ElementName=SearchTrafficEventKeyWordTextBox}"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </DockPanel.Style>
+                    <!-- HEADER BAR -->
+                    <materialDesign:ColorZone DockPanel.Dock="Top" Padding="8" Background="WhiteSmoke" materialDesign:ShadowAssist.ShadowDepth="Depth1" Mode="Standard">
+                        <DockPanel>
+                            <StackPanel DockPanel.Dock="Right" Orientation="Horizontal">
+                                <materialDesign:ColorZone Mode="Standard" Padding="8 0 0 0" CornerRadius="2" Panel.ZIndex="1"
+                                                  Margin="0 0 0 0" VerticalAlignment="Center" BorderThickness="2" BorderBrush="{StaticResource PrimaryHueDarkBrush}"
+                                                  materialDesign:ShadowAssist.ShadowDepth="Depth1">
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="Auto" />
+                                        </Grid.ColumnDefinitions>
+                                        <TextBox Grid.Column="0" x:Name="SearchTrafficEventKeyWordTextBox" Margin="0 0 8 0" Padding="0"
+                                                 Text="{Binding SearchTrafficEventKeyWord, UpdateSourceTrigger=PropertyChanged}"
+                                                 materialDesign:HintAssist.Hint="Tìm theo program code" 
+                                                 materialDesign:TextFieldAssist.DecorationVisibility="Hidden" BorderThickness="0"
+                                                 MinWidth="200" MaxWidth="200" VerticalAlignment="Center">
+                                            <TextBox.InputBindings>
+                                                <KeyBinding Key="Return" Command="{Binding SearchTrafficEventCommand}" />
+                                            </TextBox.InputBindings>
+                                        </TextBox>
+                                        <Button Grid.Column="2" Style="{DynamicResource MaterialDesignFlatButton}" Padding="8 0" ToolTip="Xóa kết quả tìm kiếm" Command="{Binding ClearSearchTrafficEventCommand}">
+                                            <materialDesign:PackIcon Kind="Close" />
+                                        </Button>
+                                        <Button Grid.Column="1" Style="{DynamicResource MaterialDesignFlatButton}" Padding="8 0" ToolTip="Tìm..." Command="{Binding SearchTrafficEventCommand}">
+                                            <materialDesign:PackIcon Kind="Magnify" />
+                                        </Button>
+                                    </Grid>
+                                </materialDesign:ColorZone>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <ToggleButton Style="{StaticResource MaterialDesignSwitchAccentToggleButton}" IsChecked="{Binding IsSearchTrafficEventOpenning}" />
+                                <TextBlock Text="{Binding ChannelSelected.Name, StringFormat='{}Dữ liệu Traffic của kênh {0}'}" Style="{StaticResource MaterialDesignSubheadingTextBlock}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="8 0" />
+                                <Rectangle Style="{StaticResource HeaderBarSeparator}" />
+                                <TextBlock Text="Tự động tìm khi chọn một sự kiện:" VerticalAlignment="Center" Margin="0 0 8 0" />
+                                <ToggleButton IsChecked="{Binding CanBeSearchedWhenEventSelected}" />
+                                <Button Command="{Binding SyncDataFromTrafficToSelectedPlaylistCommand}" Style="{StaticResource MaterialDesignFlatButton}" VerticalAlignment="Bottom" Margin="0 0 8 0">
+                                    <Button.Content>
+                                        <StackPanel Orientation="Horizontal">
+                                            <materialDesign:PackIcon Kind="Sync" Margin="0 0 8 0" />
+                                            <TextBlock Text="Đồng bộ dữ liệu từ Traffic" />
+                                        </StackPanel>
+                                    </Button.Content>
+                                </Button>
+                            </StackPanel>
+                        </DockPanel>
+                    </materialDesign:ColorZone>
+
+                    <!-- STATUS BAR -->
+                    <StatusBar DockPanel.Dock="Bottom" Padding="8 0" Background="{StaticResource MaterialDesignChipBackground}">
+                        <TextBlock>
+                            <Run Text="Server hiện tại:"/>
+                            <TextBlock FontWeight="Bold">
+                                <TextBlock.Style>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="Text" Value="{Binding CurrentConnectionString.ServerName, Mode=OneWay}" />
+                                        <Setter Property="Foreground" Value="Black" />
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding CurrentConnectionString, Mode=OneWay}" Value="{x:Null}">
+                                                <Setter Property="Text" Value="Không tìm thấy!!!" />
+                                                <Setter Property="Foreground" Value="Red" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </TextBlock.Style>
+                            </TextBlock>
+                        </TextBlock>
+                        <Separator Margin="10,5"/>
+                        <TextBlock>
+                            <Run Text="Có"/>
+                            <Run Text="{Binding Path=Items.Count, ElementName=TrafficDataGrid, Mode=OneWay}" FontWeight="Bold" />
+                            <Run Text="/" />
+                            <Run Text="{Binding Path=ChannelSelected.TrafficEvents.Count, Mode=OneWay}" FontWeight="Bold" />
+                            <Run Text="sự kiện được hiển thị"/>
+                            <TextBlock>
+                                <TextBlock.Style>
+                                    <Style TargetType="TextBlock">
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding LastSearchTrafficEventKeyWord}" Value="">
+                                                <Setter Property="Visibility" Value="Collapsed" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </TextBlock.Style>
+                                <Run Text="với từ khóa" />
+                                <Run Text="{Binding LastSearchTrafficEventKeyWord}" FontWeight="Bold" />
+                            </TextBlock>
+                        </TextBlock>
+                        <Separator Margin="10,5"/>
+                        <TextBlock>
+                    <Run Text="Cập nhật lần cuối: "/>
+                    <Run Text="{Binding ChannelSelected.LastTrafficUpdateFileTime, StringFormat='dd/MM/yyyy HH:mm:ss'}" FontWeight="Bold" />
+                    <Run Text="-"/>
+                    <Run Text="{Binding ChannelSelected.LastTrafficUpdateFilePath}" FontWeight="Bold" />
+                        </TextBlock>
+                    </StatusBar>
+
+                    <!-- CONTENT: TRAFFIC LIST -->
+                    <ui:FontWheelDataGrid Grid.Row="1" x:Name="TrafficDataGrid" 
+                                          ClipboardCopyMode="None" 
+                                          SelectionMode="Single"
+                                          Style="{StaticResource MaterialDesignDataGrid}" 
+                                          ItemsSource="{Binding ChannelSelected.TrafficEvents}"
+                                          Margin="8" IsReadOnly="True" 
+                                          CanUserSortColumns="True" CanUserAddRows="False" AutoGenerateColumns="False"
+                                          materialDesign:DataGridAssist.CellPadding="8" materialDesign:DataGridAssist.ColumnHeaderPadding="4 8">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding ProgramCode}" Header="Program code" Width="200" EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnEditingStyle}" />
+                            <DataGridTextColumn Binding="{Binding ProgramTitle1}" Header="Tên mũ" Width="*" ElementStyle="{StaticResource DataGridTextElementStyle}" />
+                            <DataGridTextColumn Binding="{Binding ProgramTitle2}" Header="Tên chương trình" Width="*" ElementStyle="{StaticResource DataGridTextElementStyle}" />
+                            <DataGridTextColumn Binding="{Binding UpdateTime, StringFormat='{}{0:dd/MM/yyyy HH:mm:ss}'}" Header="Cập nhật lần cuối" Width="Auto" EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnEditingStyle}" />
+                        </DataGrid.Columns>
+                    </ui:FontWheelDataGrid>
+                </DockPanel>
+            </Grid>
+        </DockPanel>
+    </materialDesign:DialogHost>
+</Window>
