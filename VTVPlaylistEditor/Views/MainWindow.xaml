@@ -554,13 +554,20 @@
                                         </DataTemplate>
                                     </DataGridTemplateColumn.CellTemplate>
                                 </DataGridTemplateColumn>
-                                <DataGridTemplateColumn Header="Program code" CellStyle="{StaticResource CellStyle}" Width="150" IsReadOnly="True">
+                                <DataGridTemplateColumn Header="Program code" CellStyle="{StaticResource CellStyle}" Width="Auto" IsReadOnly="True">
                                     <DataGridTemplateColumn.CellTemplate>
                                         <DataTemplate>
-                                            <TextBlock Text="{Binding ProgramCode}" ToolTip="{Binding ProgramCode}" Style="{StaticResource DataGridTextElementStyle}" />
+                                            <TextBlock Text="{Binding ProgramCode}" Style="{StaticResource DataGridTextElementStyle}">
+                                                <TextBlock.ToolTip>
+                                                    <TextBlock>
+                                                        <Run Text="{Binding GroupName, Mode=OneWay, StringFormat={}Thuộc nhóm: {0}}" />
+                                                    </TextBlock>
+                                                </TextBlock.ToolTip>
+                                            </TextBlock>
                                         </DataTemplate>
                                     </DataGridTemplateColumn.CellTemplate>
                                 </DataGridTemplateColumn>
+                                <!--<DataGridTextColumn Header="Nhóm" Binding="{Binding GroupName}" CellStyle="{StaticResource CellStyle}" ElementStyle="{StaticResource DataGridTextElementStyle}" Width="Auto" IsReadOnly="True" CanUserResize="False" />-->
                                 <DataGridTextColumn Header="Dự kiến" Binding="{Binding BeginTime}" CellStyle="{StaticResource CellStyle}" ElementStyle="{StaticResource DataGridTextElementStyle}" Width="90" IsReadOnly="True" CanUserResize="False" />
                                 <DataGridTextColumn Header="Thời lượng" Binding="{Binding Duration}" CellStyle="{StaticResource CellStyle}" ElementStyle="{StaticResource DataGridTextElementStyle}" Width="90" IsReadOnly="True" CanUserResize="False" />
                                 <DataGridTemplateColumn Header="Tên mũ" Width="*" CanUserResize="True">

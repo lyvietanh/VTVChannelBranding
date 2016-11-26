@@ -28,6 +28,7 @@ namespace VTVPlaylistEditor.Models
         private string eventType = "";
         private string stt = "";
         private string eventId = "";
+        private string groupName = "";
         private string maBang = "";
         private string description = "";
         private string title = "";
@@ -736,6 +737,20 @@ namespace VTVPlaylistEditor.Models
             {
                 this.lockedAt = value;
                 OnPropertyChanged(() => this.LockedAt);
+            }
+        }
+
+        public string GroupName
+        {
+            get
+            {
+                return groupName;
+            }
+
+            set
+            {
+                groupName = value;
+                OnPropertyChanged(() => this.GroupName);
             }
         }
 

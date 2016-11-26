@@ -640,7 +640,7 @@ namespace VTVPlaylistEditor.Models
                     Thread.Sleep(100);
                 }
 
-                using (StreamWriter sw = new StreamWriter(filePath, false, Encoding.UTF8))
+                using (StreamWriter sw = new StreamWriter(filePath, false, Encoding.Unicode))
                 {
                     xmlDocument.Save(sw);
                     sw.Close();

@@ -580,6 +580,8 @@ namespace VTVPlaylistEditor.Models
                     currentEvent.HasInitializeCommand = (i == this.Events.Count - 1);
                     ///
 
+
+
                     //Tính toán căng thẳng đây!!!
                     //Tính countdown duration cho từng sự kiện
                     //if (currentEvent.IsPrimaryEvent || currentEvent.IsUserPrimaryEvent)
@@ -1174,9 +1176,12 @@ namespace VTVPlaylistEditor.Models
         {
             if (eventModels != null)
             {
+                //string lastGroupName = "";
                 for (int i = 0; i < eventModels.Count; i++)
                 {
                     EventModel eventModel = eventModels[i];
+                    //EventModel previousPE = GetPreviousPE(eventModels, eventModel, i, true);
+
                     //Gán IsLiveEvent=true nếu ProgramCode có chứa "XUNGDEN", "LIVE" ở đầu
                     eventModel.IsLiveEvent = CheckStringStartsWithString(eventModel.ProgramCode, "XUNGDEN") || CheckStringStartsWithString(eventModel.ProgramCode, "LIVE");
                     //Nếu trong setting có định nghĩa trường CustomLiveEventContainProgramCodeFilter thì tách chuỗi thiết lập đó
@@ -1259,26 +1264,128 @@ namespace VTVPlaylistEditor.Models
                     eventModel.IsReadOnly = (eventModel.IsPrimaryEvent == false && eventModel.IsLiveEvent == false);
                     ///
 
-                    for (int j = i - 10; j <= i + 10; j++)
+                    //if (eventModel.IsPrimaryEvent || eventModel.IsLiveEvent || previousPE == null)
+                    //{
+                    //    lastGroupName = eventModel.ProgramCode;
+                    //}
+                    //eventModel.GroupName = lastGroupName;
+
+                    //Kiểm tra các sự kiện chính bị cắt ra thành nhiều phần mà duration không thỏa mãn
+                    if (eventModel.IsPrimaryEvent || eventModel.IsLiveEvent)
                     {
-                        if (j >= 0 && j < eventModels.Count && eventModels[j].ProgramCode.Equals(eventModel.ProgramCode, StringComparison.OrdinalIgnoreCase))
+                        int splitIndex = -1;
+                        string originalProgramCode = eventModel.ProgramCode;
+                        eventModel.GroupName = eventModel.ProgramCode;
+                        //if(IsProgramCodeInPart(eventModel.ProgramCode,out originalProgramCode,out splitIndex))
+                        //{
+                        //    eventModel.GroupName = originalProgramCode;
+                        //}
+
+                        for (int j = i - 10; j <= i + 10; j++)
                         {
-                            if (eventModel.IsPrimaryEvent && eventModels[j].IsPrimaryEvent == false)
+                            if (j < 0 || j >= eventModels.Count || j == i)
                             {
-                                eventModels[j].IsPrimaryEvent = eventModel.IsPrimaryEvent;
-                                eventModels[j].IsReadOnly = eventModel.IsReadOnly;
+                                continue;
                             }
 
-                            if (eventModel.IsPrimaryEvent == false && eventModels[j].IsPrimaryEvent)
+                            splitIndex = -1;
+                            bool isInGroup = false;
+                            if (eventModels[j].ProgramCode.Equals(eventModel.ProgramCode, StringComparison.OrdinalIgnoreCase))
                             {
-                                eventModel.IsPrimaryEvent = eventModels[j].IsPrimaryEvent;
-                                eventModel.IsReadOnly = eventModels[j].IsReadOnly;
-                                break;
+                                //lastGroupName = originalProgramCode;
+                                isInGroup = true;
+                            }
+
+                            if (isInGroup == false)
+                            {
+                                if (IsProgramCodeInPart(eventModel.ProgramCode, out originalProgramCode, out splitIndex))
+                                {
+                                    if (eventModels[j].ProgramCode.Equals(originalProgramCode))
+                                    {
+                                        //lastGroupName = originalProgramCode;
+                                        isInGroup = true;
+                                    }
+                                }
+
+                                if (isInGroup == false)
+                                {
+                                    string originalProgramCode2 = eventModels[j].ProgramCode;
+                                    if (IsProgramCodeInPart(eventModels[j].ProgramCode, out originalProgramCode2, out splitIndex))
+                                    {
+                                        if (originalProgramCode.Equals(originalProgramCode2, StringComparison.OrdinalIgnoreCase))
+                                        {
+                                            //lastGroupName = originalProgramCode;
+                                            isInGroup = true;
+                                        }
+                                    }
+                                }
+                            }
+
+                            if (isInGroup)
+                            {
+                                //eventModel.GroupName = lastGroupName;
+                                //eventModels[j].GroupName = lastGroupName;
+                                eventModel.GroupName = originalProgramCode;
+                                eventModels[j].GroupName = originalProgramCode;
+
+                                if (eventModel.IsPrimaryEvent && eventModels[j].IsPrimaryEvent == false)
+                                {
+                                    eventModels[j].IsPrimaryEvent = eventModel.IsPrimaryEvent;
+                                    eventModels[j].IsUserPrimaryEvent = eventModel.IsUserPrimaryEvent;
+                                    eventModels[j].IsTemporaryCGEvent = eventModel.IsTemporaryCGEvent;
+                                    eventModels[j].IsAdvertismentEvent = eventModel.IsAdvertismentEvent;
+                                    eventModels[j].IsReadOnly = eventModel.IsReadOnly;
+                                }
+
+                                if (eventModel.IsPrimaryEvent == false && eventModels[j].IsPrimaryEvent)
+                                {
+                                    eventModel.IsPrimaryEvent = eventModels[j].IsPrimaryEvent;
+                                    eventModel.IsUserPrimaryEvent = eventModels[j].IsUserPrimaryEvent;
+                                    eventModel.IsTemporaryCGEvent = eventModels[j].IsTemporaryCGEvent;
+                                    eventModel.IsAdvertismentEvent = eventModels[j].IsAdvertismentEvent;
+                                    eventModel.IsReadOnly = eventModels[j].IsReadOnly;
+                                    break;
+                                }
                             }
                         }
                     }
+                    ///
+
                 }
             }
+        }
+
+        private bool IsProgramCodeInPart(string programCode, out string originalProgramCode, out int splitIndex)
+        {
+            originalProgramCode = programCode;
+            splitIndex = -1;
+            string[] words = programCode.ToUpper().Split(new char[] { '_' }, StringSplitOptions.RemoveEmptyEntries);
+            if (words != null && words.Length >= 2)
+            {
+                int.TryParse(words[words.Length - 1], out splitIndex);
+                if (splitIndex > 0 && splitIndex < 10 && words[words.Length - 2].Length >= 3 && words[words.Length - 2].Substring(words[words.Length - 2].Length - 3, 3).Equals("TAP") == false && words[words.Length - 2].Substring(words[words.Length - 2].Length - 4, 4).Equals("PHAN") == false)
+                {
+                    StringBuilder sb = new StringBuilder();
+                    for (int i = 0; i < words.Length - 1; i++)
+                    {
+                        if (i > 0)
+                        {
+                            sb.Append("_");
+                        }
+                        sb.Append(words[i]);
+                    }
+                    originalProgramCode = sb.ToString();
+                    return true;
+                }
+            }
+            //string twoCharactersProgramCodeEnding = programCode.Substring(programCode.Length - 2, 2);
+            //if (twoCharactersProgramCodeEnding[0] == '_' && int.TryParse(twoCharactersProgramCodeEnding[1].ToString(), out splitIndex))
+            //{
+
+            //    originalProgramCode = programCode.Remove(programCode.Length - 2, 2);
+            //    return splitIndex > 0;
+            //}
+            return false;
         }
 
         public bool SyncNewDataToOlderEventList(ObservableCollection<EventModel> newEventList)
@@ -1519,7 +1626,7 @@ namespace VTVPlaylistEditor.Models
                         Thread.Sleep(100);
                     }
 
-                    using (StreamWriter sw = new StreamWriter(filePath, false, Encoding.UTF8))
+                    using (StreamWriter sw = new StreamWriter(filePath, false, Encoding.Unicode))
                     {
                         sw.Write(sb.ToString());
                         sw.Flush();
@@ -1568,7 +1675,7 @@ namespace VTVPlaylistEditor.Models
                         Thread.Sleep(100);
                     }
 
-                    using (StreamWriter sw = new StreamWriter(filePath, false, Encoding.UTF8))
+                    using (StreamWriter sw = new StreamWriter(filePath, false, Encoding.Unicode))
                     {
                         sw.Write(sb.ToString());
                         sw.Flush();
@@ -1922,7 +2029,7 @@ namespace VTVPlaylistEditor.Models
                     Thread.Sleep(100);
                 }
 
-                using (StreamWriter sw = new StreamWriter(filePath, false, Encoding.UTF8))
+                using (StreamWriter sw = new StreamWriter(filePath, false, Encoding.Unicode))
                 {
                     xmlDocument.Save(sw);
                     sw.Close();

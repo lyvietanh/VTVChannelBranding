@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Globalization;
@@ -425,9 +426,10 @@ namespace VTVPlaylistEditor.ViewModels
                 if (obj != null)
                 {
                     DataGridRow selectedRow = obj.GetSelectedRow();
+                    EventModel eventModel = null;
                     if (selectedRow != null)
                     {
-                        EventModel eventModel = (EventModel)selectedRow.Item;
+                        eventModel = (EventModel)selectedRow.Item;
                         EventModel tagEventModel = (EventModel)obj.Tag;
 
                         eventModel.Status = "0";
@@ -437,6 +439,7 @@ namespace VTVPlaylistEditor.ViewModels
                         }
                     }
                     obj.CommitEdit();
+                    ApplyContentIfInTheSameGroup(eventModel, this.ChannelSelected.PlaylistSelected.Events);
                 }
 
                 //////////this.ChannelSelected.EdittingEvent.IsLocking = false;
@@ -454,6 +457,19 @@ namespace VTVPlaylistEditor.ViewModels
             }
             catch (Exception) { }
             Debug.WriteLine("OnCellEditingLostFocus");
+        }
+
+        private void ApplyContentIfInTheSameGroup(EventModel currentEvent, ObservableCollection<EventModel> eventModels)
+        {
+            foreach (var eventModel in eventModels)
+            {
+                if (currentEvent != eventModel && currentEvent.GroupName.Equals(eventModel.GroupName, StringComparison.OrdinalIgnoreCase))
+                {
+                    eventModel.TenMu = currentEvent.TenMu;
+                    eventModel.TenCt = currentEvent.TenCt;
+                    eventModel.Modify = currentEvent.Modify;
+                }
+            }
         }
 
         private void ExecuteBeginningEditCommand(DataGrid obj)
@@ -581,6 +597,7 @@ namespace VTVPlaylistEditor.ViewModels
             {
                 ExecuteSetSelectedEventToUserEventCommand(true);
                 ExecuteSyncDataFromTrafficToSelectedEventCommand();
+                ApplyContentIfInTheSameGroup(this.EventSelected, this.ChannelSelected.PlaylistSelected.Events);
                 this.EventSelected.CanShowCG = false;
                 this.ChannelSelected.PlaylistSelected.UpdateValidEvents();
             }
@@ -605,6 +622,7 @@ namespace VTVPlaylistEditor.ViewModels
                     this.EventSelected.GetProgramTitleFromDescription(this.EventSelected.Description, ':');
                 }
                 this.EventSelected.Modify = "0";
+                ApplyContentIfInTheSameGroup(this.EventSelected, this.ChannelSelected.PlaylistSelected.Events);
             }
         }
 
