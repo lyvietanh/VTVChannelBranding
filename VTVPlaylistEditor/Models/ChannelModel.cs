@@ -287,6 +287,18 @@ namespace VTVPlaylistEditor.Models
                 //Tự động chạy trình MuC Importer nếu được cho phép
                 if (DateTime.Now - AppData.Default.MuCImporterProgramDelayInterval >= _lastMuCImporterProgramRunning)
                 {
+                    //Thử nghiệm cho kênh VTV4, không chạy MucImporter 
+                    //nếu thời gian hiện tại trong khoảng trước và sau sự kiện trôi 15'
+                    var todayPlaylist = this.Playlists.SingleOrDefault(m => m.Date.Date == DateTime.Now.Date);
+                    if (todayPlaylist != null)
+                    {
+                        var comingupEvent = todayPlaylist.Events.FirstOrDefault(m => m.IsComingUpEvent && DateTime.Now.TimeOfDay >= Common.Utility.GetTimeSpanFromString(m.BeginTime) - TimeSpan.FromMinutes(15) && Common.Utility.GetTimeSpanFromString(m.BeginTime) + TimeSpan.FromMinutes(5) >= DateTime.Now.TimeOfDay);
+                        if (comingupEvent != null)
+                        {
+                            _canRunMuCImporterProgram = 0;
+                        }
+                    }
+
                     while (_canRunMuCImporterProgram > 0 && _isDataProcessorThreadRunning)
                     {
                         RunMuCImporterProgram();

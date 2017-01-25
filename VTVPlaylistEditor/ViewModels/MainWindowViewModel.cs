@@ -643,7 +643,7 @@ namespace VTVPlaylistEditor.ViewModels
                 if (this.ChannelSelected == channelModel && this.ChannelSelected.PlaylistSelected == playlistModel)
                 {
                     this.IsPlaylistDialogOpenning = true;
-                    this.PlaylistDialogContent = string.Format("Đang xử lý lịch phát sóng kênh {0} ngày {1} ...", channelModel.Name, playlistModel.Date.ToString("dd/MM/yyyy", CultureInfo.InvariantCulture));
+                    this.PlaylistDialogContent = string.Format("Đang xử lý lịch phát sóng của kênh {0} ngày {1} ...", channelModel.Name, playlistModel.Date.ToString("dd/MM/yyyy", CultureInfo.InvariantCulture));
                 }
 
                 playlistModel.IsProcessingPlaylist = true;
