@@ -581,6 +581,14 @@ namespace VTVPlaylistEditor
                                         bool.TryParse(nodeChild.GetAttribute("EnableRoundTime"), out comingUpRoundTimeEnabled);
                                         channelModel.Setting.ComingUpRoundTimeEnabled = comingUpRoundTimeEnabled;
                                     }
+                                    if (nodeChild.HasAttribute("RoundTimeMode"))
+                                    {
+                                        channelModel.Setting.ComingUpRoundTimeMode = nodeChild.GetAttribute("RoundTimeMode");
+                                        if (string.IsNullOrEmpty(channelModel.Setting.ComingUpRoundTimeMode))
+                                        {
+                                            channelModel.Setting.ComingUpRoundTimeMode = "0358";
+                                        }
+                                    }
 
                                     XmlNodeList nodeComingUpList = nodeChild.ChildNodes;
                                     foreach (XmlNode nodeComingUpListItem in nodeComingUpList)
@@ -987,6 +995,7 @@ namespace VTVPlaylistEditor
                     //ComingUp
                     nodeChild = xmlDocument.CreateElement("ComingUp");
                     nodeChild.SetAttribute("EnableRoundTime", channelModel.Setting.ComingUpRoundTimeEnabled.ToString());
+                    nodeChild.SetAttribute("RoundTimeMode", channelModel.Setting.ComingUpRoundTimeMode.ToUpper());
                     nodeChannel.AppendChild(nodeChild);
 
                     //CToday

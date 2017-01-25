@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Common;
 using Prism.Mvvm;
 
 namespace VTVTrafficDataManager.Models
@@ -23,7 +24,7 @@ namespace VTVTrafficDataManager.Models
 
             set
             {
-                this._programCode = value;
+                _programCode = Utility.ConvertCompositeToPrecomposed(value);
                 OnPropertyChanged(() => this.ProgramCode);
             }
         }
@@ -37,7 +38,7 @@ namespace VTVTrafficDataManager.Models
 
             set
             {
-                this._programTitle1 = value;
+                _programTitle1 = Utility.ConvertCompositeToPrecomposed(value);
                 OnPropertyChanged(() => this.ProgramTitle1);
             }
         }
@@ -51,7 +52,7 @@ namespace VTVTrafficDataManager.Models
 
             set
             {
-                this._programTitle2 = value;
+                _programTitle2 = Utility.ConvertCompositeToPrecomposed(value);
                 OnPropertyChanged(() => this.ProgramTitle2);
             }
         }

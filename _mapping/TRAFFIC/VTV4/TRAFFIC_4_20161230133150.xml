@@ -1,0 +1,799 @@
+<data datetime="12/30/2016 00:00:00">
+  <TRAFFICXML description="Station=VTV4 (channel=VTV4) ">
+    <row>
+      <EXTERSTRID>T0_a1777665-e849-435a-93c4-623c25817678</EXTERSTRID>
+      <COD_PROGRA>TSV4_VTV4_29122016_2100</COD_PROGRA>
+      <DESCRIZIO>Bản tin thời sự</DESCRIZIO>
+      <TITLE>Bản tin thời sự</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>0</ORA>
+      <TENCM>Bản tin thời sự</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Bản tin thời sự</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_91cca81b-17ab-4498-bfb2-a9fdb3645da0</EXTERSTRID>
+      <COD_PROGRA>SSTT_VTV4_29122016_2120</COD_PROGRA>
+      <DESCRIZIO>Sức sống thể thao</DESCRIZIO>
+      <TITLE>Sức sống thể thao</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>30000</ORA>
+      <TENCM>Sức sống thể thao</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Sức sống thể thao</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_215e5ca8-cf2c-4698-8163-8ea9f61c11af</EXTERSTRID>
+      <COD_PROGRA>TT41_VTV4_29122016_2125</COD_PROGRA>
+      <DESCRIZIO>Thời tiết du lịch 1</DESCRIZIO>
+      <TITLE>Thời tiết du lịch 1</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>37500</ORA>
+      <TENCM>Thời tiết du lịch 1</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Thời tiết du lịch</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_58bade29-bdb6-4e52-b071-9f036278d4a7</EXTERSTRID>
+      <COD_PROGRA>DNSKGP_SO28</COD_PROGRA>
+      <DESCRIZIO>Số 28</DESCRIZIO>
+      <TITLE>Số 28</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>45000</ORA>
+      <TENCM>Sáng kiến và giải pháp</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Sáng kiến và giải pháp</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_9f042cc9-e6f8-4266-9d34-72138049e4b0</EXTERSTRID>
+      <COD_PROGRA>DNKP4_THUYDIENSONLA_TAP1_PD</COD_PROGRA>
+      <DESCRIZIO>Thủy điện Sơn La - Tập 1_PĐ</DESCRIZIO>
+      <TITLE>Thủy điện Sơn La - Tập 1_PĐ</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>90000</ORA>
+      <TENCM>Khám phá (V4)</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>Thủy điện Sơn La - Tập 1</TenCongBo>
+      <TenChuyenMucCongbo>Khám phá</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_741dfd36-2632-40c9-ae91-a557edb8932e</EXTERSTRID>
+      <COD_PROGRA>NV4P_VTV4_30122016_0115</COD_PROGRA>
+      <DESCRIZIO>Người Việt bốn phương</DESCRIZIO>
+      <TITLE>Người Việt bốn phương</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>112500</ORA>
+      <TENCM>Người Việt bốn phương</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Người Việt bốn phương</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_f3d331ec-1121-4ff2-af99-cbbd917e4c1a</EXTERSTRID>
+      <COD_PROGRA>DNSV_YMOAN</COD_PROGRA>
+      <DESCRIZIO>Y Moan</DESCRIZIO>
+      <TITLE>Y Moan</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>135000</ORA>
+      <TENCM>SOL VÀNG</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>Y Moan</TenCongBo>
+      <TenChuyenMucCongbo>SOL VÀNG</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_77c381c3-bab7-4f46-abd2-67ae83357ae1</EXTERSTRID>
+      <COD_PROGRA>BTTP_VTV4_30122016_0300</COD_PROGRA>
+      <DESCRIZIO>Bản tin tiếng Pháp</DESCRIZIO>
+      <TITLE>Bản tin tiếng Pháp</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>270000</ORA>
+      <TENCM>Bản tin tiếng Pháp</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Bản tin tiếng Pháp</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_df9c9887-83b5-4258-a75f-39572c4ba863</EXTERSTRID>
+      <COD_PROGRA>DNGKG4_GAPGOKHANGIA_PS3012</COD_PROGRA>
+      <DESCRIZIO>Gặp gỡ khán giả_PS 30/12</DESCRIZIO>
+      <TITLE>Gặp gỡ khán giả_PS 30/12</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>315000</ORA>
+      <TENCM>Gặp gỡ khán giả VTV4</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Gặp gỡ khán giả VTV4</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_90af9567-ebf7-4c65-885c-c16709d8d83c</EXTERSTRID>
+      <COD_PROGRA>DNGDCS_RANGTRAMBAUV4</COD_PROGRA>
+      <DESCRIZIO>Rặng trâm bầu V4</DESCRIZIO>
+      <TITLE>Rặng trâm bầu V4</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>360000</ORA>
+      <TENCM>Giai điệu cuộc sống 15</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>Rặng trâm bầu</TenCongBo>
+      <TenChuyenMucCongbo>Giai điệu cuộc sống</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_d6b5c471-b26a-4a37-98c2-ac3680931794</EXTERSTRID>
+      <COD_PROGRA>TKBTPSV4_NEOVENGUONCOI_TAP105</COD_PROGRA>
+      <DESCRIZIO>Nẻo về nguồn cội - Tập 105: Phố Hiến</DESCRIZIO>
+      <TITLE>Nẻo về nguồn cội - Tập 105: Phố Hiến</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>382500</ORA>
+      <TENCM>Phóng sự (V4)</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>Nẻo về nguồn cội - Tập 105</TenCongBo>
+      <TenChuyenMucCongbo>Phóng sự</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_6bd19ddb-ee55-4f5d-ac45-433b715d15f6</EXTERSTRID>
+      <COD_PROGRA>TKBTATLA_ATLASMIENTRUNG_TAP7</COD_PROGRA>
+      <DESCRIZIO>Atlas Miền Trung - Tập 7</DESCRIZIO>
+      <TITLE>Atlas Miền Trung - Tập 7</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>405000</ORA>
+      <TENCM>Atlas Miền Trung</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>Atlas Miền Trung - Tập 7</TenCongBo>
+      <TenChuyenMucCongbo>Atlas Miền Trung</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_d05ba7a0-1a46-44e0-8bde-721aa7e4be79</EXTERSTRID>
+      <COD_PROGRA>PVNPT4_LCCC_TAP_22</COD_PROGRA>
+      <DESCRIZIO>Lựa chọn cuối cùng - Tập 22/38</DESCRIZIO>
+      <TITLE>Lựa chọn cuối cùng - Tập 22/38</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>450000</ORA>
+      <TENCM>Phim truyện 5H (V4)</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>Lựa chọn cuối cùng - Tập 22</TenCongBo>
+      <TenChuyenMucCongbo>Phim truyện</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_bf0c110f-dfef-4990-9eff-3bce9edc3bf6</EXTERSTRID>
+      <COD_PROGRA>TT41_VTV4_29122016_2125</COD_PROGRA>
+      <DESCRIZIO>Thời tiết du lịch 1</DESCRIZIO>
+      <TITLE>Thời tiết du lịch 1</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>517500</ORA>
+      <TENCM>Thời tiết du lịch 1</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Thời tiết du lịch</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_db0650ac-cf25-49ca-addb-abb222ac3b89</EXTERSTRID>
+      <COD_PROGRA>SPN_VTV4_30122016_0600</COD_PROGRA>
+      <DESCRIZIO>Sáng phương Nam</DESCRIZIO>
+      <TITLE>Sáng phương Nam</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>540000</ORA>
+      <TENCM>Sáng phương Nam</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Sáng phương Nam</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_1704176a-174c-417b-94b8-0134e06fff0b</EXTERSTRID>
+      <COD_PROGRA>NV4P_VTV4_30122016_0700</COD_PROGRA>
+      <DESCRIZIO>Người Việt bốn phương</DESCRIZIO>
+      <TITLE>Người Việt bốn phương</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>630000</ORA>
+      <TENCM>Người Việt bốn phương</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Người Việt bốn phương</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_49694076-e9e1-4de2-aaef-b5359a5e291c</EXTERSTRID>
+      <COD_PROGRA>DNSKGP_SO28</COD_PROGRA>
+      <DESCRIZIO>Số 28</DESCRIZIO>
+      <TITLE>Số 28</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>652500</ORA>
+      <TENCM>Sáng kiến và giải pháp</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Sáng kiến và giải pháp</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_0046a6db-43c6-4966-adad-783d796a06a4</EXTERSTRID>
+      <COD_PROGRA>DNKP4_THUYDIENSONLA_TAP1_PD</COD_PROGRA>
+      <DESCRIZIO>Thủy điện Sơn La - Tập 1_PĐ</DESCRIZIO>
+      <TITLE>Thủy điện Sơn La - Tập 1_PĐ</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>697500</ORA>
+      <TENCM>Khám phá (V4)</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>Thủy điện Sơn La - Tập 1</TenCongBo>
+      <TenChuyenMucCongbo>Khám phá</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_3ffa5a15-7b52-4c63-a4e3-222584d93641</EXTERSTRID>
+      <COD_PROGRA>BTTA_VTV4_30122016_0800</COD_PROGRA>
+      <DESCRIZIO>Bản tin tiếng Anh</DESCRIZIO>
+      <TITLE>Bản tin tiếng Anh</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>720000</ORA>
+      <TENCM>Bản tin tiếng Anh</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Bản tin tiếng Anh</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_764b2844-ea65-4ccd-81b4-fa775fc2ed68</EXTERSTRID>
+      <COD_PROGRA>DNFCS_MUARUOI</COD_PROGRA>
+      <DESCRIZIO>Mùa rươi</DESCRIZIO>
+      <TITLE>Mùa rươi</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>765000</ORA>
+      <TENCM>Fine Cuisine</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>Mùa rươi</TenCongBo>
+      <TenChuyenMucCongbo>Fine Cuisine</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_e5eb3f0d-c15a-4fca-84b8-d107caa59264</EXTERSTRID>
+      <COD_PROGRA>DNKSVB_KSVUNGBIEN30_12</COD_PROGRA>
+      <DESCRIZIO>Ký sự Bình Liêu - Tập 2: Bình Liêu - Đất say lòng người</DESCRIZIO>
+      <TITLE>Ký sự Bình Liêu - Tập 2: Bình Liêu - Đất say lòng người</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>810000</ORA>
+      <TENCM>Ký sự vùng biên</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>Ký sự Bình Liêu - Tập 2: Bình Liêu - Đất say lòng người</TenCongBo>
+      <TenChuyenMucCongbo>Ký sự vùng biên</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_8e2aaeaa-6440-4ade-b5c2-778e1ee07359</EXTERSTRID>
+      <COD_PROGRA>DNTGTT_VESINHRANGMIENG</COD_PROGRA>
+      <DESCRIZIO> Vệ sinh răng miệng</DESCRIZIO>
+      <TITLE> Vệ sinh răng miệng</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>855000</ORA>
+      <TENCM>Thế giới tuổi thơ</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo> Vệ sinh răng miệng</TenCongBo>
+      <TenChuyenMucCongbo>Thế giới tuổi thơ</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_994527c2-d9a0-44e1-8097-1718d8cc3784</EXTERSTRID>
+      <COD_PROGRA>DNSV_YMOAN</COD_PROGRA>
+      <DESCRIZIO>Y Moan</DESCRIZIO>
+      <TITLE>Y Moan</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>900000</ORA>
+      <TENCM>SOL VÀNG</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>Y Moan</TenCongBo>
+      <TenChuyenMucCongbo>SOL VÀNG</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_b67a22ea-b211-4520-9088-66d5b2988c0e</EXTERSTRID>
+      <COD_PROGRA>DNGKG4_GAPGOKHANGIA_PS3012</COD_PROGRA>
+      <DESCRIZIO>Gặp gỡ khán giả_PS 30/12</DESCRIZIO>
+      <TITLE>Gặp gỡ khán giả_PS 30/12</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>1035000</ORA>
+      <TENCM>Gặp gỡ khán giả VTV4</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Gặp gỡ khán giả VTV4</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_b921605e-a035-4007-899f-2eb73cad8d6f</EXTERSTRID>
+      <COD_PROGRA>BTV4_VTV4_30122016_1200</COD_PROGRA>
+      <DESCRIZIO>Bản tin Thời sự (28)</DESCRIZIO>
+      <TITLE>Bản tin Thời sự (28)</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>1080000</ORA>
+      <TENCM>Bản tin Thời sự (28)</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Bản tin Thời sự</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_5c6a19b3-4b14-44c8-ac04-b5377b472bbc</EXTERSTRID>
+      <COD_PROGRA>DNXTT4_SO20</COD_PROGRA>
+      <DESCRIZIO>Số 20</DESCRIZIO>
+      <TITLE>Số 20</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>1125000</ORA>
+      <TENCM>Xưởng thời trang (V4)</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Xưởng thời trang</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_f605b437-e7b2-4312-ad22-f35bb49b82e3</EXTERSTRID>
+      <COD_PROGRA>TKBTPSV4_NEOVENGUONCOI_TAP105</COD_PROGRA>
+      <DESCRIZIO>Nẻo về nguồn cội - Tập 105: Phố Hiến</DESCRIZIO>
+      <TITLE>Nẻo về nguồn cội - Tập 105: Phố Hiến</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>1170000</ORA>
+      <TENCM>Phóng sự (V4)</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>Nẻo về nguồn cội - Tập 105</TenCongBo>
+      <TenChuyenMucCongbo>Phóng sự</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_9146513e-46dc-4878-86fd-dceea04fed0b</EXTERSTRID>
+      <COD_PROGRA>PVNPT4_LCCC_TAP_22</COD_PROGRA>
+      <DESCRIZIO>Lựa chọn cuối cùng - Tập 22/38</DESCRIZIO>
+      <TITLE>Lựa chọn cuối cùng - Tập 22/38</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>1192500</ORA>
+      <TENCM>Phim truyện 5H (V4)</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>Lựa chọn cuối cùng - Tập 22</TenCongBo>
+      <TenChuyenMucCongbo>Phim truyện</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_2dad1722-ebf3-4f05-a558-854540c5c50b</EXTERSTRID>
+      <COD_PROGRA>DNGDCS_YEUDOI</COD_PROGRA>
+      <DESCRIZIO>Yêu đời</DESCRIZIO>
+      <TITLE>Yêu đời</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>1260000</ORA>
+      <TENCM>Giai điệu cuộc sống 15</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>Yêu đời</TenCongBo>
+      <TenChuyenMucCongbo>Giai điệu cuộc sống</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_da8a952b-e86c-48b8-9226-0731a3f6be89</EXTERSTRID>
+      <COD_PROGRA>DNTALK_TIENGVICAMXOADIUNOIDAU</COD_PROGRA>
+      <DESCRIZIO>Tiếng vĩ cầm xoa dịu nỗi đau chiến tranh</DESCRIZIO>
+      <TITLE>Tiếng vĩ cầm xoa dịu nỗi đau chiến tranh</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>1282500</ORA>
+      <TENCM>Talk Vietnam</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>Tiếng vĩ cầm xoa dịu nỗi đau chiến tranh</TenCongBo>
+      <TenChuyenMucCongbo>Talk Vietnam</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_cf34adeb-0764-4a89-a57b-eff9776541c1</EXTERSTRID>
+      <COD_PROGRA>BTTA_VTV4_30122016_1500</COD_PROGRA>
+      <DESCRIZIO>Bản tin tiếng Anh</DESCRIZIO>
+      <TITLE>Bản tin tiếng Anh</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>1350000</ORA>
+      <TENCM>Bản tin tiếng Anh</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Bản tin tiếng Anh</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_484a8aab-af30-41fb-882a-f42bad977d82</EXTERSTRID>
+      <COD_PROGRA>DNKS_LANGDUMIENSONGNUOC_TAP1</COD_PROGRA>
+      <DESCRIZIO>Lãng du miền sông nước - Tập 1+2_PĐ</DESCRIZIO>
+      <TITLE>Lãng du miền sông nước - Tập 1+2_PĐ</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>1395000</ORA>
+      <TENCM>Ký sự (V4)</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>Lãng du miền sông nước - Tập 1,2</TenCongBo>
+      <TenChuyenMucCongbo>Ký sự</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_aec824ed-2f2e-42e7-9a03-f6c532afcf1b</EXTERSTRID>
+      <COD_PROGRA>DN_SK24_12</COD_PROGRA>
+      <DESCRIZIO>Cải lương: Cõng mẹ đi chơi</DESCRIZIO>
+      <TITLE>Cải lương: Cõng mẹ đi chơi</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>1440000</ORA>
+      <TENCM>Sân khấu (V4)</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>Cải lương: Cõng mẹ đi chơi</TenCongBo>
+      <TenChuyenMucCongbo>Sân khấu</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_002db0de-fc11-49c0-8260-40cdb75bf952</EXTERSTRID>
+      <COD_PROGRA>DNPTL4_RACDIENTU</COD_PROGRA>
+      <DESCRIZIO>Góc khuất của kỷ nguyên số</DESCRIZIO>
+      <TITLE>Góc khuất của kỷ nguyên số</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>1575000</ORA>
+      <TENCM>Phim tài liệu (V4)</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>Góc khuất của kỷ nguyên số</TenCongBo>
+      <TenChuyenMucCongbo>Phim tài liệu</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_ff972fae-6ed1-45a5-91a5-228dcd62fe37</EXTERSTRID>
+      <COD_PROGRA>TA15_VTV4_30122016_1800</COD_PROGRA>
+      <DESCRIZIO>Bản tin tiếng Anh 15</DESCRIZIO>
+      <TITLE>Bản tin tiếng Anh 15</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>1620000</ORA>
+      <TENCM>Bản tin tiếng Anh 15</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Bản tin tiếng Anh</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_39b05705-c53d-4063-9cdb-7b26cb3fa3ba</EXTERSTRID>
+      <COD_PROGRA>DNCKV4_CHIAKHOATC29_12</COD_PROGRA>
+      <DESCRIZIO>Chìa khóa TC 29-12</DESCRIZIO>
+      <TITLE>Chìa khóa TC 29-12</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>1642500</ORA>
+      <TENCM>Chìa khóa thành công V4</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Chìa khóa thành công</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_dd7e7417-28e6-4087-b0e3-e0d874d3c025</EXTERSTRID>
+      <COD_PROGRA>PTLTTCE_PHAUTHUATV3</COD_PROGRA>
+      <DESCRIZIO>Phẫu thuật thành công cháu bé bị mắc bệnh tim bẩm sinh ở đảo Song Tử Tây (V3)</DESCRIZIO>
+      <TITLE>Phẫu thuật thành công cháu bé bị mắc bệnh tim bẩm sinh ở đảo Song Tử Tây (V3)</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>1695000</ORA>
+      <TENCM>Trái tim cho em</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Trái tim cho em</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_09624259-bc95-4675-ae10-938f5964320f</EXTERSTRID>
+      <COD_PROGRA>BTTQ_VTV4_30122016_1900</COD_PROGRA>
+      <DESCRIZIO>Bản tin tiếng Trung</DESCRIZIO>
+      <TITLE>Bản tin tiếng Trung</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>1710000</ORA>
+      <TENCM>Bản tin tiếng Trung</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Bản tin tiếng Trung</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_fe5e0bb3-f2a8-464f-a282-585171941bf7</EXTERSTRID>
+      <COD_PROGRA>DNXTT4_SO20</COD_PROGRA>
+      <DESCRIZIO>Số 20</DESCRIZIO>
+      <TITLE>Số 20</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>1755000</ORA>
+      <TENCM>Xưởng thời trang (V4)</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Xưởng thời trang</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_f2812aa5-356f-4f6b-aeb5-2111333d59dc</EXTERSTRID>
+      <COD_PROGRA>DNGTHV_VUNGCHACBIENCUONG</COD_PROGRA>
+      <DESCRIZIO>Vững chắc biên cương</DESCRIZIO>
+      <TITLE>Vững chắc biên cương</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>1800000</ORA>
+      <TENCM>Gala Tinh hoa võ thuật</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>Vững chắc biên cương</TenCongBo>
+      <TenChuyenMucCongbo>Gala Tinh hoa võ thuật</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_04312235-0403-40f9-9863-44a78f6c51e9</EXTERSTRID>
+      <COD_PROGRA>TSV4_VTV4_30122016_2100</COD_PROGRA>
+      <DESCRIZIO>Bản tin thời sự</DESCRIZIO>
+      <TITLE>Bản tin thời sự</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>1890000</ORA>
+      <TENCM>Bản tin thời sự</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Bản tin thời sự</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_894a7e4d-f69d-4cbb-92ad-a8e65a676d7c</EXTERSTRID>
+      <COD_PROGRA>SSTT_VTV4_30122016_2120</COD_PROGRA>
+      <DESCRIZIO>Sức sống thể thao</DESCRIZIO>
+      <TITLE>Sức sống thể thao</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>1920000</ORA>
+      <TENCM>Sức sống thể thao</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Sức sống thể thao</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_03d256a2-ebc7-451c-9f46-2a8686185c9f</EXTERSTRID>
+      <COD_PROGRA>TT41_VTV4_30122016_2125</COD_PROGRA>
+      <DESCRIZIO>Thời tiết du lịch 1</DESCRIZIO>
+      <TITLE>Thời tiết du lịch 1</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>1927500</ORA>
+      <TENCM>Thời tiết du lịch 1</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Thời tiết du lịch</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_65680c18-4166-4f00-b360-4c5ae8935265</EXTERSTRID>
+      <COD_PROGRA>CULT_VTV4_30122016_2130</COD_PROGRA>
+      <DESCRIZIO>Culture Mosaic</DESCRIZIO>
+      <TITLE>Culture Mosaic</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>1935000</ORA>
+      <TENCM>Culture Mosaic</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Culture Mosaic</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_5b7c728b-feea-4b9e-b2da-b08ed9232972</EXTERSTRID>
+      <COD_PROGRA>DAIB_VTV4_30122016_2200</COD_PROGRA>
+      <DESCRIZIO>Daily Biz</DESCRIZIO>
+      <TITLE>Daily Biz</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>1980000</ORA>
+      <TENCM>Daily Biz</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Daily Biz</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_1506ea21-78fc-4cba-a4c6-ced7ba4ce4ac</EXTERSTRID>
+      <COD_PROGRA>PVNPT4_LCCC_TAP_22</COD_PROGRA>
+      <DESCRIZIO>Lựa chọn cuối cùng - Tập 22/38</DESCRIZIO>
+      <TITLE>Lựa chọn cuối cùng - Tập 22/38</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>2002500</ORA>
+      <TENCM>Phim truyện 5H (V4)</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>Lựa chọn cuối cùng - Tập 22</TenCongBo>
+      <TenChuyenMucCongbo>Phim truyện</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_60bbb4db-49d1-495e-8fab-4ddd91b4157f</EXTERSTRID>
+      <COD_PROGRA>BTTN_VTV4_30122016_2300</COD_PROGRA>
+      <DESCRIZIO>Bản tin tiếng Nga</DESCRIZIO>
+      <TITLE>Bản tin tiếng Nga</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>2070000</ORA>
+      <TENCM>Bản tin tiếng Nga</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Bản tin tiếng Nga</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_b1a18823-bd14-4c14-9da3-d31188335a6c</EXTERSTRID>
+      <COD_PROGRA>DNTGTT_VESINHRANGMIENG</COD_PROGRA>
+      <DESCRIZIO> Vệ sinh răng miệng</DESCRIZIO>
+      <TITLE> Vệ sinh răng miệng</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>30/12/2016</DATA>
+      <DATA_SCAD>09/01/2017</DATA_SCAD>
+      <ORA>2115000</ORA>
+      <TENCM>Thế giới tuổi thơ</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV4</KENHPS>
+      <KENHPSHT>VTV4</KENHPSHT>
+      <TenCongBo> Vệ sinh răng miệng</TenCongBo>
+      <TenChuyenMucCongbo>Thế giới tuổi thơ</TenChuyenMucCongbo>
+    </row>
+  </TRAFFICXML>
+</data>

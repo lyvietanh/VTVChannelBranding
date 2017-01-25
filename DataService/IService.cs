@@ -23,6 +23,8 @@ namespace DataService
         bool IsTrafficEventExisted(string channelName, string programCode);
         BusinessObjects.TrafficEvent GetTrafficEvent(string channelName, string programCode);
         List<BusinessObjects.TrafficEvent> GetTrafficEvents(string channelName, string sortExpression = "UpdateTime DESC");
+        List<BusinessObjects.TrafficEvent> GetTrafficEvents(string channelName, int currentPage, int itemsPerPage, string sortExpression = "UpdateTime DESC");
+        List<BusinessObjects.TrafficEvent> GetTrafficEvents(string channelName, string searchForProgramCode, string sortExpression = "UpdateTime DESC");
         void CreateTrafficEvent(BusinessObjects.TrafficEvent trafficEvent);
         void CreateTrafficEvents(List<BusinessObjects.TrafficEvent> trafficEvents);
         void UpdateTrafficEvent(BusinessObjects.TrafficEvent trafficEvent);

@@ -1,0 +1,4282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<playlist description="Playlist for SEC2" session_id="b679e721-db66-42a2-a7cf-07448fa06e1e">
+  <general_info date="04/12/2016" channel="SEC2" />
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="1" />
+    <date date="04/12/2016" />
+    <event_id id="3597286" />
+    <mabang tapeid="KTPPT0H_CODAUBACTRIEU_TAP_65" />
+    <description des="Phim truyện 00h00(V3): Cô dâu bạc triệu - Tập 65/72" />
+    <title ten_ct="PT0H" />
+    <begin_time time="00:13:06:01" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:41:09:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="PHIM TRUYỆN 00H00(V3)" ten_ct="CÔ DÂU BẠC TRIỆU - TẬP 65/72" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="130" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="VTV KẾT NỐI" ten_ct="ĐẶC SẮC PTL NGƯỜI CẮM CỜ (HH9/12)" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="2" />
+    <date date="04/12/2016" />
+    <event_id id="3597287" />
+    <mabang tapeid="CATV32016" />
+    <description des="CAT VTV3 2016 CHUAN (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="00:54:15:01" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:10:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CAT VTV3 2016 CHUAN (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="10" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="VTV KẾT NỐI" ten_ct="ĐẶC SẮC PTL NGƯỜI CẮM CỜ (HH9/12)" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="3" />
+    <date date="04/12/2016" />
+    <event_id id="3600635" />
+    <mabang tapeid="TKBTVKT2_PTLNGUOICAMCOHH912" />
+    <description des="VTV kết nối: Đặc sắc PTL Người cắm cờ (HH9/12)" />
+    <title ten_ct="VKN" />
+    <begin_time time="00:54:25:01" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:10:55:01" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="VTV KẾT NỐI" ten_ct="ĐẶC SẮC PTL NGƯỜI CẮM CỜ (HH9/12)" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="130" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="KHÁM PHÁ THẾ GIỚI (30)" ten_ct="LỄ HỘI DÂN GIAN NƯỚC PHÁP - PHẦN  6/6" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="4" />
+    <date date="04/12/2016" />
+    <event_id id="3600641" />
+    <mabang tapeid="CATV32016" />
+    <description des="CAT VTV3 2016 CHUAN (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="01:05:20:02" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:10:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CAT VTV3 2016 CHUAN (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="10" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="KHÁM PHÁ THẾ GIỚI (30)" ten_ct="LỄ HỘI DÂN GIAN NƯỚC PHÁP - PHẦN  6/6" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="5" />
+    <date date="04/12/2016" />
+    <event_id id="3597288" />
+    <mabang tapeid="KGKPTG_LEHOIDANGIANPHAP_6" />
+    <description des="Khám phá thế giới (30): Lễ hội dân gian nước Pháp - Phần  6/6" />
+    <title ten_ct="KPTG" />
+    <begin_time time="01:05:30:02" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:26:18:05" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="KHÁM PHÁ THẾ GIỚI (30)" ten_ct="LỄ HỘI DÂN GIAN NƯỚC PHÁP - PHẦN  6/6" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="130" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="GIAO HƯỞNG THÍNH PHÒNG" ten_ct="BẢN GIAO HƯỞNG SỐ 9 CỦA NHÀ SOẠN NHẠC ANTONIN DVORAK" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="6" />
+    <date date="04/12/2016" />
+    <event_id id="3600629" />
+    <mabang tapeid="CATV32016" />
+    <description des="CAT VTV3 2016 CHUAN (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="01:31:48:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:10:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CAT VTV3 2016 CHUAN (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="10" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="GIAO HƯỞNG THÍNH PHÒNG" ten_ct="BẢN GIAO HƯỞNG SỐ 9 CỦA NHÀ SOẠN NHẠC ANTONIN DVORAK" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="7" />
+    <date date="04/12/2016" />
+    <event_id id="3597289" />
+    <mabang tapeid="VN_GHSO9CUA_ANTONINDVORAK" />
+    <description des="Giao hưởng thính phòng: Bản giao hưởng số 9 của nhà soạn nhạc Antonin Dvorak" />
+    <title ten_ct="GHTP" />
+    <begin_time time="01:31:58:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:30:58:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="GIAO HƯỞNG THÍNH PHÒNG" ten_ct="BẢN GIAO HƯỞNG SỐ 9 CỦA NHÀ SOẠN NHẠC ANTONIN DVORAK" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="232" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="CHUYỆN ĐÊM MUỘN" ten_ct="PHỤ NỮ VÀ NHỮNG CHUYẾN ĐI XA_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="8" />
+    <date date="04/12/2016" />
+    <event_id id="3597290" />
+    <mabang tapeid="CATV32016" />
+    <description des="CAT VTV3 2016 CHUAN (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="02:02:56:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:10:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CAT VTV3 2016 CHUAN (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="112" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="CHUYỆN ĐÊM MUỘN" ten_ct="PHỤ NỮ VÀ NHỮNG CHUYẾN ĐI XA_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="9" />
+    <date date="04/12/2016" />
+    <event_id id="3597291" />
+    <mabang tapeid="CDQB_GTHOMNAY0412" />
+    <description des="GT HOM NAY 04/12 (Ngày HH: 04/12/2016)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="02:03:06:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:01:07:15" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="GT HOM NAY 04/12 (NGÀY HH" ten_ct="04/12/2016)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="102" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="CHUYỆN ĐÊM MUỘN" ten_ct="PHỤ NỮ VÀ NHỮNG CHUYẾN ĐI XA_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="10" />
+    <date date="04/12/2016" />
+    <event_id id="3597292" />
+    <mabang tapeid="DOCDM_PNVANHUNGCHUYENDIXA" />
+    <description des="Chuyện đêm muộn: Phụ nữ và những chuyến đi xa_1" />
+    <title ten_ct="CDM" />
+    <begin_time time="02:04:13:22" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:35:14" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CHUYỆN ĐÊM MUỘN" ten_ct="PHỤ NỮ VÀ NHỮNG CHUYẾN ĐI XA_1" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="35" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="CHUYỆN ĐÊM MUỘN" ten_ct="PHỤ NỮ VÀ NHỮNG CHUYẾN ĐI XA_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="11" />
+    <date date="04/12/2016" />
+    <event_id id="3597293" />
+    <mabang tapeid="DOCDM_PNVANHUNGCHUYENDIXA_2" />
+    <description des="Chuyện đêm muộn: Phụ nữ và những chuyến đi xa_2" />
+    <title ten_ct="CDM" />
+    <begin_time time="02:04:49:11" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:27:04:04" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CHUYỆN ĐÊM MUỘN" ten_ct="PHỤ NỮ VÀ NHỮNG CHUYẾN ĐI XA_2" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="120" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="CHUYỆN ĐÊM MUỘN" ten_ct="PHỤ NỮ VÀ NHỮNG CHUYẾN ĐI XA_3" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="12" />
+    <date date="04/12/2016" />
+    <event_id id="3597294" />
+    <mabang tapeid="DOCDM_PNVANHUNGCHUYENDIXA_3" />
+    <description des="Chuyện đêm muộn: Phụ nữ và những chuyến đi xa_3" />
+    <title ten_ct="CDM" />
+    <begin_time time="02:31:53:15" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:11:42:01" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CHUYỆN ĐÊM MUỘN" ten_ct="PHỤ NỮ VÀ NHỮNG CHUYẾN ĐI XA_3" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="130" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="ĐIỀU ƯỚC THỨ 7" ten_ct="SỐ 105(3.12)_1" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="13" />
+    <date date="04/12/2016" />
+    <event_id id="3597295" />
+    <mabang tapeid="CATV32016" />
+    <description des="CAT VTV3 2016 CHUAN (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="02:43:35:16" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:10:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CAT VTV3 2016 CHUAN (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="10" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="ĐIỀU ƯỚC THỨ 7" ten_ct="SỐ 105(3.12)_1" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="14" />
+    <date date="04/12/2016" />
+    <event_id id="3597296" />
+    <mabang tapeid="TTGTDUT7_SO1053.12" />
+    <description des="Điều ước thứ 7: Số 105(3.12)_1" />
+    <title ten_ct="DUT7" />
+    <begin_time time="02:43:45:16" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:14:42:09" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="ĐIỀU ƯỚC THỨ 7" ten_ct="SỐ 105(3.12)_1" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="120" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="ĐIỀU ƯỚC THỨ 7" ten_ct="SỐ 105(3.12)_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="15" />
+    <date date="04/12/2016" />
+    <event_id id="3597297" />
+    <mabang tapeid="TTGTDUT7_SO1053.12_2" />
+    <description des="Điều ước thứ 7: Số 105(3.12)_2" />
+    <title ten_ct="DUT7" />
+    <begin_time time="02:58:28:00" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:08:38:03" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="ĐIỀU ƯỚC THỨ 7" ten_ct="SỐ 105(3.12)_2" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="120" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="ĐIỀU ƯỚC THỨ 7" ten_ct="SỐ 105(3.12)_3" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="16" />
+    <date date="04/12/2016" />
+    <event_id id="3597298" />
+    <mabang tapeid="TTGTDUT7_SO1053.12_3" />
+    <description des="Điều ước thứ 7: Số 105(3.12)_3" />
+    <title ten_ct="DUT7" />
+    <begin_time time="03:07:06:03" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:21:24:07" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="ĐIỀU ƯỚC THỨ 7" ten_ct="SỐ 105(3.12)_3" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="120" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TRUYỆN NN 17H00" ten_ct="KHÔNG PHẢI TIẾNG SÉT ÁI TÌNH - TẬP 13" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="17" />
+    <date date="04/12/2016" />
+    <event_id id="3597299" />
+    <mabang tapeid="KTPPT17_KPTIENGSETAITINH_TAP13" />
+    <description des="Phim truyện NN 17h00: Không phải tiếng sét ái tình - Tập 13" />
+    <title ten_ct="PT17" />
+    <begin_time time="03:28:30:10" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:15:33:16" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="PHIM TRUYỆN NN 17H00" ten_ct="KHÔNG PHẢI TIẾNG SÉT ÁI TÌNH - TẬP 13" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="1665" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TRUYỆN NN - 18H00(V3)" ten_ct="KHÔNG PHẢI TIẾNG SÉT ÁI TÌNH - TẬP 14" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="18" />
+    <date date="04/12/2016" />
+    <event_id id="3600593" />
+    <mabang tapeid="KTPPT17_KPTIENGSETAITINH_TAP13" />
+    <description des="Phim truyện NN 17h00: Không phải tiếng sét ái tình - Tập 13" />
+    <title ten_ct="PT17" />
+    <begin_time time="03:44:04:01" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:16:07:15" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="PHIM TRUYỆN NN 17H00" ten_ct="KHÔNG PHẢI TIẾNG SÉT ÁI TÌNH - TẬP 13" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="698" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TRUYỆN NN - 18H00(V3)" ten_ct="KHÔNG PHẢI TIẾNG SÉT ÁI TÌNH - TẬP 14" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="19" />
+    <date date="04/12/2016" />
+    <event_id id="3600594" />
+    <mabang tapeid="KTPPT17_KPTIENGSETAITINH_TAP13" />
+    <description des="Phim truyện NN 17h00: Không phải tiếng sét ái tình - Tập 13" />
+    <title ten_ct="PT17" />
+    <begin_time time="04:00:11:16" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:09:38:13" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="PHIM TRUYỆN NN 17H00" ten_ct="KHÔNG PHẢI TIẾNG SÉT ÁI TÌNH - TẬP 13" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="120" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TRUYỆN NN - 18H00(V3)" ten_ct="KHÔNG PHẢI TIẾNG SÉT ÁI TÌNH - TẬP 14" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="20" />
+    <date date="04/12/2016" />
+    <event_id id="3597300" />
+    <mabang tapeid="KTPPT18_KPTIENGSETAITINH_TAP14" />
+    <description des="Phim truyện NN - 18h00(V3): Không phải tiếng sét ái tình - Tập 14" />
+    <title ten_ct="PT18" />
+    <begin_time time="04:09:50:04" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:14:17:01" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="PHIM TRUYỆN NN - 18H00(V3)" ten_ct="KHÔNG PHẢI TIẾNG SÉT ÁI TÌNH - TẬP 14" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="2317" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TÀI LIỆU (V3)" ten_ct="CU BA - NƠI TÌNH YÊU TRÚ NGỤ" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="21" />
+    <date date="04/12/2016" />
+    <event_id id="3600595" />
+    <mabang tapeid="KTPPT18_KPTIENGSETAITINH_TAP14" />
+    <description des="Phim truyện NN - 18h00(V3): Không phải tiếng sét ái tình - Tập 14" />
+    <title ten_ct="PT18" />
+    <begin_time time="04:24:07:05" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:15:28:04" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="PHIM TRUYỆN NN - 18H00(V3)" ten_ct="KHÔNG PHẢI TIẾNG SÉT ÁI TÌNH - TẬP 14" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="1389" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TÀI LIỆU (V3)" ten_ct="CU BA - NƠI TÌNH YÊU TRÚ NGỤ" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="22" />
+    <date date="04/12/2016" />
+    <event_id id="3600596" />
+    <mabang tapeid="KTPPT18_KPTIENGSETAITINH_TAP14" />
+    <description des="Phim truyện NN - 18h00(V3): Không phải tiếng sét ái tình - Tập 14" />
+    <title ten_ct="PT18" />
+    <begin_time time="04:39:35:09" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:14:56:09" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="PHIM TRUYỆN NN - 18H00(V3)" ten_ct="KHÔNG PHẢI TIẾNG SÉT ÁI TÌNH - TẬP 14" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="493" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TÀI LIỆU (V3)" ten_ct="CU BA - NƠI TÌNH YÊU TRÚ NGỤ" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="23" />
+    <date date="04/12/2016" />
+    <event_id id="3597301" />
+    <mabang tapeid="CATV32016" />
+    <description des="CAT VTV3 2016 CHUAN (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="04:54:31:18" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:10:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CAT VTV3 2016 CHUAN (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="373" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TÀI LIỆU (V3)" ten_ct="CU BA - NƠI TÌNH YÊU TRÚ NGỤ" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="24" />
+    <date date="04/12/2016" />
+    <event_id id="3600642" />
+    <mabang tapeid="CDQB_VTV_OIVIETNAM_VEMIENTAY" />
+    <description des="VTV - Ơi Việt Nam - Về miền Tây (Ngày HH: 30/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="04:54:41:18" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:46:19" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="VTV - ƠI VIỆT NAM - VỀ MIỀN TÂY (NGÀY HH" ten_ct="30/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="363" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TÀI LIỆU (V3)" ten_ct="CU BA - NƠI TÌNH YÊU TRÚ NGỤ" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="25" />
+    <date date="04/12/2016" />
+    <event_id id="3600636" />
+    <mabang tapeid="GTNS" />
+    <description des="GT Nhịp sống VTV3 tháng 12 (Ngày HH: 10/12/2016)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="04:55:28:12" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:05:17:01" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="GT NHỊP SỐNG VTV3 THÁNG 12 (NGÀY HH" ten_ct="10/12/2016)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="317" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TÀI LIỆU (V3)" ten_ct="CU BA - NƠI TÌNH YÊU TRÚ NGỤ" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="26" />
+    <date date="04/12/2016" />
+    <event_id id="3597302" />
+    <mabang tapeid="TKBTPTL_CUBA_NOITINHYEUTRUNGU" />
+    <description des="Phim tài liệu (V3): Cu Ba - Nơi tình yêu trú ngụ" />
+    <title ten_ct="PTL" />
+    <begin_time time="05:00:45:13" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:22:16:24" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="PHIM TÀI LIỆU (V3)" ten_ct="CU BA - NƠI TÌNH YÊU TRÚ NGỤ" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="404" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="BỐ ƠI! MÌNH ĐI ĐÂU THẾ?" ten_ct="BỐ ƠI MÌNH ĐI ĐÂU THẾ - TẬP 31 - 03/12_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="27" />
+    <date date="04/12/2016" />
+    <event_id id="3597303" />
+    <mabang tapeid="CATV32016" />
+    <description des="CAT VTV3 2016 CHUAN (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="05:23:02:12" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:10:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CAT VTV3 2016 CHUAN (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="284" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="BỐ ƠI! MÌNH ĐI ĐÂU THẾ?" ten_ct="BỐ ƠI MÌNH ĐI ĐÂU THẾ - TẬP 31 - 03/12_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="28" />
+    <date date="04/12/2016" />
+    <event_id id="3600638" />
+    <mabang tapeid="CDQB_CLIPGTPHIMDIEUBIMAT1612" />
+    <description des="Clip GT phim Điều bí mật (16/12) (Ngày HH: 16/12/2016)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="05:23:12:12" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:01:59:01" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CLIP GT PHIM ĐIỀU BÍ MẬT (16/12) (NGÀY HH" ten_ct="16/12/2016)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="274" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="BỐ ƠI! MÌNH ĐI ĐÂU THẾ?" ten_ct="BỐ ƠI MÌNH ĐI ĐÂU THẾ - TẬP 31 - 03/12_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="29" />
+    <date date="04/12/2016" />
+    <event_id id="3600640" />
+    <mabang tapeid="CDQB_TRAILER3TRANGFANPAGEVTV" />
+    <description des="Trailer 3 trang Fanpage VTV (Ngày HH: 30/12/2016)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="05:25:11:13" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:45:23" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="TRAILER 3 TRANG FANPAGE VTV (NGÀY HH" ten_ct="30/12/2016)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="155" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="BỐ ƠI! MÌNH ĐI ĐÂU THẾ?" ten_ct="BỐ ƠI MÌNH ĐI ĐÂU THẾ - TẬP 31 - 03/12_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="30" />
+    <date date="04/12/2016" />
+    <event_id id="3597304" />
+    <mabang tapeid="VFCBOOI_BOOIMINHDIDAUTHE_0312" />
+    <description des="Bố ơi! Mình đi đâu thế?: Bố ơi mình đi đâu thế - Tập 31 - 03/12_1" />
+    <title ten_ct="BOOI" />
+    <begin_time time="05:25:57:11" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:01:50:24" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="BỐ ƠI! MÌNH ĐI ĐÂU THẾ?" ten_ct="BỐ ƠI MÌNH ĐI ĐÂU THẾ - TẬP 31 - 03/12_1" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="110" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="BỐ ƠI! MÌNH ĐI ĐÂU THẾ?" ten_ct="BỐ ƠI MÌNH ĐI ĐÂU THẾ - TẬP 31 - 03/12_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="31" />
+    <date date="04/12/2016" />
+    <event_id id="3597305" />
+    <mabang tapeid="VFCBOOI_BOOIMINHDIDAUTHE_0312_2" />
+    <description des="Bố ơi! Mình đi đâu thế?: Bố ơi mình đi đâu thế - Tập 31 - 03/12_2" />
+    <title ten_ct="BOOI" />
+    <begin_time time="05:27:48:10" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:14:32:11" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="BỐ ƠI! MÌNH ĐI ĐÂU THẾ?" ten_ct="BỐ ƠI MÌNH ĐI ĐÂU THẾ - TẬP 31 - 03/12_2" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="120" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="BỐ ƠI! MÌNH ĐI ĐÂU THẾ?" ten_ct="BỐ ƠI MÌNH ĐI ĐÂU THẾ - TẬP 31 - 03/12_3" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="32" />
+    <date date="04/12/2016" />
+    <event_id id="3597306" />
+    <mabang tapeid="VFCBOOI_BOOIMINHDIDAUTHE_0312_3" />
+    <description des="Bố ơi! Mình đi đâu thế?: Bố ơi mình đi đâu thế - Tập 31 - 03/12_3" />
+    <title ten_ct="BOOI" />
+    <begin_time time="05:42:20:21" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:09:53:07" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="BỐ ƠI! MÌNH ĐI ĐÂU THẾ?" ten_ct="BỐ ƠI MÌNH ĐI ĐÂU THẾ - TẬP 31 - 03/12_3" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="120" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="BỐ ƠI! MÌNH ĐI ĐÂU THẾ?" ten_ct="BỐ ƠI MÌNH ĐI ĐÂU THẾ - TẬP 31 - 03/12_4" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="33" />
+    <date date="04/12/2016" />
+    <event_id id="3597307" />
+    <mabang tapeid="VFCBOOI_BOOIMINHDIDAUTHE_0312_4" />
+    <description des="Bố ơi! Mình đi đâu thế?: Bố ơi mình đi đâu thế - Tập 31 - 03/12_4" />
+    <title ten_ct="BOOI" />
+    <begin_time time="05:52:14:03" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:18:58:07" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="BỐ ƠI! MÌNH ĐI ĐÂU THẾ?" ten_ct="BỐ ƠI MÌNH ĐI ĐÂU THẾ - TẬP 31 - 03/12_4" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="7086" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu=" " ten_ct=" " />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="34" />
+    <date date="04/12/2016" />
+    <event_id id="3597308" />
+    <mabang tapeid="VFCBOOI_BOOIMINHDIDAUTHE_0312_5" />
+    <description des="Bố ơi! Mình đi đâu thế?: Bố ơi mình đi đâu thế - Tập 31 - 03/12_5" />
+    <title ten_ct="BOOI" />
+    <begin_time time="06:11:12:10" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:01:55:18" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="BỐ ƠI! MÌNH ĐI ĐÂU THẾ?" ten_ct="BỐ ƠI MÌNH ĐI ĐÂU THẾ - TẬP 31 - 03/12_5" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="6966" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu=" " ten_ct=" " />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="35" />
+    <date date="04/12/2016" />
+    <event_id id="3597309" />
+    <mabang tapeid="QC_VTV3_04122016_Q2_CUT1" />
+    <description des="QC 04.12.2016 Trôi chữ lúc 06h00" />
+    <title ten_ct="QC" />
+    <begin_time time="06:13:08:03" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:02:03:20" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 TRÔI CHỮ LÚC 06H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="6851" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu=" " ten_ct=" " />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="36" />
+    <date date="04/12/2016" />
+    <event_id id="3600597" />
+    <mabang tapeid="LIVE NHỊP ĐẬP 360 - 6H VTV3" />
+    <description des="LIVE NHỊP ĐẬP 360 - 6H VTV3" />
+    <title ten_ct="LIVE" />
+    <begin_time time="06:15:11:23" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:15:00:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="LIVE NHỊP ĐẬP 360 - 6H VTV3" ten_ct=" " status="1" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="6728" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu=" " ten_ct=" " />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="37" />
+    <date date="04/12/2016" />
+    <event_id id="3597312" />
+    <mabang tapeid="QC_VTV3_04122016_D1_CUT1" />
+    <description des="QC 04.12.2016 Nhịp đập 360 Thể thao_Trong CT phút 15_06h00" />
+    <title ten_ct="QC" />
+    <begin_time time="06:30:11:23" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:01:03:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 NHỊP ĐẬP 360 THỂ THAO_TRONG CT PHÚT 15_06H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="5828" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu=" " ten_ct=" " />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="38" />
+    <date date="04/12/2016" />
+    <event_id id="3600602" />
+    <mabang tapeid="LIVE NHỊP ĐẬP 360 - 6H VTV3" />
+    <description des="LIVE NHỊP ĐẬP 360 - 6H VTV3" />
+    <title ten_ct="LIVE" />
+    <begin_time time="06:31:14:23" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:30:00:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="LIVE NHỊP ĐẬP 360 - 6H VTV3" ten_ct=" " status="1" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="5765" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu=" " ten_ct=" " />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="39" />
+    <date date="04/12/2016" />
+    <event_id id="3597313" />
+    <mabang tapeid="QC_VTV3_04122016_D1_CUT2" />
+    <description des="QC 04.12.2016 Nhịp đập 360 Thể thao_Trước bảng chữ đơn vị SXCT_06h00" />
+    <title ten_ct="QC" />
+    <begin_time time="07:01:14:23" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:08:01" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 NHỊP ĐẬP 360 THỂ THAO_TRƯỚC BẢNG CHỮ ĐƠN VỊ SXCT_06H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="3965" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu=" " ten_ct=" " />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="40" />
+    <date date="04/12/2016" />
+    <event_id id="3597314" />
+    <mabang tapeid="GATCUOIBANTHETHAO" />
+    <description des="GẠT CUỐI BAN THỂ THAO (Ngày HH: 31/12/2017) (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="07:01:22:24" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:05:21" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="GẠT CUỐI BAN THỂ THAO (NGÀY HH" ten_ct="31/12/2017) (NGÀY HH: 31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="3957" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu=" " ten_ct=" " />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="41" />
+    <date date="04/12/2016" />
+    <event_id id="3600605" />
+    <mabang tapeid="CATV32016" />
+    <description des="CAT VTV3 2016 CHUAN (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="07:01:28:20" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:10:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CAT VTV3 2016 CHUAN (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="3952" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu=" " ten_ct=" " />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="42" />
+    <date date="04/12/2016" />
+    <event_id id="3597315" />
+    <mabang tapeid="MMSVN1544THOMDEOBUNDEN" />
+    <description des="S- Việt Nam (5): Tập 1544 Thơm dẻo bún đen  Mạch Tràng (V3)" />
+    <title ten_ct="SVN" />
+    <begin_time time="07:01:38:20" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:04:35:22" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="S- VIỆT NAM (5)" ten_ct="TẬP 1544 THƠM DẺO BÚN ĐEN  MẠCH TRÀNG (V3)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="3942" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu=" " ten_ct=" " />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="43" />
+    <date date="04/12/2016" />
+    <event_id id="3600606" />
+    <mabang tapeid="CATV32016" />
+    <description des="CAT VTV3 2016 CHUAN (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="07:06:14:17" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:10:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CAT VTV3 2016 CHUAN (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="3667" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu=" " ten_ct=" " />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="44" />
+    <date date="04/12/2016" />
+    <event_id id="3597316" />
+    <mabang tapeid="HHCAFESANGCUOITUAN" />
+    <description des="HH CAFE SANG CUOI TUAN (Ngày HH: 31/12/2017) (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="07:06:24:17" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:19:11" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="HH CAFE SANG CUOI TUAN (NGÀY HH" ten_ct="31/12/2017) (NGÀY HH: 31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="3657" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu=" " ten_ct=" " />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="45" />
+    <date date="04/12/2016" />
+    <event_id id="3597318" />
+    <mabang tapeid="QC_VTV3_04122016_D2_CUT1" />
+    <description des="QC 04.12.2016 Cafe Sáng_Sau hình hiệu đầu_07h00" />
+    <title ten_ct="QC" />
+    <begin_time time="07:06:44:03" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:33:04" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 CAFE SÁNG_SAU HÌNH HIỆU ĐẦU_07H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="3638" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu=" " ten_ct=" " />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="46" />
+    <date date="04/12/2016" />
+    <event_id id="3600598" />
+    <mabang tapeid="LIVE CAFE SÁNG VTV3" />
+    <description des="LIVE CAFE SÁNG VTV3" />
+    <title ten_ct="LIVE" />
+    <begin_time time="07:07:17:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:55:00:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="LIVE CAFE SÁNG VTV3" ten_ct=" " status="1" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="3605" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu=" " ten_ct=" " />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="47" />
+    <date date="04/12/2016" />
+    <event_id id="3600608" />
+    <mabang tapeid="CATV32016" />
+    <description des="CAT VTV3 2016 CHUAN (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="08:02:17:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:10:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CAT VTV3 2016 CHUAN (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="305" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu=" " ten_ct=" " />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="48" />
+    <date date="04/12/2016" />
+    <event_id id="3600599" />
+    <mabang tapeid="TT8H_VTV3_04122016_0758" />
+    <description des="Thời tiết 8h00: Thời tiết 8h00" />
+    <title ten_ct="TT8H" />
+    <begin_time time="08:02:27:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:02:00:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="THỜI TIẾT 8H00" ten_ct="THỜI TIẾT 8H00" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="295" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu=" " ten_ct=" " />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="49" />
+    <date date="04/12/2016" />
+    <event_id id="3597320" />
+    <mabang tapeid="DOKNS_KHICHAMEQUABAOBOCCON" />
+    <description des="Kỹ năng sống: Khi cha mẹ quá bao bọc con" />
+    <title ten_ct="KNS" />
+    <begin_time time="08:04:27:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:20:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="KỸ NĂNG SỐNG" ten_ct="KHI CHA MẸ QUÁ BAO BỌC CON" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="1358" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu=" " ten_ct=" " />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="50" />
+    <date date="04/12/2016" />
+    <event_id id="3597321" />
+    <mabang tapeid="QC_VTV3_04122016_D3_CUT5" />
+    <description des="QC 04.12.2016 Kỹ năng sống_Sau hình hiệu đầu_08h00" />
+    <title ten_ct="QC" />
+    <begin_time time="08:04:47:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:02:35:23" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 KỸ NĂNG SỐNG_SAU HÌNH HIỆU ĐẦU_08H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="155" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu=" " ten_ct=" " />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="51" />
+    <date date="04/12/2016" />
+    <event_id id="3600626" />
+    <mabang tapeid="DOKNS_KHICHAMEQUABAOBOCCON" />
+    <description des="Kỹ năng sống: Khi cha mẹ quá bao bọc con" />
+    <title ten_ct="KNS" />
+    <begin_time time="08:07:23:05" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:14:37:15" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="KỸ NĂNG SỐNG" ten_ct="KHI CHA MẸ QUÁ BAO BỌC CON" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="426" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="BỐ ƠI! MẸ THÍCH GÌ?" ten_ct="BỐ ƠI MẸ THÍCH GÌ - 04/12_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="52" />
+    <date date="04/12/2016" />
+    <event_id id="3600609" />
+    <mabang tapeid="CATV32016" />
+    <description des="CAT VTV3 2016 CHUAN (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="08:22:00:20" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:10:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CAT VTV3 2016 CHUAN (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="306" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="BỐ ƠI! MẸ THÍCH GÌ?" ten_ct="BỐ ƠI MẸ THÍCH GÌ - 04/12_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="53" />
+    <date date="04/12/2016" />
+    <event_id id="3597322" />
+    <mabang tapeid="SLEBOMT_BOOIMETHICHGI_0412" />
+    <description des="Bố ơi! Mẹ thích gì?: Bố ơi mẹ thích gì - 04/12_1" />
+    <title ten_ct="BOMT" />
+    <begin_time time="08:22:10:20" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:24:09" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="BỐ ƠI! MẸ THÍCH GÌ?" ten_ct="BỐ ƠI MẸ THÍCH GÌ - 04/12_1" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="296" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="BỐ ƠI! MẸ THÍCH GÌ?" ten_ct="BỐ ƠI MẸ THÍCH GÌ - 04/12_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="54" />
+    <date date="04/12/2016" />
+    <event_id id="3597327" />
+    <mabang tapeid="QC_VTV3_04122016_D3.1_CUT1" />
+    <description des="QC 04.12.2016 Bố ơi mẹ thích gì_Sau hình hiệu đầu_08h20" />
+    <title ten_ct="QC" />
+    <begin_time time="08:22:35:04" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:04:32:24" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 BỐ ƠI MẸ THÍCH GÌ_SAU HÌNH HIỆU ĐẦU_08H20" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="272" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="BỐ ƠI! MẸ THÍCH GÌ?" ten_ct="BỐ ƠI MẸ THÍCH GÌ - 04/12_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="55" />
+    <date date="04/12/2016" />
+    <event_id id="3597323" />
+    <mabang tapeid="SLEBOMT_BOOIMETHICHGI_0412_2" />
+    <description des="Bố ơi! Mẹ thích gì?: Bố ơi mẹ thích gì - 04/12_2" />
+    <title ten_ct="BOMT" />
+    <begin_time time="08:27:08:03" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:12:46:04" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="BỐ ƠI! MẸ THÍCH GÌ?" ten_ct="BỐ ƠI MẸ THÍCH GÌ - 04/12_2" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="258" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="BỐ ƠI! MẸ THÍCH GÌ?" ten_ct="BỐ ƠI MẸ THÍCH GÌ - 04/12_3" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="56" />
+    <date date="04/12/2016" />
+    <event_id id="3597328" />
+    <mabang tapeid="QC_VTV3_04122016_D3.1_CUT2" />
+    <description des="QC 04.12.2016 Bố ơi mẹ thích gì_Lát cắt 2_08h20" />
+    <title ten_ct="QC" />
+    <begin_time time="08:39:54:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:02:18:01" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 BỐ ƠI MẸ THÍCH GÌ_LÁT CẮT 2_08H20" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="138" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="BỐ ƠI! MẸ THÍCH GÌ?" ten_ct="BỐ ƠI MẸ THÍCH GÌ - 04/12_3" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="57" />
+    <date date="04/12/2016" />
+    <event_id id="3597324" />
+    <mabang tapeid="SLEBOMT_BOOIMETHICHGI_0412_3" />
+    <description des="Bố ơi! Mẹ thích gì?: Bố ơi mẹ thích gì - 04/12_3" />
+    <title ten_ct="BOMT" />
+    <begin_time time="08:42:12:08" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:11:05:19" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="BỐ ƠI! MẸ THÍCH GÌ?" ten_ct="BỐ ƠI MẸ THÍCH GÌ - 04/12_3" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="198" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="BỐ ƠI! MẸ THÍCH GÌ?" ten_ct="BỐ ƠI MẸ THÍCH GÌ - 04/12_4" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="58" />
+    <date date="04/12/2016" />
+    <event_id id="3597329" />
+    <mabang tapeid="QC_VTV3_04122016_D3.1_CUT3" />
+    <description des="QC 04.12.2016 Bố ơi mẹ thích gì_Lát cắt 3_08h20" />
+    <title ten_ct="QC" />
+    <begin_time time="08:53:18:02" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:01:18:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 BỐ ƠI MẸ THÍCH GÌ_LÁT CẮT 3_08H20" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="78" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="BỐ ƠI! MẸ THÍCH GÌ?" ten_ct="BỐ ƠI MẸ THÍCH GÌ - 04/12_4" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="59" />
+    <date date="04/12/2016" />
+    <event_id id="3597325" />
+    <mabang tapeid="SLEBOMT_BOOIMETHICHGI_0412_4" />
+    <description des="Bố ơi! Mẹ thích gì?: Bố ơi mẹ thích gì - 04/12_4" />
+    <title ten_ct="BOMT" />
+    <begin_time time="08:54:36:02" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:09:56:04" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="BỐ ƠI! MẸ THÍCH GÌ?" ten_ct="BỐ ƠI MẸ THÍCH GÌ - 04/12_4" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="521" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="SÁNG TẠO VIỆT" ten_ct="SÁNG TẠO VIỆT SỐ 39_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="60" />
+    <date date="04/12/2016" />
+    <event_id id="3597330" />
+    <mabang tapeid="QC_VTV3_04122016_D3.1_CUT4" />
+    <description des="QC 04.12.2016 Bố ơi mẹ thích gì_Trước bảng chữ cuối_08h20" />
+    <title ten_ct="QC" />
+    <begin_time time="09:04:32:06" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:18:01" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 BỐ ƠI MẸ THÍCH GÌ_TRƯỚC BẢNG CHỮ CUỐI_08H20" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="401" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="SÁNG TẠO VIỆT" ten_ct="SÁNG TẠO VIỆT SỐ 39_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="61" />
+    <date date="04/12/2016" />
+    <event_id id="3597326" />
+    <mabang tapeid="SLEBOMT_BOOIMETHICHGI_0412_5" />
+    <description des="Bố ơi! Mẹ thích gì?: Bố ơi mẹ thích gì - 04/12_5" />
+    <title ten_ct="BOMT" />
+    <begin_time time="09:04:50:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:39:19" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="BỐ ƠI! MẸ THÍCH GÌ?" ten_ct="BỐ ƠI MẸ THÍCH GÌ - 04/12_5" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="383" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="SÁNG TẠO VIỆT" ten_ct="SÁNG TẠO VIỆT SỐ 39_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="62" />
+    <date date="04/12/2016" />
+    <event_id id="3600610" />
+    <mabang tapeid="CATV32016" />
+    <description des="CAT VTV3 2016 CHUAN (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="09:05:30:01" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:10:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CAT VTV3 2016 CHUAN (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="344" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="SÁNG TẠO VIỆT" ten_ct="SÁNG TẠO VIỆT SỐ 39_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="63" />
+    <date date="04/12/2016" />
+    <event_id id="3597331" />
+    <mabang tapeid="QC_VTV3_04122016_D7_CUT0" />
+    <description des="QC 04.12.2016 Trước CT Tùy Đạo diễn_9h00" />
+    <title ten_ct="QC" />
+    <begin_time time="09:05:40:01" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:02:27:16" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 TRƯỚC CT TÙY ĐẠO DIỄN_9H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="334" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="SÁNG TẠO VIỆT" ten_ct="SÁNG TẠO VIỆT SỐ 39_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="64" />
+    <date date="04/12/2016" />
+    <event_id id="3597332" />
+    <mabang tapeid="TRSTV_SANGTAOVIETSO39" />
+    <description des="Sáng tạo Việt: Sáng tạo Việt số 39_1" />
+    <title ten_ct="STV" />
+    <begin_time time="09:08:07:17" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:14:15" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="SÁNG TẠO VIỆT" ten_ct="SÁNG TẠO VIỆT SỐ 39_1" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="187" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="SÁNG TẠO VIỆT" ten_ct="SÁNG TẠO VIỆT SỐ 39_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="65" />
+    <date date="04/12/2016" />
+    <event_id id="3597336" />
+    <mabang tapeid="QC_VTV3_04122016_D7.1_CUT1" />
+    <description des="QC 04.12.2016 Sáng tạo Việt_Sau Hình hiệu đầu_09h00" />
+    <title ten_ct="QC" />
+    <begin_time time="09:08:22:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:02:53:14" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 SÁNG TẠO VIỆT_SAU HÌNH HIỆU ĐẦU_09H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="173" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="SÁNG TẠO VIỆT" ten_ct="SÁNG TẠO VIỆT SỐ 39_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="66" />
+    <date date="04/12/2016" />
+    <event_id id="3597333" />
+    <mabang tapeid="TRSTV_SANGTAOVIETSO39_2" />
+    <description des="Sáng tạo Việt: Sáng tạo Việt số 39_2" />
+    <title ten_ct="STV" />
+    <begin_time time="09:11:15:21" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:18:55:22" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="SÁNG TẠO VIỆT" ten_ct="SÁNG TẠO VIỆT SỐ 39_2" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="153" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="SÁNG TẠO VIỆT" ten_ct="SÁNG TẠO VIỆT SỐ 39_3" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="67" />
+    <date date="04/12/2016" />
+    <event_id id="3597337" />
+    <mabang tapeid="QC_VTV3_04122016_D7.1_CUT2" />
+    <description des="QC 04.12.2016 Sáng tạo Việt_Lát cắt 2_09h00" />
+    <title ten_ct="QC" />
+    <begin_time time="09:30:11:18" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:33:08" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 SÁNG TẠO VIỆT_LÁT CẮT 2_09H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="33" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="SÁNG TẠO VIỆT" ten_ct="SÁNG TẠO VIỆT SỐ 39_3" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="68" />
+    <date date="04/12/2016" />
+    <event_id id="3597334" />
+    <mabang tapeid="TRSTV_SANGTAOVIETSO39_3" />
+    <description des="Sáng tạo Việt: Sáng tạo Việt số 39_3" />
+    <title ten_ct="STV" />
+    <begin_time time="09:30:45:01" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:21:54:16" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="SÁNG TẠO VIỆT" ten_ct="SÁNG TẠO VIỆT SỐ 39_3" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="448" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TÀI LIỆU (V3)" ten_ct="VIỆT NAM - NHỮNG NĂM THÁNG KHÔNG QUÊN" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="69" />
+    <date date="04/12/2016" />
+    <event_id id="3597338" />
+    <mabang tapeid="QC_VTV3_04122016_D7.1_CUT3" />
+    <description des="QC 04.12.2016 Sáng tạo Việt_Lát cắt 3_09h00" />
+    <title ten_ct="QC" />
+    <begin_time time="09:52:39:17" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:33:13" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 SÁNG TẠO VIỆT_LÁT CẮT 3_09H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="328" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TÀI LIỆU (V3)" ten_ct="VIỆT NAM - NHỮNG NĂM THÁNG KHÔNG QUÊN" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="70" />
+    <date date="04/12/2016" />
+    <event_id id="3597335" />
+    <mabang tapeid="TRSTV_SANGTAOVIETSO39_4" />
+    <description des="Sáng tạo Việt: Sáng tạo Việt số 39_4" />
+    <title ten_ct="STV" />
+    <begin_time time="09:53:13:05" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:03:43:05" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="SÁNG TẠO VIỆT" ten_ct="SÁNG TẠO VIỆT SỐ 39_4" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="295" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TÀI LIỆU (V3)" ten_ct="VIỆT NAM - NHỮNG NĂM THÁNG KHÔNG QUÊN" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="71" />
+    <date date="04/12/2016" />
+    <event_id id="3600611" />
+    <mabang tapeid="CATV32016" />
+    <description des="CAT VTV3 2016 CHUAN (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="09:56:56:10" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:10:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CAT VTV3 2016 CHUAN (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="72" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TÀI LIỆU (V3)" ten_ct="VIỆT NAM - NHỮNG NĂM THÁNG KHÔNG QUÊN" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="72" />
+    <date date="04/12/2016" />
+    <event_id id="3597803" />
+    <mabang tapeid="QC_VTV3_04122016_C5_CUT0" />
+    <description des="QC 04.12.2016 Trước CT Tùy Đạo diễn_10h00" />
+    <title ten_ct="QC" />
+    <begin_time time="09:57:06:10" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:01:02:22" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 TRƯỚC CT TÙY ĐẠO DIỄN_10H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="62" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TÀI LIỆU (V3)" ten_ct="VIỆT NAM - NHỮNG NĂM THÁNG KHÔNG QUÊN" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="73" />
+    <date date="04/12/2016" />
+    <event_id id="3597339" />
+    <mabang tapeid="TKBTPTL_VIETNAM_HONGQUEN" />
+    <description des="Phim tài liệu (V3): Việt Nam - Những năm tháng không quên" />
+    <title ten_ct="PTL" />
+    <begin_time time="09:58:09:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:28:44:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="PHIM TÀI LIỆU (V3)" ten_ct="VIỆT NAM - NHỮNG NĂM THÁNG KHÔNG QUÊN" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="502" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="GIAO HƯỞNG THÍNH PHÒNG" ten_ct="DÀN NHẠC GIAO HƯỞNG NHẠC VIỆN HÀ NỘI" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="74" />
+    <date date="04/12/2016" />
+    <event_id id="3600612" />
+    <mabang tapeid="CATV32016" />
+    <description des="CAT VTV3 2016 CHUAN (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="10:26:53:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:10:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CAT VTV3 2016 CHUAN (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="382" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="GIAO HƯỞNG THÍNH PHÒNG" ten_ct="DÀN NHẠC GIAO HƯỞNG NHẠC VIỆN HÀ NỘI" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="75" />
+    <date date="04/12/2016" />
+    <event_id id="3597340" />
+    <mabang tapeid="TSKUVN_CHUYENTHAMNAM1973" />
+    <description des="Ký ức Việt Nam: Chuyến thăm năm 1973 của Chủ tịch Fidel Castro" />
+    <title ten_ct="KUVN" />
+    <begin_time time="10:27:03:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:06:02:22" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="KÝ ỨC VIỆT NAM" ten_ct="CHUYẾN THĂM NĂM 1973 CỦA CHỦ TỊCH FIDEL CASTRO" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="372" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="GIAO HƯỞNG THÍNH PHÒNG" ten_ct="DÀN NHẠC GIAO HƯỞNG NHẠC VIỆN HÀ NỘI" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="76" />
+    <date date="04/12/2016" />
+    <event_id id="3600613" />
+    <mabang tapeid="CATV32016" />
+    <description des="CAT VTV3 2016 CHUAN (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="10:33:06:04" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:10:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CAT VTV3 2016 CHUAN (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="10" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="GIAO HƯỞNG THÍNH PHÒNG" ten_ct="DÀN NHẠC GIAO HƯỞNG NHẠC VIỆN HÀ NỘI" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="77" />
+    <date date="04/12/2016" />
+    <event_id id="3597341" />
+    <mabang tapeid="VNGHTP_NHACVIENHANOI" />
+    <description des="Giao hưởng thính phòng: Dàn nhạc giao hưởng Nhạc viện Hà Nội" />
+    <title ten_ct="GHTP" />
+    <begin_time time="10:33:16:04" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:31:16:22" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="GIAO HƯỞNG THÍNH PHÒNG" ten_ct="DÀN NHẠC GIAO HƯỞNG NHẠC VIỆN HÀ NỘI" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="197" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="KHÔNG GIAN XANH" ten_ct="HÀI HÒA GIỮA MỚI VÀ CŨ - ĐẶNG PHAN LẠC VIỆT" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="78" />
+    <date date="04/12/2016" />
+    <event_id id="3600614" />
+    <mabang tapeid="CATV32016" />
+    <description des="CAT VTV3 2016 CHUAN (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="11:04:33:01" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:10:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CAT VTV3 2016 CHUAN (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="77" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="KHÔNG GIAN XANH" ten_ct="HÀI HÒA GIỮA MỚI VÀ CŨ - ĐẶNG PHAN LẠC VIỆT" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="79" />
+    <date date="04/12/2016" />
+    <event_id id="3597342" />
+    <mabang tapeid="CONKGX_DANGPHANLACVIET" />
+    <description des="Không gian xanh: Hài hòa giữa mới và cũ - Đặng Phan Lạc Việt" />
+    <title ten_ct="KGX" />
+    <begin_time time="11:04:43:01" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:14:19" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="KHÔNG GIAN XANH" ten_ct="HÀI HÒA GIỮA MỚI VÀ CŨ - ĐẶNG PHAN LẠC VIỆT" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="719" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="KHÔNG GIAN XANH" ten_ct="HÀI HÒA GIỮA MỚI VÀ CŨ - ĐẶNG PHAN LẠC VIỆT" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="80" />
+    <date date="04/12/2016" />
+    <event_id id="3597804" />
+    <mabang tapeid="QC_VTV3_04122016_C5_CUT5" />
+    <description des="QC 04.12.2016 Không gian xanh_Sau hình hiệu đầu_10h45" />
+    <title ten_ct="QC" />
+    <begin_time time="11:04:57:20" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:53:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 KHÔNG GIAN XANH_SAU HÌNH HIỆU ĐẦU_10H45" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="53" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="KHÔNG GIAN XANH" ten_ct="HÀI HÒA GIỮA MỚI VÀ CŨ - ĐẶNG PHAN LẠC VIỆT" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="81" />
+    <date date="04/12/2016" />
+    <event_id id="3600630" />
+    <mabang tapeid="CONKGX_DANGPHANLACVIET" />
+    <description des="Không gian xanh: Hài hòa giữa mới và cũ - Đặng Phan Lạc Việt" />
+    <title ten_ct="KGX" />
+    <begin_time time="11:05:50:20" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:09:44:11" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="KHÔNG GIAN XANH" ten_ct="HÀI HÒA GIỮA MỚI VÀ CŨ - ĐẶNG PHAN LẠC VIỆT" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="188" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="100 TRIỆU 1 PHÚT" ten_ct="100 TRIỆU 1 PHÚT - SỐ 19 - 04/12_1" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="82" />
+    <date date="04/12/2016" />
+    <event_id id="3597805" />
+    <mabang tapeid="QC_VTV3_04122016_C5_CUT6" />
+    <description des="QC 04.12.2016 Không gian xanh_Lát cắt 2_10h45" />
+    <title ten_ct="QC" />
+    <begin_time time="11:15:35:06" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:38:01" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 KHÔNG GIAN XANH_LÁT CẮT 2_10H45" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="68" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="100 TRIỆU 1 PHÚT" ten_ct="100 TRIỆU 1 PHÚT - SỐ 19 - 04/12_1" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="83" />
+    <date date="04/12/2016" />
+    <event_id id="3600631" />
+    <mabang tapeid="CONKGX_DANGPHANLACVIET" />
+    <description des="Không gian xanh: Hài hòa giữa mới và cũ - Đặng Phan Lạc Việt" />
+    <title ten_ct="KGX" />
+    <begin_time time="11:16:13:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:20:24" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="KHÔNG GIAN XANH" ten_ct="HÀI HÒA GIỮA MỚI VÀ CŨ - ĐẶNG PHAN LẠC VIỆT" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="30" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="100 TRIỆU 1 PHÚT" ten_ct="100 TRIỆU 1 PHÚT - SỐ 19 - 04/12_1" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="84" />
+    <date date="04/12/2016" />
+    <event_id id="3600615" />
+    <mabang tapeid="CATV32016" />
+    <description des="CAT VTV3 2016 CHUAN (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="11:16:34:06" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:10:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CAT VTV3 2016 CHUAN (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="10" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="100 TRIỆU 1 PHÚT" ten_ct="100 TRIỆU 1 PHÚT - SỐ 19 - 04/12_1" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="85" />
+    <date date="04/12/2016" />
+    <event_id id="3597343" />
+    <mabang tapeid="TTGT100T_100TRIEU1PHUT_0412" />
+    <description des="100 triệu 1 phút: 100 triệu 1 phút - Số 19 - 04/12_1" />
+    <title ten_ct="100T" />
+    <begin_time time="11:16:44:06" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:06:43:23" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="100 TRIỆU 1 PHÚT" ten_ct="100 TRIỆU 1 PHÚT - SỐ 19 - 04/12_1" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="2395" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="GIA ĐÌNH VUI VẺ" ten_ct="GIA ĐÌNH MINH HIẾU - PHẦN 2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="86" />
+    <date date="04/12/2016" />
+    <event_id id="3597806" />
+    <mabang tapeid="QC_VTV3_04122016_C6.1_CUT1" />
+    <description des="QC 04.12.2016 100 triệu 1 phút_Sau hình hiệu đầu_11h00" />
+    <title ten_ct="QC" />
+    <begin_time time="11:23:28:04" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:05:04:22" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 100 TRIỆU 1 PHÚT_SAU HÌNH HIỆU ĐẦU_11H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="2275" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="GIA ĐÌNH VUI VẺ" ten_ct="GIA ĐÌNH MINH HIẾU - PHẦN 2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="87" />
+    <date date="04/12/2016" />
+    <event_id id="3597344" />
+    <mabang tapeid="TTGT100T_100TRIEU1PHUT_0412_2" />
+    <description des="100 triệu 1 phút: 100 triệu 1 phút - Số 19 - 04/12_2" />
+    <title ten_ct="100T" />
+    <begin_time time="11:28:33:01" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:03:44:12" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="100 TRIỆU 1 PHÚT" ten_ct="100 TRIỆU 1 PHÚT - SỐ 19 - 04/12_2" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="1971" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="GIA ĐÌNH VUI VẺ" ten_ct="GIA ĐÌNH MINH HIẾU - PHẦN 2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="88" />
+    <date date="04/12/2016" />
+    <event_id id="3597807" />
+    <mabang tapeid="QC_VTV3_04122016_C6.1_CUT2" />
+    <description des="QC 04.12.2016 100 triệu 1 phút_Lát cắt 2_11h00" />
+    <title ten_ct="QC" />
+    <begin_time time="11:32:17:13" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:04:38:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 100 TRIỆU 1 PHÚT_LÁT CẮT 2_11H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="1747" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="GIA ĐÌNH VUI VẺ" ten_ct="GIA ĐÌNH MINH HIẾU - PHẦN 2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="89" />
+    <date date="04/12/2016" />
+    <event_id id="3597345" />
+    <mabang tapeid="TTGT100T_100TRIEU1PHUT_0412_3" />
+    <description des="100 triệu 1 phút: 100 triệu 1 phút - Số 19 - 04/12_3" />
+    <title ten_ct="100T" />
+    <begin_time time="11:36:55:13" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:05:17:07" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="100 TRIỆU 1 PHÚT" ten_ct="100 TRIỆU 1 PHÚT - SỐ 19 - 04/12_3" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="1469" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="GIA ĐÌNH VUI VẺ" ten_ct="GIA ĐÌNH MINH HIẾU - PHẦN 2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="90" />
+    <date date="04/12/2016" />
+    <event_id id="3597808" />
+    <mabang tapeid="QC_VTV3_04122016_C6.1_CUT3" />
+    <description des="QC 04.12.2016 100 triệu 1 phút_Lát cắt 3_11h00" />
+    <title ten_ct="QC" />
+    <begin_time time="11:42:12:20" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:05:02:23" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 100 TRIỆU 1 PHÚT_LÁT CẮT 3_11H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="1152" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="GIA ĐÌNH VUI VẺ" ten_ct="GIA ĐÌNH MINH HIẾU - PHẦN 2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="91" />
+    <date date="04/12/2016" />
+    <event_id id="3597346" />
+    <mabang tapeid="TTGT100T_100TRIEU1PHUT_0412_4" />
+    <description des="100 triệu 1 phút: 100 triệu 1 phút - Số 19 - 04/12_4" />
+    <title ten_ct="100T" />
+    <begin_time time="11:47:15:18" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:02:50:24" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="100 TRIỆU 1 PHÚT" ten_ct="100 TRIỆU 1 PHÚT - SỐ 19 - 04/12_4" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="850" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="GIA ĐÌNH VUI VẺ" ten_ct="GIA ĐÌNH MINH HIẾU - PHẦN 2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="92" />
+    <date date="04/12/2016" />
+    <event_id id="3597809" />
+    <mabang tapeid="QC_VTV3_04122016_C6.1_CUT4" />
+    <description des="QC 04.12.2016 100 triệu 1 phút_Lát cắt 4_11h00" />
+    <title ten_ct="QC" />
+    <begin_time time="11:50:06:17" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:05:03:03" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 100 TRIỆU 1 PHÚT_LÁT CẮT 4_11H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="680" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="GIA ĐÌNH VUI VẺ" ten_ct="GIA ĐÌNH MINH HIẾU - PHẦN 2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="93" />
+    <date date="04/12/2016" />
+    <event_id id="3597347" />
+    <mabang tapeid="TTGT100T_100TRIEU1PHUT_0412_5" />
+    <description des="100 triệu 1 phút: 100 triệu 1 phút - Số 19 - 04/12_5" />
+    <title ten_ct="100T" />
+    <begin_time time="11:55:09:20" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:06:07:04" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="100 TRIỆU 1 PHÚT" ten_ct="100 TRIỆU 1 PHÚT - SỐ 19 - 04/12_5" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="377" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="GIA ĐÌNH VUI VẺ" ten_ct="GIA ĐÌNH MINH HIẾU - PHẦN 2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="94" />
+    <date date="04/12/2016" />
+    <event_id id="3600616" />
+    <mabang tapeid="CATV32016" />
+    <description des="CAT VTV3 2016 CHUAN (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="12:01:16:24" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:10:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CAT VTV3 2016 CHUAN (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="10" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="GIA ĐÌNH VUI VẺ" ten_ct="GIA ĐÌNH MINH HIẾU - PHẦN 2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="95" />
+    <date date="04/12/2016" />
+    <event_id id="3597348" />
+    <mabang tapeid="CONGDVV_GIADINHMINHHIEU_PHAN2" />
+    <description des="Gia đình vui vẻ: Gia đình Minh Hiếu - Phần 2" />
+    <title ten_ct="GDVV" />
+    <begin_time time="12:01:26:24" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:10:06:13" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="GIA ĐÌNH VUI VẺ" ten_ct="GIA ĐÌNH MINH HIẾU - PHẦN 2" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="816" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TÀI LIỆU (V3)" ten_ct="FIDEL - CÂU CHUYỆN CHƯA ĐƯỢC KỂ" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="96" />
+    <date date="04/12/2016" />
+    <event_id id="3597349" />
+    <mabang tapeid="QC_VTV3_04122016_D10.1_CUT1" />
+    <description des="QC 04.12.2016 Gia đình vui vẻ_Sau hình hiệu đầu_11h50" />
+    <title ten_ct="QC" />
+    <begin_time time="12:11:33:12" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:05:04:19" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 GIA ĐÌNH VUI VẺ_SAU HÌNH HIỆU ĐẦU_11H50" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="696" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TÀI LIỆU (V3)" ten_ct="FIDEL - CÂU CHUYỆN CHƯA ĐƯỢC KỂ" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="97" />
+    <date date="04/12/2016" />
+    <event_id id="3597350" />
+    <mabang tapeid="QC_VTV3_04122016_D10.1_CUT2" />
+    <description des="QC 04.12.2016 Gia đình vui vẻ_Trước bảng chữ cuối_11h50" />
+    <title ten_ct="QC" />
+    <begin_time time="12:16:38:06" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:05:03:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 GIA ĐÌNH VUI VẺ_TRƯỚC BẢNG CHỮ CUỐI_11H50" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="392" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TÀI LIỆU (V3)" ten_ct="FIDEL - CÂU CHUYỆN CHƯA ĐƯỢC KỂ" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="98" />
+    <date date="04/12/2016" />
+    <event_id id="3597351" />
+    <mabang tapeid="QC_VTV3_04122016_Q3_CUT1" />
+    <description des="QC 04.12.2016 Trôi chữ lúc 12h00" />
+    <title ten_ct="QC" />
+    <begin_time time="12:21:41:06" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:01:29:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 TRÔI CHỮ LÚC 12H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="89" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TÀI LIỆU (V3)" ten_ct="FIDEL - CÂU CHUYỆN CHƯA ĐƯỢC KỂ" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="99" />
+    <date date="04/12/2016" />
+    <event_id id="3597352" />
+    <mabang tapeid="TKBTPTL_FIDEL_CAUCUOCKE" />
+    <description des="Phim tài liệu (V3): FIDEL - CÂU CHUYỆN CHƯA ĐƯỢC KỂ" />
+    <title ten_ct="PTL" />
+    <begin_time time="12:23:10:06" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:51:18:09" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="PHIM TÀI LIỆU (V3)" ten_ct="FIDEL - CÂU CHUYỆN CHƯA ĐƯỢC KỂ" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="254" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="ĐƯỜNG LÊN ĐỈNH OLYMPIA" ten_ct="ĐƯỜNG LÊN ĐỈNH OLYMPIA 17 C15(34.12)_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="100" />
+    <date date="04/12/2016" />
+    <event_id id="3600617" />
+    <mabang tapeid="CATV32016" />
+    <description des="CAT VTV3 2016 CHUAN (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="13:14:28:15" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:10:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CAT VTV3 2016 CHUAN (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="134" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="ĐƯỜNG LÊN ĐỈNH OLYMPIA" ten_ct="ĐƯỜNG LÊN ĐỈNH OLYMPIA 17 C15(34.12)_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="101" />
+    <date date="04/12/2016" />
+    <event_id id="3597353" />
+    <mabang tapeid="TTGTOLYM_DLDOLPA17C1534.12" />
+    <description des="Đường lên đỉnh Olympia: Đường lên đỉnh Olympia 17 C15(34.12)_1" />
+    <title ten_ct="OLYM" />
+    <begin_time time="13:14:38:15" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:02:04:20" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="ĐƯỜNG LÊN ĐỈNH OLYMPIA" ten_ct="ĐƯỜNG LÊN ĐỈNH OLYMPIA 17 C15(34.12)_1" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="124" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="ĐƯỜNG LÊN ĐỈNH OLYMPIA" ten_ct="ĐƯỜNG LÊN ĐỈNH OLYMPIA 17 C15(34.12)_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="102" />
+    <date date="04/12/2016" />
+    <event_id id="3597354" />
+    <mabang tapeid="TTGTOLYM_DLDOLPA17C1534.12_2" />
+    <description des="Đường lên đỉnh Olympia: Đường lên đỉnh Olympia 17 C15(34.12)_2" />
+    <title ten_ct="OLYM" />
+    <begin_time time="13:16:43:10" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:11:34:04" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="ĐƯỜNG LÊN ĐỈNH OLYMPIA" ten_ct="ĐƯỜNG LÊN ĐỈNH OLYMPIA 17 C15(34.12)_2" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="120" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="ĐƯỜNG LÊN ĐỈNH OLYMPIA" ten_ct="ĐƯỜNG LÊN ĐỈNH OLYMPIA 17 C15(34.12)_3" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="103" />
+    <date date="04/12/2016" />
+    <event_id id="3597355" />
+    <mabang tapeid="TTGTOLYM_DLDOLPA17C1534.12_3" />
+    <description des="Đường lên đỉnh Olympia: Đường lên đỉnh Olympia 17 C15(34.12)_3" />
+    <title ten_ct="OLYM" />
+    <begin_time time="13:28:17:14" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:06:43:24" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="ĐƯỜNG LÊN ĐỈNH OLYMPIA" ten_ct="ĐƯỜNG LÊN ĐỈNH OLYMPIA 17 C15(34.12)_3" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="486" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="ĐƯỜNG LÊN ĐỈNH OLYMPIA" ten_ct="ĐƯỜNG LÊN ĐỈNH OLYMPIA 17 C15(34.12)_5" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="104" />
+    <date date="04/12/2016" />
+    <event_id id="3597356" />
+    <mabang tapeid="TTGTOLYM_DLDOLPA17C1534.12_4" />
+    <description des="Đường lên đỉnh Olympia: Đường lên đỉnh Olympia 17 C15(34.12)_4" />
+    <title ten_ct="OLYM" />
+    <begin_time time="13:35:01:13" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:06:06:09" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="ĐƯỜNG LÊN ĐỈNH OLYMPIA" ten_ct="ĐƯỜNG LÊN ĐỈNH OLYMPIA 17 C15(34.12)_4" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="366" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="ĐƯỜNG LÊN ĐỈNH OLYMPIA" ten_ct="ĐƯỜNG LÊN ĐỈNH OLYMPIA 17 C15(34.12)_5" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="105" />
+    <date date="04/12/2016" />
+    <event_id id="3597357" />
+    <mabang tapeid="TTGTOLYM_DLDOLPA17C1534.12_5" />
+    <description des="Đường lên đỉnh Olympia: Đường lên đỉnh Olympia 17 C15(34.12)_5" />
+    <title ten_ct="OLYM" />
+    <begin_time time="13:41:07:22" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:18:18:17" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="ĐƯỜNG LÊN ĐỈNH OLYMPIA" ten_ct="ĐƯỜNG LÊN ĐỈNH OLYMPIA 17 C15(34.12)_5" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="783" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="VTV KẾT NỐI" ten_ct="ĐẶC SẮC PTL NGƯỜI CẮM CỜ (HH9/12)" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="106" />
+    <date date="04/12/2016" />
+    <event_id id="3597810" />
+    <mabang tapeid="QC_VTV3_04122016_C9_CUT1" />
+    <description des="QC 04.12.2016 Đường lên đỉnh Olympia_Trước phần thi Khởi động_13h00" />
+    <title ten_ct="QC" />
+    <begin_time time="13:59:26:14" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:04:03:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 ĐƯỜNG LÊN ĐỈNH OLYMPIA_TRƯỚC PHẦN THI KHỞI ĐỘNG_13H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="663" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="VTV KẾT NỐI" ten_ct="ĐẶC SẮC PTL NGƯỜI CẮM CỜ (HH9/12)" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="107" />
+    <date date="04/12/2016" />
+    <event_id id="3597811" />
+    <mabang tapeid="QC_VTV3_04122016_C9_CUT2" />
+    <description des="QC 04.12.2016 Đường lên đỉnh Olympia_Trước phần thi Vượt chướng ngại vật_13h00" />
+    <title ten_ct="QC" />
+    <begin_time time="14:03:29:14" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:03:17:19" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 ĐƯỜNG LÊN ĐỈNH OLYMPIA_TRƯỚC PHẦN THI VƯỢT CHƯỚNG NGẠI VẬT_13H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="420" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="VTV KẾT NỐI" ten_ct="ĐẶC SẮC PTL NGƯỜI CẮM CỜ (HH9/12)" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="108" />
+    <date date="04/12/2016" />
+    <event_id id="3597812" />
+    <mabang tapeid="QC_VTV3_04122016_C9_CUT3" />
+    <description des="QC 04.12.2016 Đường lên đỉnh Olympia_Trước phần thi Tăng tốc_13h00" />
+    <title ten_ct="QC" />
+    <begin_time time="14:06:47:08" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:03:33:02" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 ĐƯỜNG LÊN ĐỈNH OLYMPIA_TRƯỚC PHẦN THI TĂNG TỐC_13H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="223" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="VTV KẾT NỐI" ten_ct="ĐẶC SẮC PTL NGƯỜI CẮM CỜ (HH9/12)" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="109" />
+    <date date="04/12/2016" />
+    <event_id id="3600618" />
+    <mabang tapeid="CATV32016" />
+    <description des="CAT VTV3 2016 CHUAN (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="14:10:20:10" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:10:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CAT VTV3 2016 CHUAN (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="10" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="VTV KẾT NỐI" ten_ct="ĐẶC SẮC PTL NGƯỜI CẮM CỜ (HH9/12)" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="110" />
+    <date date="04/12/2016" />
+    <event_id id="3597358" />
+    <mabang tapeid="TKBTVKT2_PTLNGUOICAMCOHH912" />
+    <description des="VTV kết nối: Đặc sắc PTL Người cắm cờ (HH9/12)" />
+    <title ten_ct="VKN" />
+    <begin_time time="14:10:30:10" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:10:55:01" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="VTV KẾT NỐI" ten_ct="ĐẶC SẮC PTL NGƯỜI CẮM CỜ (HH9/12)" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="130" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="GIAO HƯỞNG THÍNH PHÒNG" ten_ct="BẢN GIAO HƯỞNG SỐ 5 CỦA NHÀ SOẠN NHẠC TCHAIKOVSKY" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="111" />
+    <date date="04/12/2016" />
+    <event_id id="3600619" />
+    <mabang tapeid="CATV32016" />
+    <description des="CAT VTV3 2016 CHUAN (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="14:21:25:11" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:10:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CAT VTV3 2016 CHUAN (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="10" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="GIAO HƯỞNG THÍNH PHÒNG" ten_ct="BẢN GIAO HƯỞNG SỐ 5 CỦA NHÀ SOẠN NHẠC TCHAIKOVSKY" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="112" />
+    <date date="04/12/2016" />
+    <event_id id="3597359" />
+    <mabang tapeid="VN_GIAOHUONGSO5CUATCHAIKOVSKY" />
+    <description des="Giao hưởng thính phòng: Bản giao hưởng số 5 của nhà soạn nhạc Tchaikovsky" />
+    <title ten_ct="GHTP" />
+    <begin_time time="14:21:35:11" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:28:19:06" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="GIAO HƯỞNG THÍNH PHÒNG" ten_ct="BẢN GIAO HƯỞNG SỐ 5 CỦA NHÀ SOẠN NHẠC TCHAIKOVSKY" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="222" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM RUBIC 8" ten_ct="ĐIỀU BÍ MẬT - TẬP  4/36" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="113" />
+    <date date="04/12/2016" />
+    <event_id id="3597813" />
+    <mabang tapeid="QC_VTV3_04122016_C9.1_CUT0" />
+    <description des="QC 04.12.2016 Sau CT Tùy Đạo diễn_13h50" />
+    <title ten_ct="QC" />
+    <begin_time time="14:49:54:17" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:01:32:21" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 SAU CT TÙY ĐẠO DIỄN_13H50" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="102" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM RUBIC 8" ten_ct="ĐIỀU BÍ MẬT - TẬP  4/36" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="114" />
+    <date date="04/12/2016" />
+    <event_id id="3600620" />
+    <mabang tapeid="CATV32016" />
+    <description des="CAT VTV3 2016 CHUAN (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="14:51:27:13" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:10:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CAT VTV3 2016 CHUAN (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="10" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM RUBIC 8" ten_ct="ĐIỀU BÍ MẬT - TẬP  4/36" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="115" />
+    <date date="04/12/2016" />
+    <event_id id="3597360" />
+    <mabang tapeid="PVNRUBI_DIEUBIMAT_TAP_4" />
+    <description des="Phim Rubic 8: Điều bí mật - Tập  4/36" />
+    <title ten_ct="RUBI" />
+    <begin_time time="14:51:37:13" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:44:40:08" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="PHIM RUBIC 8" ten_ct="ĐIỀU BÍ MẬT - TẬP  4/36" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="737" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="KHÁM PHÁ THẾ GIỚI (30)" ten_ct="CUỘC SỐNG TRÊN ĐẢO: CU BA" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="116" />
+    <date date="04/12/2016" />
+    <event_id id="3597814" />
+    <mabang tapeid="QC_VTV3_04122016_C10_CUT1" />
+    <description des="QC 04.12.2016 Phim RUBIC 8_Giữa phim phút 15_14h00" />
+    <title ten_ct="QC" />
+    <begin_time time="15:36:17:21" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:05:04:23" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 PHIM RUBIC 8_GIỮA PHIM PHÚT 15_14H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="617" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="KHÁM PHÁ THẾ GIỚI (30)" ten_ct="CUỘC SỐNG TRÊN ĐẢO: CU BA" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="117" />
+    <date date="04/12/2016" />
+    <event_id id="3597815" />
+    <mabang tapeid="QC_VTV3_04122016_C10_CUT2" />
+    <description des="QC 04.12.2016 Phim RUBIC 8_Giữa phim phút 30_14h00" />
+    <title ten_ct="QC" />
+    <begin_time time="15:41:22:19" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:05:03:01" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 PHIM RUBIC 8_GIỮA PHIM PHÚT 30_14H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="313" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="KHÁM PHÁ THẾ GIỚI (30)" ten_ct="CUỘC SỐNG TRÊN ĐẢO: CU BA" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="118" />
+    <date date="04/12/2016" />
+    <event_id id="3600621" />
+    <mabang tapeid="CATV32016" />
+    <description des="CAT VTV3 2016 CHUAN (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="15:46:25:20" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:10:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CAT VTV3 2016 CHUAN (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="10" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="KHÁM PHÁ THẾ GIỚI (30)" ten_ct="CUỘC SỐNG TRÊN ĐẢO: CU BA" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="119" />
+    <date date="04/12/2016" />
+    <event_id id="3597361" />
+    <mabang tapeid="KGKPTG_CUOCSONGTRENDAOCUBA" />
+    <description des="Khám phá thế giới (30): Cuộc sống trên đảo: Cu Ba" />
+    <title ten_ct="KPTG" />
+    <begin_time time="15:46:35:20" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:43:09:18" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="KHÁM PHÁ THẾ GIỚI (30)" ten_ct="CUỘC SỐNG TRÊN ĐẢO: CU BA" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="130" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="GIAO HƯỞNG THÍNH PHÒNG" ten_ct="BẢN NHẠC SỐ 7 CỦA SHUBERT" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="120" />
+    <date date="04/12/2016" />
+    <event_id id="3600622" />
+    <mabang tapeid="CATV32016" />
+    <description des="CAT VTV3 2016 CHUAN (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="16:29:45:13" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:10:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CAT VTV3 2016 CHUAN (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="10" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="GIAO HƯỞNG THÍNH PHÒNG" ten_ct="BẢN NHẠC SỐ 7 CỦA SHUBERT" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="121" />
+    <date date="04/12/2016" />
+    <event_id id="3597362" />
+    <mabang tapeid="VNGHTP_BANNHACSO7CUASHUBERT" />
+    <description des="Giao hưởng thính phòng: Bản nhạc số 7 của Shubert" />
+    <title ten_ct="GHTP" />
+    <begin_time time="16:29:55:13" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:27:13:15" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="GIAO HƯỞNG THÍNH PHÒNG" ten_ct="BẢN NHẠC SỐ 7 CỦA SHUBERT" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="434" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="VÌ BẠN XỨNG ĐÁNG" ten_ct="VÌ BẠN XỨNG ĐÁNG 181_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="122" />
+    <date date="04/12/2016" />
+    <event_id id="3600623" />
+    <mabang tapeid="CATV32016" />
+    <description des="CAT VTV3 2016 CHUAN (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="16:57:09:03" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:10:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CAT VTV3 2016 CHUAN (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="314" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="VÌ BẠN XỨNG ĐÁNG" ten_ct="VÌ BẠN XỨNG ĐÁNG 181_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="123" />
+    <date date="04/12/2016" />
+    <event_id id="3597816" />
+    <mabang tapeid="QC_VTV3_04122016_C9.2_CUT0" />
+    <description des="QC 04.12.2016 Trước CT Tùy Đạo diễn_16h00" />
+    <title ten_ct="QC" />
+    <begin_time time="16:57:19:03" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:18:01" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 TRƯỚC CT TÙY ĐẠO DIỄN_16H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="304" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="VÌ BẠN XỨNG ĐÁNG" ten_ct="VÌ BẠN XỨNG ĐÁNG 181_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="124" />
+    <date date="04/12/2016" />
+    <event_id id="3597363" />
+    <mabang tapeid="TVMVBXD_VIBANXUNGDANG181" />
+    <description des="Vì bạn xứng đáng: Vì bạn xứng đáng 181_1" />
+    <title ten_ct="VBXD" />
+    <begin_time time="16:57:37:04" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:04:46:08" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="VÌ BẠN XỨNG ĐÁNG" ten_ct="VÌ BẠN XỨNG ĐÁNG 181_1" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="286" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="VÌ BẠN XỨNG ĐÁNG" ten_ct="VÌ BẠN XỨNG ĐÁNG 181_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="125" />
+    <date date="04/12/2016" />
+    <event_id id="3597364" />
+    <mabang tapeid="TVMVBXD_VIBANXUNGDANG181_2" />
+    <description des="Vì bạn xứng đáng: Vì bạn xứng đáng 181_2" />
+    <title ten_ct="VBXD" />
+    <begin_time time="17:02:23:12" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:12:13:14" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="VÌ BẠN XỨNG ĐÁNG" ten_ct="VÌ BẠN XỨNG ĐÁNG 181_2" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="120" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="VÌ BẠN XỨNG ĐÁNG" ten_ct="VÌ BẠN XỨNG ĐÁNG 181_3" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="126" />
+    <date date="04/12/2016" />
+    <event_id id="3597365" />
+    <mabang tapeid="TVMVBXD_VIBANXUNGDANG181_3" />
+    <description des="Vì bạn xứng đáng: Vì bạn xứng đáng 181_3" />
+    <title ten_ct="VBXD" />
+    <begin_time time="17:14:37:01" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:13:38:14" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="VÌ BẠN XỨNG ĐÁNG" ten_ct="VÌ BẠN XỨNG ĐÁNG 181_3" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="120" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="VÌ BẠN XỨNG ĐÁNG" ten_ct="VÌ BẠN XỨNG ĐÁNG 181_4" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="127" />
+    <date date="04/12/2016" />
+    <event_id id="3597366" />
+    <mabang tapeid="TVMVBXD_VIBANXUNGDANG181_4" />
+    <description des="Vì bạn xứng đáng: Vì bạn xứng đáng 181_4" />
+    <title ten_ct="VBXD" />
+    <begin_time time="17:28:15:15" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:12:38:03" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="VÌ BẠN XỨNG ĐÁNG" ten_ct="VÌ BẠN XỨNG ĐÁNG 181_4" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="1573" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TRUYỆN NN 17H00" ten_ct="KHÔNG PHẢI TIẾNG SÉT ÁI TÌNH - TẬP 15" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="128" />
+    <date date="04/12/2016" />
+    <event_id id="3597367" />
+    <mabang tapeid="TVMVBXD_VIBANXUNGDANG181_5" />
+    <description des="Vì bạn xứng đáng: Vì bạn xứng đáng 181_5" />
+    <title ten_ct="VBXD" />
+    <begin_time time="17:40:53:18" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:01:04:03" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="VÌ BẠN XỨNG ĐÁNG" ten_ct="VÌ BẠN XỨNG ĐÁNG 181_5" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="1453" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TRUYỆN NN 17H00" ten_ct="KHÔNG PHẢI TIẾNG SÉT ÁI TÌNH - TẬP 15" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="129" />
+    <date date="04/12/2016" />
+    <event_id id="3597817" />
+    <mabang tapeid="QC_VTV3_04122016_C9.4_CUT1" />
+    <description des="QC 04.12.2016 Vì bạn xứng đáng_Sau Hình hiệu đầu_16h-17h" />
+    <title ten_ct="QC" />
+    <begin_time time="17:41:57:21" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:03:39:22" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 VÌ BẠN XỨNG ĐÁNG_SAU HÌNH HIỆU ĐẦU_16H-17H" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="1389" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TRUYỆN NN 17H00" ten_ct="KHÔNG PHẢI TIẾNG SÉT ÁI TÌNH - TẬP 15" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="130" />
+    <date date="04/12/2016" />
+    <event_id id="3597818" />
+    <mabang tapeid="QC_VTV3_04122016_C9.4_CUT2" />
+    <description des="QC 04.12.2016 Vì bạn xứng đáng_Lát cắt 2_16h-17h" />
+    <title ten_ct="QC" />
+    <begin_time time="17:45:37:18" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:03:19:24" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 VÌ BẠN XỨNG ĐÁNG_LÁT CẮT 2_16H-17H" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="1170" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TRUYỆN NN 17H00" ten_ct="KHÔNG PHẢI TIẾNG SÉT ÁI TÌNH - TẬP 15" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="131" />
+    <date date="04/12/2016" />
+    <event_id id="3597819" />
+    <mabang tapeid="QC_VTV3_04122016_C9.4_CUT3" />
+    <description des="QC 04.12.2016 Vì bạn xứng đáng_Lát cắt 3_16h-17h" />
+    <title ten_ct="QC" />
+    <begin_time time="17:48:57:17" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:03:37:20" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 VÌ BẠN XỨNG ĐÁNG_LÁT CẮT 3_16H-17H" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="971" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TRUYỆN NN 17H00" ten_ct="KHÔNG PHẢI TIẾNG SÉT ÁI TÌNH - TẬP 15" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="132" />
+    <date date="04/12/2016" />
+    <event_id id="3597820" />
+    <mabang tapeid="QC_VTV3_04122016_C9.4_CUT4" />
+    <description des="QC 04.12.2016 Vì bạn xứng đáng_Lát cắt 4_16h-17h" />
+    <title ten_ct="QC" />
+    <begin_time time="17:52:35:12" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:01:47:15" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 VÌ BẠN XỨNG ĐÁNG_LÁT CẮT 4_16H-17H" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="754" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TRUYỆN NN 17H00" ten_ct="KHÔNG PHẢI TIẾNG SÉT ÁI TÌNH - TẬP 15" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="133" />
+    <date date="04/12/2016" />
+    <event_id id="3600624" />
+    <mabang tapeid="CATV32016" />
+    <description des="CAT VTV3 2016 CHUAN (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="17:54:23:02" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:10:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CAT VTV3 2016 CHUAN (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="647" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TRUYỆN NN 17H00" ten_ct="KHÔNG PHẢI TIẾNG SÉT ÁI TÌNH - TẬP 15" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="134" />
+    <date date="04/12/2016" />
+    <event_id id="3597368" />
+    <mabang tapeid="TT17_VTV3_04122016_1700" />
+    <description des="Thời tiết 17h00(V3): Thời tiết 17h00(V3)" />
+    <title ten_ct="TT17" />
+    <begin_time time="17:54:33:02" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:02:00:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="THỜI TIẾT 17H00(V3)" ten_ct="THỜI TIẾT 17H00(V3)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="637" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TRUYỆN NN 17H00" ten_ct="KHÔNG PHẢI TIẾNG SÉT ÁI TÌNH - TẬP 15" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="135" />
+    <date date="04/12/2016" />
+    <event_id id="3597369" />
+    <mabang tapeid="ASDV_91" />
+    <description des="Đẹp Việt: NSND Thanh Tâm" />
+    <title ten_ct="DV" />
+    <begin_time time="17:56:33:02" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:05:51:16" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="ĐẸP VIỆT" ten_ct="NSND THANH TÂM" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="517" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TRUYỆN NN 17H00" ten_ct="KHÔNG PHẢI TIẾNG SÉT ÁI TÌNH - TẬP 15" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="136" />
+    <date date="04/12/2016" />
+    <event_id id="3597821" />
+    <mabang tapeid="QC_VTV3_04122016_C9.2_CUT5" />
+    <description des="QC 04.12.2016 Đẹp Việt_Sau Hình hiệu đầu_16h55" />
+    <title ten_ct="QC" />
+    <begin_time time="18:02:24:18" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:02:03:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 ĐẸP VIỆT_SAU HÌNH HIỆU ĐẦU_16H55" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="166" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TRUYỆN NN 17H00" ten_ct="KHÔNG PHẢI TIẾNG SÉT ÁI TÌNH - TẬP 15" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="137" />
+    <date date="04/12/2016" />
+    <event_id id="3600625" />
+    <mabang tapeid="CATV32016" />
+    <description des="CAT VTV3 2016 CHUAN (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="18:04:27:18" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:10:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CAT VTV3 2016 CHUAN (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="43" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TRUYỆN NN 17H00" ten_ct="KHÔNG PHẢI TIẾNG SÉT ÁI TÌNH - TẬP 15" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="138" />
+    <date date="04/12/2016" />
+    <event_id id="3597822" />
+    <mabang tapeid="QC_VTV3_04122016_C3.6_CUT1" />
+    <description des="QC 04.12.2016 Trước Phim truyện_17h00" />
+    <title ten_ct="QC" />
+    <begin_time time="18:04:37:18" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:33:03" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 TRƯỚC PHIM TRUYỆN_17H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="33" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TRUYỆN NN 17H00" ten_ct="KHÔNG PHẢI TIẾNG SÉT ÁI TÌNH - TẬP 15" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="139" />
+    <date date="04/12/2016" />
+    <event_id id="3597370" />
+    <mabang tapeid="KTPPT17_KPTIENGSETAITINH_TAP15" />
+    <description des="Phim truyện NN 17h00: Không phải tiếng sét ái tình - Tập 15" />
+    <title ten_ct="PT17" />
+    <begin_time time="18:05:10:21" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:41:54:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="PHIM TRUYỆN NN 17H00" ten_ct="KHÔNG PHẢI TIẾNG SÉT ÁI TÌNH - TẬP 15" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="426" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TRUYỆN NN - 18H00(V3)" ten_ct="KHÔNG PHẢI TIẾNG SÉT ÁI TÌNH - TẬP 16" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="140" />
+    <date date="04/12/2016" />
+    <event_id id="3597823" />
+    <mabang tapeid="QC_VTV3_04122016_C3.7_CUT1" />
+    <description des="QC 04.12.2016 Phim truyện_Trong phim phút 15_17h00" />
+    <title ten_ct="QC" />
+    <begin_time time="18:47:04:21" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:01:48:03" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 PHIM TRUYỆN_TRONG PHIM PHÚT 15_17H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="306" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TRUYỆN NN - 18H00(V3)" ten_ct="KHÔNG PHẢI TIẾNG SÉT ÁI TÌNH - TẬP 16" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="141" />
+    <date date="04/12/2016" />
+    <event_id id="3597824" />
+    <mabang tapeid="QC_VTV3_04122016_C3.7_CUT2" />
+    <description des="QC 04.12.2016 Phim truyện_Trong phim phút 30_17h00" />
+    <title ten_ct="QC" />
+    <begin_time time="18:48:52:24" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:03:18:02" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 PHIM TRUYỆN_TRONG PHIM PHÚT 30_17H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="198" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TRUYỆN NN - 18H00(V3)" ten_ct="KHÔNG PHẢI TIẾNG SÉT ÁI TÌNH - TẬP 16" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="142" />
+    <date date="04/12/2016" />
+    <event_id id="3597371" />
+    <mabang tapeid="KTPPT18_KPTIENGSETAITINH_TAP16" />
+    <description des="Phim truyện NN - 18h00(V3): Không phải tiếng sét ái tình - Tập 16" />
+    <title ten_ct="PT18" />
+    <begin_time time="18:52:11:01" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:43:52:14" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="PHIM TRUYỆN NN - 18H00(V3)" ten_ct="KHÔNG PHẢI TIẾNG SÉT ÁI TÌNH - TẬP 16" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="491" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="THỜI SỰ (V3)" ten_ct="THỜI SỰ (V3)" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="143" />
+    <date date="04/12/2016" />
+    <event_id id="3597825" />
+    <mabang tapeid="QC_VTV3_04122016_C4.2_CUT1" />
+    <description des="QC 04.12.2016 Phim truyện_Giữa phim phút 15_18h00" />
+    <title ten_ct="QC" />
+    <begin_time time="19:36:03:15" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:02:32:14" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 PHIM TRUYỆN_GIỮA PHIM PHÚT 15_18H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="371" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="THỜI SỰ (V3)" ten_ct="THỜI SỰ (V3)" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="144" />
+    <date date="04/12/2016" />
+    <event_id id="3597826" />
+    <mabang tapeid="QC_VTV3_04122016_C4.2_CUT2" />
+    <description des="QC 04.12.2016 Phim truyện_Giữa phim phút 30_18h00" />
+    <title ten_ct="QC" />
+    <begin_time time="19:38:36:04" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:33:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 PHIM TRUYỆN_GIỮA PHIM PHÚT 30_18H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="219" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="THỜI SỰ (V3)" ten_ct="THỜI SỰ (V3)" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="145" />
+    <date date="04/12/2016" />
+    <event_id id="3597372" />
+    <mabang tapeid="QC_VTV3_04122016_Q4_CUT1" />
+    <description des="QC 04.12.2016 Trôi chữ lúc 18h50" />
+    <title ten_ct="QC" />
+    <begin_time time="19:39:09:04" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:01:58:14" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 TRÔI CHỮ LÚC 18H50" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="186" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="THỜI SỰ (V3)" ten_ct="THỜI SỰ (V3)" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="146" />
+    <date date="04/12/2016" />
+    <event_id id="3597373" />
+    <mabang tapeid="MM3VVN_LANGNGHELAMDEMBANG" />
+    <description des="V - Việt Nam: Làng nghề làm đệm bàng Phò Trạch" />
+    <title ten_ct="3VVN" />
+    <begin_time time="19:41:07:18" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:30:11" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="V - VIỆT NAM" ten_ct="LÀNG NGHỀ LÀM ĐỆM BÀNG PHÒ TRẠCH" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="68" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="THỜI SỰ (V3)" ten_ct="THỜI SỰ (V3)" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="147" />
+    <date date="04/12/2016" />
+    <event_id id="3597827" />
+    <mabang tapeid="QC_VTV3_04122016_C4.3_CUT1" />
+    <description des="QC 04.12.2016 Trước Bản tin Thời sự_QC Điểm giờ_19h00" />
+    <title ten_ct="QC" />
+    <begin_time time="19:41:38:04" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:38:03" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 TRƯỚC BẢN TIN THỜI SỰ_QC ĐIỂM GIỜ_19H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="38" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="THỜI SỰ (V3)" ten_ct="THỜI SỰ (V3)" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="148" />
+    <date date="04/12/2016" />
+    <event_id id="3597374" />
+    <mabang tapeid="THSU_VTV3_04122016_1900" />
+    <description des="Thời sự (V3): Thời sự (V3)" />
+    <title ten_ct="THSU" />
+    <begin_time time="19:42:16:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:45:00:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="THỜI SỰ (V3)" ten_ct="THỜI SỰ (V3)" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="368" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="VUA ĐẦU BẾP NHÍ" ten_ct="VUA ĐẦU BẾP NHÍ - SỐ 10/2016 -4/12_1" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="149" />
+    <date date="04/12/2016" />
+    <event_id id="3597828" />
+    <mabang tapeid="QC_VTV3_04122016_C12_CUT1" />
+    <description des="QC 04.12.2016 Ngay sau Bản tin Thời sự_19h50" />
+    <title ten_ct="QC" />
+    <begin_time time="20:27:16:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:01:24:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 NGAY SAU BẢN TIN THỜI SỰ_19H50" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="248" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="VUA ĐẦU BẾP NHÍ" ten_ct="VUA ĐẦU BẾP NHÍ - SỐ 10/2016 -4/12_1" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="150" />
+    <date date="04/12/2016" />
+    <event_id id="3597375" />
+    <mabang tapeid="MM3VVN_CHUABONMAT_SOCTRANG" />
+    <description des="V - Việt Nam: Chùa bốn mặt - Sóc Trăng" />
+    <title ten_ct="3VVN" />
+    <begin_time time="20:28:40:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:31:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="V - VIỆT NAM" ten_ct="CHÙA BỐN MẶT - SÓC TRĂNG" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="164" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="VUA ĐẦU BẾP NHÍ" ten_ct="VUA ĐẦU BẾP NHÍ - SỐ 10/2016 -4/12_1" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="151" />
+    <date date="04/12/2016" />
+    <event_id id="3597376" />
+    <mabang tapeid="QC_VTV3_04122016_Q5_CUT1" />
+    <description des="QC 04.12.2016 Trôi chữ lúc 19h50" />
+    <title ten_ct="QC" />
+    <begin_time time="20:29:11:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:01:34:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 TRÔI CHỮ LÚC 19H50" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="133" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="VUA ĐẦU BẾP NHÍ" ten_ct="VUA ĐẦU BẾP NHÍ - SỐ 10/2016 -4/12_1" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="152" />
+    <date date="04/12/2016" />
+    <event_id id="3597829" />
+    <mabang tapeid="QC_VTV3_04122016_C13X_CUT1" />
+    <description des="QC 04.12.2016 Trước CT Vua đầu bếp Nhí 2016_20h00" />
+    <title ten_ct="QC" />
+    <begin_time time="20:30:45:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:39:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 TRƯỚC CT VUA ĐẦU BẾP NHÍ 2016_20H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="39" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="VUA ĐẦU BẾP NHÍ" ten_ct="VUA ĐẦU BẾP NHÍ - SỐ 10/2016 -4/12_1" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="153" />
+    <date date="04/12/2016" />
+    <event_id id="3597377" />
+    <mabang tapeid="TTGTVDBN_VUADAUBEPNHI_SO102016" />
+    <description des="Vua đầu bếp nhí: Vua đầu bếp nhí - số 10/2016 -4/12_1" />
+    <title ten_ct="vdbn" />
+    <begin_time time="20:31:24:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:09:00:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="VUA ĐẦU BẾP NHÍ" ten_ct="VUA ĐẦU BẾP NHÍ - SỐ 10/2016 -4/12_1" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="120" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="VUA ĐẦU BẾP NHÍ" ten_ct="VUA ĐẦU BẾP NHÍ - SỐ 10/2016 -4/12_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="154" />
+    <date date="04/12/2016" />
+    <event_id id="3597378" />
+    <mabang tapeid="TTGTVDBN_VUADAUBEPNHI_SO102016_2" />
+    <description des="Vua đầu bếp nhí: Vua đầu bếp nhí - số 10/2016 -4/12_2" />
+    <title ten_ct="vdbn" />
+    <begin_time time="20:40:24:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:09:00:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="VUA ĐẦU BẾP NHÍ" ten_ct="VUA ĐẦU BẾP NHÍ - SỐ 10/2016 -4/12_2" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="120" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="VUA ĐẦU BẾP NHÍ" ten_ct="VUA ĐẦU BẾP NHÍ - SỐ 10/2016 -4/12_3" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="155" />
+    <date date="04/12/2016" />
+    <event_id id="3597379" />
+    <mabang tapeid="TTGTVDBN_VUADAUBEPNHI_SO102016_3" />
+    <description des="Vua đầu bếp nhí: Vua đầu bếp nhí - số 10/2016 -4/12_3" />
+    <title ten_ct="vdbn" />
+    <begin_time time="20:49:24:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:09:00:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="VUA ĐẦU BẾP NHÍ" ten_ct="VUA ĐẦU BẾP NHÍ - SỐ 10/2016 -4/12_3" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="635" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="VUA ĐẦU BẾP NHÍ" ten_ct="VUA ĐẦU BẾP NHÍ - SỐ 10/2016 -4/12_4" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="156" />
+    <date date="04/12/2016" />
+    <event_id id="3597830" />
+    <mabang tapeid="QC_VTV3_04122016_C14X_CUT1" />
+    <description des="QC 04.12.2016 Vua đầu bếp Nhí 2016_Sau Hình hiệu đầu_20h00" />
+    <title ten_ct="QC" />
+    <begin_time time="20:58:24:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:02:09:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 VUA ĐẦU BẾP NHÍ 2016_SAU HÌNH HIỆU ĐẦU_20H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="515" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="VUA ĐẦU BẾP NHÍ" ten_ct="VUA ĐẦU BẾP NHÍ - SỐ 10/2016 -4/12_4" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="157" />
+    <date date="04/12/2016" />
+    <event_id id="3597831" />
+    <mabang tapeid="QC_VTV3_04122016_C14X_CUT2" />
+    <description des="QC 04.12.2016 Vua đầu bếp Nhí 2016_Trong CT phút 15_20h15" />
+    <title ten_ct="QC" />
+    <begin_time time="21:00:33:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:02:34:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 VUA ĐẦU BẾP NHÍ 2016_TRONG CT PHÚT 15_20H15" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="386" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="VUA ĐẦU BẾP NHÍ" ten_ct="VUA ĐẦU BẾP NHÍ - SỐ 10/2016 -4/12_4" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="158" />
+    <date date="04/12/2016" />
+    <event_id id="3597832" />
+    <mabang tapeid="QC_VTV3_04122016_C14X_CUT3" />
+    <description des="QC 04.12.2016 Vua đầu bếp Nhí 2016_Trong CT phút 30_20h30" />
+    <title ten_ct="QC" />
+    <begin_time time="21:03:07:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:03:18:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 VUA ĐẦU BẾP NHÍ 2016_TRONG CT PHÚT 30_20H30" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="232" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="VUA ĐẦU BẾP NHÍ" ten_ct="VUA ĐẦU BẾP NHÍ - SỐ 10/2016 -4/12_4" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="159" />
+    <date date="04/12/2016" />
+    <event_id id="3597833" />
+    <mabang tapeid="QC_VTV3_04122016_C14X_CUT4" />
+    <description des="QC 04.12.2016 Vua đầu bếp Nhí 2016_Trước bảng chữ cuối_20h40" />
+    <title ten_ct="QC" />
+    <begin_time time="21:06:25:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:34:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 VUA ĐẦU BẾP NHÍ 2016_TRƯỚC BẢNG CHỮ CUỐI_20H40" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="34" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="VUA ĐẦU BẾP NHÍ" ten_ct="VUA ĐẦU BẾP NHÍ - SỐ 10/2016 -4/12_4" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="160" />
+    <date date="04/12/2016" />
+    <event_id id="3597380" />
+    <mabang tapeid="TTGTVDBN_VUADAUBEPNHI_SO102016_4" />
+    <description des="Vua đầu bếp nhí: Vua đầu bếp nhí - số 10/2016 -4/12_4" />
+    <title ten_ct="vdbn" />
+    <begin_time time="21:06:59:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:09:00:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="VUA ĐẦU BẾP NHÍ" ten_ct="VUA ĐẦU BẾP NHÍ - SỐ 10/2016 -4/12_4" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="120" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="VUA ĐẦU BẾP NHÍ" ten_ct="VUA ĐẦU BẾP NHÍ - SỐ 10/2016 -4/12_5" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="161" />
+    <date date="04/12/2016" />
+    <event_id id="3597381" />
+    <mabang tapeid="TTGTVDBN_VUADAUBEPNHI_SO102016_5" />
+    <description des="Vua đầu bếp nhí: Vua đầu bếp nhí - số 10/2016 -4/12_5" />
+    <title ten_ct="vdbn" />
+    <begin_time time="21:15:59:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:09:00:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="VUA ĐẦU BẾP NHÍ" ten_ct="VUA ĐẦU BẾP NHÍ - SỐ 10/2016 -4/12_5" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="120" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TRUYỆN" ten_ct="THẦN ĐỒNG 1/1" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="162" />
+    <date date="04/12/2016" />
+    <event_id id="3597382" />
+    <mabang tapeid="PVNPT_TD2_1" />
+    <description des="Phim truyện: Thần đồng 1/1" />
+    <title ten_ct="PT" />
+    <begin_time time="21:24:59:07" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="01:39:14:10" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="PHIM TRUYỆN" ten_ct="THẦN ĐỒNG 1/1" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="120" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="PHIM TÀI LIỆU (V3)" ten_ct="SỨC SỐNG LA HABANA" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="163" />
+    <date date="04/12/2016" />
+    <event_id id="3597383" />
+    <mabang tapeid="TKBTPTL_SUCSONGLAHAVANA" />
+    <description des="Phim tài liệu (V3): SỨC SỐNG LA HABANA" />
+    <title ten_ct="PTL" />
+    <begin_time time="23:04:13:17" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:29:35:01" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="PHIM TÀI LIỆU (V3)" ten_ct="SỨC SỐNG LA HABANA" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="828" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="BÍ MẬT CỦA TẠO HÓA" ten_ct="TÂM LÝ ĐÁM ĐÔNG_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="164" />
+    <date date="04/12/2016" />
+    <event_id id="3597384" />
+    <mabang tapeid="QC_VTV3_04122016_Q1_CUT1" />
+    <description des="QC 04.12.2016 Trôi chữ lúc 23h00" />
+    <title ten_ct="QC" />
+    <begin_time time="23:33:48:18" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:02:04:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 TRÔI CHỮ LÚC 23H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="708" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="BÍ MẬT CỦA TẠO HÓA" ten_ct="TÂM LÝ ĐÁM ĐÔNG_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="165" />
+    <date date="04/12/2016" />
+    <event_id id="3597385" />
+    <mabang tapeid="SUNQTCS_CAUBESONHANGRAO" />
+    <description des="Quà tặng cuộc sống: Cậu bé sơn hàng rào" />
+    <title ten_ct="QTCS" />
+    <begin_time time="23:35:52:18" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:04:57:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QUÀ TẶNG CUỘC SỐNG" ten_ct="CẬU BÉ SƠN HÀNG RÀO" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="584" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="BÍ MẬT CỦA TẠO HÓA" ten_ct="TÂM LÝ ĐÁM ĐÔNG_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="166" />
+    <date date="04/12/2016" />
+    <event_id id="3597834" />
+    <mabang tapeid="QC_VTV3_04122016_C17_CUT9" />
+    <description des="QC 04.12.2016 Quà tặng cuộc sống_Sau hình hiệu đầu_22h10" />
+    <title ten_ct="QC" />
+    <begin_time time="23:40:49:18" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:01:19:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 QUÀ TẶNG CUỘC SỐNG_SAU HÌNH HIỆU ĐẦU_22H10" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="287" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="BÍ MẬT CỦA TẠO HÓA" ten_ct="TÂM LÝ ĐÁM ĐÔNG_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="167" />
+    <date date="04/12/2016" />
+    <event_id id="3597386" />
+    <mabang tapeid="TTGTBMTH_TAMLYDAMDONG" />
+    <description des="Bí mật của tạo hóa: Tâm lý đám đông_1" />
+    <title ten_ct="BMTH" />
+    <begin_time time="23:42:08:18" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:23:24" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="BÍ MẬT CỦA TẠO HÓA" ten_ct="TÂM LÝ ĐÁM ĐÔNG_1" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="208" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="BÍ MẬT CỦA TẠO HÓA" ten_ct="TÂM LÝ ĐÁM ĐÔNG_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="168" />
+    <date date="04/12/2016" />
+    <event_id id="3597835" />
+    <mabang tapeid="QC_VTV3_04122016_C18.3_CUT1" />
+    <description des="QC 04.12.2016 Bí mật của tạo hóa_Sau hình hiệu đầu_23h00" />
+    <title ten_ct="QC" />
+    <begin_time time="23:42:32:17" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:03:05:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="QC 04.12.2016 BÍ MẬT CỦA TẠO HÓA_SAU HÌNH HIỆU ĐẦU_23H00" ten_ct=" " status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="185" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="BÍ MẬT CỦA TẠO HÓA" ten_ct="TÂM LÝ ĐÁM ĐÔNG_2" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="169" />
+    <date date="04/12/2016" />
+    <event_id id="3597387" />
+    <mabang tapeid="TTGTBMTH_TAMLYDAMDONG_2" />
+    <description des="Bí mật của tạo hóa: Tâm lý đám đông_2" />
+    <title ten_ct="BMTH" />
+    <begin_time time="23:45:37:17" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:19:05:14" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="BÍ MẬT CỦA TẠO HÓA" ten_ct="TÂM LÝ ĐÁM ĐÔNG_2" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="120" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="BÍ MẬT CỦA TẠO HÓA" ten_ct="TÂM LÝ ĐÁM ĐÔNG_3" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="170" />
+    <date date="04/12/2016" />
+    <event_id id="3597388" />
+    <mabang tapeid="TTGTBMTH_TAMLYDAMDONG_3" />
+    <description des="Bí mật của tạo hóa: Tâm lý đám đông_3" />
+    <title ten_ct="BMTH" />
+    <begin_time time="24:04:43:06" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:24:10:04" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="BÍ MẬT CỦA TẠO HÓA" ten_ct="TÂM LÝ ĐÁM ĐÔNG_3" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="1573" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="RUBIC 8" ten_ct="HẬU TRƯỜNG 4/12" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="171" />
+    <date date="04/12/2016" />
+    <event_id id="3597389" />
+    <mabang tapeid="CDQB_CLIPGTPHIMDIEUBIMAT1612" />
+    <description des="Clip GT phim Điều bí mật (16/12) (Ngày HH: 16/12/2016)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="24:28:53:10" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:01:59:01" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CLIP GT PHIM ĐIỀU BÍ MẬT (16/12) (NGÀY HH" ten_ct="16/12/2016)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="1453" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="RUBIC 8" ten_ct="HẬU TRƯỜNG 4/12" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="172" />
+    <date date="04/12/2016" />
+    <event_id id="3597390" />
+    <mabang tapeid="CDQB_GTTRAILERMUDIEUUOCTHU7" />
+    <description des="GT Trailer mu Dieu uoc thu 7 (Ngày HH: 31/12/2016)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="24:30:52:11" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:34:14" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="GT TRAILER MU DIEU UOC THU 7 (NGÀY HH" ten_ct="31/12/2016)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="1334" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="RUBIC 8" ten_ct="HẬU TRƯỜNG 4/12" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="173" />
+    <date date="04/12/2016" />
+    <event_id id="3597391" />
+    <mabang tapeid="GTNS" />
+    <description des="GT Nhịp sống VTV3 tháng 12 (Ngày HH: 10/12/2016)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="24:31:27:00" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:05:17:01" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="GT NHỊP SỐNG VTV3 THÁNG 12 (NGÀY HH" ten_ct="10/12/2016)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="1300" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="RUBIC 8" ten_ct="HẬU TRƯỜNG 4/12" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="174" />
+    <date date="04/12/2016" />
+    <event_id id="3597392" />
+    <mabang tapeid="CDQB_CLIPNGAYMAIANHSANGSO2" />
+    <description des="Clip: Ngày mai ánh sáng số 2 (Ngày HH: 11/12/2016)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="24:36:44:01" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:05:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CLIP" ten_ct="NGÀY MAI ÁNH SÁNG SỐ 2 (NGÀY HH: 11/12/2016)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="983" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="RUBIC 8" ten_ct="HẬU TRƯỜNG 4/12" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="175" />
+    <date date="04/12/2016" />
+    <event_id id="3597393" />
+    <mabang tapeid="CDQB_GTPHIMNGAYMAIANHSANG" />
+    <description des="GT phim Ngày mai ánh sáng (tập 10-15) (Ngày HH: 19/12/2016)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="24:36:49:01" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:01:00:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="GT PHIM NGÀY MAI ÁNH SÁNG (TẬP 10-15) (NGÀY HH" ten_ct="19/12/2016)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="978" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="RUBIC 8" ten_ct="HẬU TRƯỜNG 4/12" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="176" />
+    <date date="04/12/2016" />
+    <event_id id="3597394" />
+    <mabang tapeid="CDQB_VTV_OIVIETNAM_VEMIENTAY" />
+    <description des="VTV - Ơi Việt Nam - Về miền Tây (Ngày HH: 30/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="24:37:49:01" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:46:19" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="VTV - ƠI VIỆT NAM - VỀ MIỀN TÂY (NGÀY HH" ten_ct="30/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="918" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="RUBIC 8" ten_ct="HẬU TRƯỜNG 4/12" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="177" />
+    <date date="04/12/2016" />
+    <event_id id="3597395" />
+    <mabang tapeid="CDQB_CLIPHOPDONGHONNHANSO5" />
+    <description des="Clip Hợp đồng hôn nhân số 5 (Ngày HH: 06/12/2016)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="24:38:35:20" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:01:49:11" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CLIP HỢP ĐỒNG HÔN NHÂN SỐ 5 (NGÀY HH" ten_ct="06/12/2016)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="872" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="RUBIC 8" ten_ct="HẬU TRƯỜNG 4/12" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="178" />
+    <date date="04/12/2016" />
+    <event_id id="3597396" />
+    <mabang tapeid="CDQB_CLIPBOANHNHIEPANHGIAVIETVAN" />
+    <description des="Clip Bo anh nhiep anh gia Viet Van (Ngày HH: 30/12/2016)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="24:40:25:06" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:04:27:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CLIP BO ANH NHIEP ANH GIA VIET VAN (NGÀY HH" ten_ct="30/12/2016)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="763" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="RUBIC 8" ten_ct="HẬU TRƯỜNG 4/12" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="179" />
+    <date date="04/12/2016" />
+    <event_id id="3597397" />
+    <mabang tapeid="CDQB_TRAILER3TRANGFANPAGEVTV" />
+    <description des="Trailer 3 trang Fanpage VTV (Ngày HH: 30/12/2016)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="24:44:52:06" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:45:23" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="TRAILER 3 TRANG FANPAGE VTV (NGÀY HH" ten_ct="30/12/2016)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="496" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="RUBIC 8" ten_ct="HẬU TRƯỜNG 4/12" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="180" />
+    <date date="04/12/2016" />
+    <event_id id="3597398" />
+    <mabang tapeid="CDQB_CLIPDEM_BOANHHANOIXUA" />
+    <description des="Clip đệm - Bộ ảnh Hà Nội xưa (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="24:45:38:04" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:04:44:22" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CLIP ĐỆM - BỘ ẢNH HÀ NỘI XƯA (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="451" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="RUBIC 8" ten_ct="HẬU TRƯỜNG 4/12" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="181" />
+    <date date="04/12/2016" />
+    <event_id id="3597399" />
+    <mabang tapeid="CDQB_CLIPOIVIETNAM_MIENTRUNG" />
+    <description des="Clip Oi Viet Nam - Mien Trung (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="24:50:23:01" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:39:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CLIP OI VIET NAM - MIEN TRUNG (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="167" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="RUBIC 8" ten_ct="HẬU TRƯỜNG 4/12" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="182" />
+    <date date="04/12/2016" />
+    <event_id id="3597400" />
+    <mabang tapeid="CDQB_TRAILERMUVTVDACBIET" />
+    <description des="Trailer mũ VTV Đặc biệt (Ngày HH: 31/12/2016) (Ngày HH: 31/12/2016)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="24:51:02:01" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:47:07" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="TRAILER MŨ VTV ĐẶC BIỆT (NGÀY HH" ten_ct="31/12/2016) (NGÀY HH: 31/12/2016)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="128" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="RUBIC 8" ten_ct="HẬU TRƯỜNG 4/12" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="183" />
+    <date date="04/12/2016" />
+    <event_id id="3597401" />
+    <mabang tapeid="CDQB_TRAILERHOITHAOLHTHTQ" />
+    <description des="Trailer Hội thảo LHTHTQ (Ngày HH: 20/12/2016)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="24:51:49:08" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:42:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="TRAILER HỘI THẢO LHTHTQ (NGÀY HH" ten_ct="20/12/2016)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="81" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="RUBIC 8" ten_ct="HẬU TRƯỜNG 4/12" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="184" />
+    <date date="04/12/2016" />
+    <event_id id="3600662" />
+    <mabang tapeid="CDQB_CLIPOIVIETNAM_MIENTRUNG" />
+    <description des="Clip Oi Viet Nam - Mien Trung (Ngày HH: 31/12/2017)" />
+    <title ten_ct="CDQB" />
+    <begin_time time="24:52:31:08" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:00:39:00" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="CLIP OI VIET NAM - MIEN TRUNG (NGÀY HH" ten_ct="31/12/2017)" status="0" modify="" />
+    <loai_ct skc="0" dem_dohoa="0" qc="1" initialize="0" cleanup="0" />
+    <dem_nguoc duration="39" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu="RUBIC 8" ten_ct="HẬU TRƯỜNG 4/12" />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="185" />
+    <date date="04/12/2016" />
+    <event_id id="3600681" />
+    <mabang tapeid="VFCR8_HAUTRUONG412" />
+    <description des="Rubic 8: Hậu trường 4/12" />
+    <title ten_ct="R8" />
+    <begin_time time="24:53:10:08" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:08:09:02" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="RUBIC 8" ten_ct="HẬU TRƯỜNG 4/12" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="0" cleanup="0" />
+    <dem_nguoc duration="609" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu=" " ten_ct=" " />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+  <event>
+    <event_type type="PRIMARY" />
+    <stt stt="186" />
+    <date date="04/12/2016" />
+    <event_id id="3597402" />
+    <mabang tapeid="VFCR8_HAUTRUONG412" />
+    <description des="Rubic 8: Hậu trường 4/12" />
+    <title ten_ct="R8" />
+    <begin_time time="25:01:19:10" />
+    <begin_time2 time="00:00:00:00" />
+    <duration time="00:08:09:02" />
+    <tc_vao tc_vao="" />
+    <tc_ra tc_ra="" />
+    <noidung noi_dung="" />
+    <tiengviet ten_mu="RUBIC 8" ten_ct="HẬU TRƯỜNG 4/12" status="1" modify="" />
+    <loai_ct skc="1" dem_dohoa="1" qc="0" initialize="1" cleanup="0" />
+    <dem_nguoc duration="120" valid="0" />
+    <hienthi do_hoa="0" dang_xem="0" tiep_theo="0" dem_nguoc="0" dac_sac="0" />
+    <next_event ten_mu=" " ten_ct=" " />
+    <dac_sac ten_mu="" ten_ct="" mota="" tg="" link="" />
+    <ctoday today="04/12/2016" ctodaylink="" valid="0" />
+    <cTomorrow Tomorrow="05/12/2016" cTomorrowlink="" valid="0" />
+  </event>
+</playlist>

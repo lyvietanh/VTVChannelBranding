@@ -12,45 +12,6 @@
     </ConnectionStrings>
   </General>
   <Channels>
-    <Channel Name="VTV6">
-      <DateFormatString Value="yyyyMMdd" />
-      <CountOfPreviousDays Value="0" />
-      <CountOfNextDays Value="1" />
-      <PlaylistUpdateInterval Value="00:00:05" />
-      <PlaylistFolderPath Value="Y:\" />
-      <OlderPlaylistFolderPath Value="Y:\PLAYLIST\temp" />
-      <MergePlaylistFolderPath Value="Y:\PLAYLIST" />
-      <MaximumStringLength Value="95" />
-      <MinimumPrimaryEventDuration Value="00:06:30" />
-      <MaximumCountDownDuration Value="00:10:00" />
-      <CustomPrimaryEventContainProgramCodeFilter Value="TTNBCCL" />
-      <CustomLiveEventContainProgramCodeFilter Value="360T_VTV6;BTVV_VTV6" />
-      <CustomAdvertismentEventContainProgramCodeFilter Value="QC;CDQB" />
-      <Traffic UpdateInterval="00:00:05" FolderPath="Y:\TRAFFIC" EnableDatabaseConnection="False" />
-      <Page>
-        <Clock Name="DONGHO_3-9" />
-        <Clear Name="clear" />
-        <NowProgram Name="Dang_xem_8-9" Offset="00:00:30" />
-        <NextProgram Name="Tiep_theo_8-9" Offset="00:03:00" Duration="00:00:30" />
-        <CountDown Name="count_down_8-9" Offset="00:02:00" />
-        <ImageSpecialProgram Name="dac_sac" Duration="00:00:13" />
-        <VideoSpecialProgram Name="dac_sac_video" Duration="00:00:13" />
-      </Page>
-      <ComingUp EnableRoundTime="True">
-        <CToday>
-          <Block Name="BL1" ProgramCode="DH.V6.HOMNAY.00H-12H" EndTime="11:59:00" />
-          <Block Name="BL2" ProgramCode="DH.V6.HOMNAY.06H-12H" EndTime="11:59:00" />
-          <Block Name="BL3" ProgramCode="DH.V6.HOMNAY.12H-24H" EndTime="18:00:00" />
-          <Block Name="BL4" ProgramCode="DH.V6.HOMNAY.18H-24H" EndTime="23:59:00" />
-          <TimeRange Name="TR1" ProgramCode="tested" />
-          <TimeRange Name="TR2" ProgramCode="tested" />
-          <TimeRange Name="TR3" ProgramCode="tested" />
-        </CToday>
-        <CTomorrow>
-          <Block Name="BL1" ProgramCode="DH.V6.NGAYMAI.00H-24H" BeginTime="00:00:00" EndTime="23:59:00" />
-        </CTomorrow>
-      </ComingUp>
-    </Channel>
     <Channel Name="SEC2" Title="VTV3">
       <DateFormatString Value="yyyyMMdd" />
       <CountOfPreviousDays Value="0" />
@@ -59,33 +20,75 @@
       <PlaylistFolderPath Value="Y:\" />
       <OlderPlaylistFolderPath Value="Y:\PLAYLIST\temp" />
       <MergePlaylistFolderPath Value="Y:\PLAYLIST" />
-      <MaximumStringLength Value="95" />
-      <MinimumPrimaryEventDuration Value="00:06:30" />
+      <MaximumStringLength Value="70" />
+      <MinimumPrimaryEventDuration Value="00:07:00" />
       <MaximumCountDownDuration Value="00:10:00" />
-      <CustomPrimaryEventContainProgramCodeFilter Value="TTNBCCL" />
-      <CustomLiveEventContainProgramCodeFilter Value="360T_VTV6;BTVV_VTV6" />
-      <CustomAdvertismentEventContainProgramCodeFilter Value="QC;CDQB" />
+      <CustomPrimaryEventContainProgramCodeFilter Value="" />
+      <CustomLiveEventContainProgramCodeFilter Value="CHUYỂN ĐỘNG 24 GIỜ;BẢN TIN 22H00;CHUYÊN ĐỘNG 24 GIỜ;BT_VTV2" />
+      <CustomAdvertismentEventContainProgramCodeFilter Value="QC" />
+      <Traffic UpdateInterval="00:00:05" FolderPath="Y:\TRAFFIC" EnableDatabaseConnection="False" />
       <Page>
-        <Clock Name="DONGHO_3-9" />
-        <Clear Name="clear" />
-        <NowProgram Name="Dang_xem_8-9" Offset="00:00:30" />
-        <NextProgram Name="Tiep_theo_8-9" Offset="00:03:00" Duration="00:00:30" />
-        <CountDown Name="count_down_8-9" Offset="00:02:00" />
+        <Clock Name="CLOCK" />
+        <Clear Name="CLEAR" />
+        <NowProgram Name="NOW" Offset="00:00:30" />
+        <NextProgram Name="NEXT" Offset="00:03:00" Duration="00:00:30" />
+        <CountDown Name="COUNT-DOWN" Offset="00:02:00" />
         <ImageSpecialProgram Name="dac_sac" Duration="00:00:13" />
         <VideoSpecialProgram Name="dac_sac_video" Duration="00:00:13" />
       </Page>
       <ComingUp EnableRoundTime="True">
         <CToday>
-          <Block Name="BL1" ProgramCode="DH.V6.HOMNAY.00H-12H" EndTime="11:59:00" />
-          <Block Name="BL2" ProgramCode="DH.V6.HOMNAY.06H-12H" EndTime="11:59:00" />
-          <Block Name="BL3" ProgramCode="DH.V6.HOMNAY.12H-24H" EndTime="18:00:00" />
-          <Block Name="BL4" ProgramCode="DH.V6.HOMNAY.18H-24H" EndTime="23:59:00" />
+          <Block Name="BL1" ProgramCode="DH.HOMNAY.00H-24H" EndTime="23:59:00" />
+          <Block Name="BL2" ProgramCode="DH.HOMNAY.05H-24H" EndTime="23:59:00" />
+          <Block Name="BL3" ProgramCode="DH.HOMNAY.10H30-24H" EndTime="23:59:00" />
+          <Block Name="BL4" ProgramCode="DH.HOMNAY.13H30-24H" EndTime="23:59:00" />
+          <Block Name="BL5" ProgramCode="DH.HOMNAY.16H15-24H" BeginTime="16:15:00" EndTime="23:59:00" />
           <TimeRange Name="TR1" ProgramCode="tested" />
           <TimeRange Name="TR2" ProgramCode="tested" />
           <TimeRange Name="TR3" ProgramCode="tested" />
         </CToday>
         <CTomorrow>
-          <Block Name="BL1" ProgramCode="DH.V6.NGAYMAI.00H-24H" BeginTime="00:00:00" EndTime="23:59:00" />
+          <Block Name="BL1" ProgramCode="DH.NGAYMAI.00H-24H" BeginTime="00:00:00" EndTime="23:59:00" />
+        </CTomorrow>
+      </ComingUp>
+    </Channel>
+    <Channel Name="VTV4">
+      <DateFormatString Value="yyyyMMdd" />
+      <CountOfPreviousDays Value="0" />
+      <CountOfNextDays Value="1" />
+      <PlaylistUpdateInterval Value="00:00:05" />
+      <PlaylistFolderPath Value="Y:\" />
+      <OlderPlaylistFolderPath Value="Y:\PLAYLIST\temp" />
+      <MergePlaylistFolderPath Value="Y:\PLAYLIST" />
+      <MaximumStringLength Value="80" />
+      <MinimumPrimaryEventDuration Value="00:07:30" />
+      <MaximumCountDownDuration Value="00:10:00" />
+      <CustomPrimaryEventContainProgramCodeFilter Value="" />
+      <CustomLiveEventContainProgramCodeFilter Value="" />
+      <CustomAdvertismentEventContainProgramCodeFilter Value="QC" />
+      <Traffic UpdateInterval="00:00:05" FolderPath="Y:\TRAFFIC" EnableDatabaseConnection="False" />
+      <Page>
+        <Clock Name="DONGHO_2015" />
+        <Clear Name="clear" />
+        <NowProgram Name="NOW_2015" Offset="00:00:30" />
+        <NextProgram Name="NEXT_2015" Offset="00:03:00" Duration="00:00:30" />
+        <CountDown Name="COUNT-DOWN_2015" Offset="00:02:00" />
+        <ImageSpecialProgram Name="dac_sac" Duration="00:00:13" />
+        <VideoSpecialProgram Name="dac_sac_video" Duration="00:00:13" />
+      </Page>
+      <ComingUp EnableRoundTime="True" RoundTimeMode="05">
+        <CToday>
+          <Block Name="BL1" ProgramCode="CDQB_2017.V4.HOMNAY.04H_08H" BeginTime="04:00:00" EndTime="07:59:00" />
+          <Block Name="BL2" ProgramCode="CDQB_2017.V4.HOMNAY.08H_12H" BeginTime="08:00:00" EndTime="11:59:00" />
+          <Block Name="BL3" ProgramCode="CDQB_2017.V4.HOMNAY.12H_16H" BeginTime="12:00:00" EndTime="15:59:00" />
+          <Block Name="BL4" ProgramCode="CDQB_2017.V4.HOMNAY.16H_20H" BeginTime="16:00:00" EndTime="19:59:00" />
+          <Block Name="BL5" ProgramCode="CDQB_2017.V4.HOMNAY.20H_24H" BeginTime="20:00:00" EndTime="23:59:00" />
+          <TimeRange Name="TR1" ProgramCode="tested" />
+          <TimeRange Name="TR2" ProgramCode="tested" />
+          <TimeRange Name="TR3" ProgramCode="tested" />
+        </CToday>
+        <CTomorrow>
+          <Block Name="BL6" ProgramCode="CDQB_2017.V4.HOMNAY.00H_04H" BeginTime="00:00:00" EndTime="03:59:00" />
         </CTomorrow>
       </ComingUp>
     </Channel>

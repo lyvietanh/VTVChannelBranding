@@ -19,7 +19,7 @@
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{StaticResource MaterialDesignFont}"
         Icon="/favicon.ico"
-        WindowStyle="SingleBorderWindow" ResizeMode="CanResizeWithGrip" WindowStartupLocation="CenterScreen"
+        WindowStyle="SingleBorderWindow" ResizeMode="CanResizeWithGrip" WindowStartupLocation="CenterScreen" WindowState="Maximized"
         Title="{Binding WindowTitle, Source={x:Static root:AppData.Default}}" Height="700" Width="1000" MinHeight="700" MinWidth="1000">
     <Window.Resources>
         <ResourceDictionary>

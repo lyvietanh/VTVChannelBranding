@@ -347,7 +347,7 @@ namespace VTVPlaylistEditor.ViewModels
                     }
                     _wndComingUpViewer.WindowStartupLocation = WindowStartupLocation.CenterScreen;
                     ComingUpViewerWindowViewModel vmComingUpViewer = _wndComingUpViewer.DataContext as ComingUpViewerWindowViewModel;
-                    if (vmComingUpViewer != null)
+                    if (vmComingUpViewer != null && File.Exists(comingUpFilePath))
                     {
                         vmComingUpViewer.LoadDataFromFile(new FileInfo(comingUpFilePath));
                     }
@@ -463,7 +463,7 @@ namespace VTVPlaylistEditor.ViewModels
         {
             foreach (var eventModel in eventModels)
             {
-                if (currentEvent != eventModel && currentEvent.GroupName.Equals(eventModel.GroupName, StringComparison.OrdinalIgnoreCase))
+                if (currentEvent.EventId.Equals(eventModel.EventId, StringComparison.OrdinalIgnoreCase) == false && (eventModel.IsPrimaryEvent || eventModel.IsUserPrimaryEvent) && currentEvent.GroupName.Equals(eventModel.GroupName, StringComparison.OrdinalIgnoreCase))
                 {
                     eventModel.TenMu = currentEvent.TenMu;
                     eventModel.TenCt = currentEvent.TenCt;

@@ -568,7 +568,7 @@ namespace VTVPlaylistEditor.Models
                 {
                     foreach (TrafficEventModel trafficEventModel in this.TrafficEvents)
                     {
-                        if (eventModel.ProgramCode.Equals(trafficEventModel.ProgramCode, StringComparison.OrdinalIgnoreCase))
+                        if (eventModel.ProgramCode.Equals(trafficEventModel.ProgramCode, StringComparison.OrdinalIgnoreCase) || eventModel.GroupName.Equals(trafficEventModel.ProgramCode, StringComparison.OrdinalIgnoreCase))
                         {
                             eventModel.TenMu = trafficEventModel.ProgramTitle1;
                             eventModel.TenCt = trafficEventModel.ProgramTitle2;
@@ -640,7 +640,7 @@ namespace VTVPlaylistEditor.Models
                     Thread.Sleep(100);
                 }
 
-                using (StreamWriter sw = new StreamWriter(filePath, false, Encoding.Unicode))
+                using (StreamWriter sw = new StreamWriter(filePath, false, Encoding.UTF8))
                 {
                     xmlDocument.Save(sw);
                     sw.Close();

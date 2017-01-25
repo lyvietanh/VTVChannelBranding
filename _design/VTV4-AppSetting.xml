@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppSetting>
+  <General>
+    <Application Type="Host" HostName="127.0.0.1" HostPort="55500" />
+    <CharacterFilter EnableAsciiCharacter="True" UserValidCharacter="áàạãảăắằặẵẳâấầậẫẩéèẹẽẻêếềệễểíìịĩỉúùụũủưứừựữửóòọõỏơớờợỡởôốồộỗổýỳỵỹỷđ" ConvertInvalidCharacterTo="" />
+    <MuCImporterProgram Enable="True" DelayInterval="00:00:02" FilePath="C:\Program Files (x86)\Vizrt\Viz Multichannel\PlayList Importer\PlayListImporter.exe" />
+    <Cleaner Enable="True" AutoCleanAtTime="00:30:00" />
+    <TrafficDataBroswer UpdateInterval="00:00:10" />
+    <ConnectionStrings>
+      <ConnectionString ServerName="GraphicHub-Main" DatabaseName="db_VTVChannelBranding" UserName="sa" Password="123456" ConnectionTimeOut="00:00:03" />
+      <ConnectionString ServerName="GraphicHub-Rep" DatabaseName="db_VTVChannelBranding" UserName="sa" Password="123456" ConnectionTimeOut="00:00:03" />
+    </ConnectionStrings>  </General>
+  <Channels DefaultChannel="">
+    <Channel Name="VTV4">
+      <DateFormatString Value="yyyyMMdd" />
+      <CountOfPreviousDays Value="0" />
+      <CountOfNextDays Value="1" />
+      <PlaylistUpdateInterval Value="00:00:05" />
+      <PlaylistFolderPath Value="Y:\" />
+      <OlderPlaylistFolderPath Value="Y:\PLAYLIST\temp" />
+      <MergePlaylistFolderPath Value="Y:\PLAYLIST" />
+      <MaximumStringLength Value="80" />
+      <MinimumPrimaryEventDuration Value="00:07:30" />
+      <MaximumCountDownDuration Value="00:10:00" />
+      <CustomPrimaryEventContainProgramCodeFilter Value="" />
+      <CustomLiveEventContainProgramCodeFilter Value="" />
+      <CustomAdvertismentEventContainProgramCodeFilter Value="QC" />
+      <Traffic UpdateInterval="00:00:05" FolderPath="Y:\TRAFFIC" EnableDatabaseConnection="False" />
+      <Page>
+        <Clock Name="DONGHO_2015" />
+        <Clear Name="clear" />
+        <NowProgram Name="NOW_2015" Offset="00:00:30" />
+        <NextProgram Name="NEXT_2015" Offset="00:03:00" Duration="00:00:30" />
+        <CountDown Name="COUNT-DOWN_2015" Offset="00:02:00" />
+        <ImageSpecialProgram Name="dac_sac" Duration="00:00:13" />
+        <VideoSpecialProgram Name="dac_sac_video" Duration="00:00:13" />
+      </Page>
+<ComingUp EnableRoundTime="True">
+        <CToday>
+          <Block Name="BL1" ProgramCode="CDQB_2017.V4.HOMNAY.04H_08H" BeginTime="04:00:00" EndTime="07:59:00" />
+          <Block Name="BL2" ProgramCode="CDQB_2017.V4.HOMNAY.08H_12H" BeginTime="08:00:00" EndTime="11:59:00" />
+          <Block Name="BL3" ProgramCode="CDQB_2017.V4.HOMNAY.12H_16H" BeginTime="12:00:00" EndTime="15:59:00" />
+          <Block Name="BL4" ProgramCode="CDQB_2017.V4.HOMNAY.16H_20H" BeginTime="16:00:00" EndTime="19:59:00" />
+          <Block Name="BL5" ProgramCode="CDQB_2017.V4.HOMNAY.20H_24H" BeginTime="20:00:00" EndTime="23:59:00" />
+          <TimeRange Name="TR1" ProgramCode="tested" />
+          <TimeRange Name="TR2" ProgramCode="tested" />
+          <TimeRange Name="TR3" ProgramCode="tested" />
+        </CToday>
+        <CTomorrow>
+          <Block Name="BL1" ProgramCode="CDQB_2017.V4.HOMNAY.00H_04H" BeginTime="00:00:00" EndTime="23:59:00" />
+        </CTomorrow>
+      </ComingUp>
+    </Channel>
+  </Channels>
+</AppSetting>

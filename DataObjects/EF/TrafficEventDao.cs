@@ -95,6 +95,24 @@ namespace DataObjects.EF
             }
         }
 
+        public List<TrafficEvent> GetTrafficEvents(string channelName, int currentPage, int itemsPerPage, string sortExpression = "UpdateTime DESC")
+        {
+            using (VTVChannelBrandingEntities db = new VTVChannelBrandingEntities(_daoFactory.GetSwitchableConnectionString()))
+            {
+                var entities = db.TrafficEventEntities.AsQueryable().Where(m => m.ChannelName.Equals(channelName, StringComparison.OrdinalIgnoreCase)).OrderBy(sortExpression).Skip((currentPage - 1) * itemsPerPage).Take(itemsPerPage).ToList();
+                return DaoFactory.Mapper.Map<ICollection<TrafficEventEntity>, List<BusinessObjects.TrafficEvent>>(entities);
+            }
+        }
+
+        public List<TrafficEvent> GetTrafficEvents(string channelName, string searchForProgramCode = "", string sortExpression = "UpdateTime DESC")
+        {
+            using (VTVChannelBrandingEntities db = new VTVChannelBrandingEntities(_daoFactory.GetSwitchableConnectionString()))
+            {
+                var entities = db.TrafficEventEntities.AsQueryable().Where(m => m.ChannelName.Equals(channelName, StringComparison.OrdinalIgnoreCase) && m.ProgramCode.ToLower().Contains(searchForProgramCode.ToLower())).OrderBy(sortExpression).ToList();
+                return DaoFactory.Mapper.Map<ICollection<TrafficEventEntity>, List<BusinessObjects.TrafficEvent>>(entities);
+            }
+        }
+
         public void UpdateTrafficEvent(BusinessObjects.TrafficEvent trafficEvent)
         {
             using (VTVChannelBrandingEntities db = new VTVChannelBrandingEntities(_daoFactory.GetSwitchableConnectionString()))

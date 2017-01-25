@@ -10,6 +10,24 @@ namespace Common
 {
     public static class Utility
     {
+        public static string ConvertCompositeToPrecomposed(string compositeString)
+        {
+            string precomposedString = "";
+            if (string.IsNullOrEmpty(compositeString) == false)
+            {
+                precomposedString = compositeString.Normalize(NormalizationForm.FormC);
+            }
+            return precomposedString;
+        }
+
+        public static string ConvertUTF16ToUTF8(string utf16String)
+        {
+            if (string.IsNullOrEmpty(utf16String)) return string.Empty;
+            byte[] utf16Bytes = Encoding.Unicode.GetBytes(utf16String);
+            byte[] utf8Bytes = Encoding.Convert(Encoding.Unicode, Encoding.UTF8, utf16Bytes);
+            return Encoding.UTF8.GetString(utf8Bytes);
+        }
+
         public static string ConvertTextToUpper(string text)
         {
             if (string.IsNullOrEmpty(text) == false)
@@ -138,7 +156,7 @@ namespace Common
             int surplus = ts.Minutes % 5;
             if (surplus > 0 && surplus < roundNumber)
             {
-                if (roundNumber - surplus >= 2)
+                if (roundNumber - surplus >= 3)
                 {
                     ts = ts - TimeSpan.FromMinutes(surplus);
                 }

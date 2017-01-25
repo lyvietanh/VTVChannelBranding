@@ -406,7 +406,7 @@ namespace VTVPlaylistEditor.Models
                 for (int i = 0; i < this.Events.Count; i++)
                 {
                     EventModel eventModel = this.Events[i];
-                    if (eventModel.IsPrimaryEvent && eventModel.IsUserPrimaryEvent && eventModel.IsLocking == false)
+                    if (eventModel.IsPrimaryEvent && eventModel.IsUserPrimaryEvent)
                     {
                         if (this.CanShowAllCG.HasValue)
                             eventModel.CanShowCG = this.CanShowAllCG.Value;
@@ -476,6 +476,12 @@ namespace VTVPlaylistEditor.Models
                                 previousPE.CanShowNextProgram = false;
                                 previousPE.CanShowCountDown = false;
                             }
+
+                            //if (previousPE!=null && previousPE.GroupName.Equals(currentEvent.GroupName, StringComparison.OrdinalIgnoreCase) == false)
+                            //{
+                            //    previousPE.CanShowNextProgram = false;
+                            //    previousPE.CanShowCountDown = false;
+                            //}
                         }
 
                         if (nextPENotEqualProgramCode != null)
@@ -525,8 +531,8 @@ namespace VTVPlaylistEditor.Models
                         }
                     }
 
-                    //Gán initialize=1 cho 2 sự kiện (n-2) của lịch phát sóng
-                    //currentEvent.HasInitializeCommand = (i >= this.Events.Count - 2);
+                    //Gán initialize=1 cho sự kiện (n-3) của lịch phát sóng
+                    //currentEvent.HasInitializeCommand = (i == this.Events.Count - 3);
                     ///
 
                     //Gán cleanup=1 cho sự kiện cuối cùng của lịch phát sóng
@@ -576,8 +582,8 @@ namespace VTVPlaylistEditor.Models
                     ///
 
                     //2016-09-22 14:46
-                    //Chèn initialize=1 vào mỗi sự kiện cuối cùng của list
-                    currentEvent.HasInitializeCommand = (i == this.Events.Count - 1);
+                    //Chèn initialize=1 vào mỗi sự kiện (n-3)
+                    currentEvent.HasInitializeCommand = (i == this.Events.Count - 3);
                     ///
 
 
@@ -642,6 +648,11 @@ namespace VTVPlaylistEditor.Models
                                 secondaryEventDuration = Common.Utility.GetTimeSpanFromString(currentEvent.Duration) - TimeSpan.FromSeconds(1);
                             }
 
+                            if (secondaryEventDuration < TimeSpan.Zero)
+                            {
+                                secondaryEventDuration = TimeSpan.Zero;
+                            }
+
                             if (secondaryEventOffset >= TimeSpan.Zero && secondaryEventDuration >= TimeSpan.Zero)
                             {
                                 currentEvent.SecondaryEvents.Add(new SecondaryEventModel()
@@ -680,6 +691,7 @@ namespace VTVPlaylistEditor.Models
                                 }
                             }
 
+                            //if (secondaryEventOffset >= TimeSpan.Zero && secondaryEventDuration >= TimeSpan.Zero && (nextPE != null && currentEvent.GroupName.Equals(nextPE.GroupName, StringComparison.OrdinalIgnoreCase) == false))
                             if (secondaryEventOffset >= TimeSpan.Zero && secondaryEventDuration >= TimeSpan.Zero)
                             {
                                 currentEvent.SecondaryEvents.Add(new SecondaryEventModel()
@@ -711,6 +723,7 @@ namespace VTVPlaylistEditor.Models
                                 secondaryEventOffset = TimeSpan.Zero;
                             }
 
+                            //if (secondaryEventOffset >= TimeSpan.Zero && secondaryEventDuration >= TimeSpan.Zero && (nextPE != null && currentEvent.GroupName.Equals(nextPE.GroupName, StringComparison.OrdinalIgnoreCase) == false))
                             if (secondaryEventOffset >= TimeSpan.Zero && secondaryEventDuration >= TimeSpan.Zero)
                             {
                                 currentEvent.SecondaryEvents.Add(new SecondaryEventModel()
@@ -1176,7 +1189,6 @@ namespace VTVPlaylistEditor.Models
         {
             if (eventModels != null)
             {
-                //string lastGroupName = "";
                 for (int i = 0; i < eventModels.Count; i++)
                 {
                     EventModel eventModel = eventModels[i];
@@ -1264,22 +1276,14 @@ namespace VTVPlaylistEditor.Models
                     eventModel.IsReadOnly = (eventModel.IsPrimaryEvent == false && eventModel.IsLiveEvent == false);
                     ///
 
-                    //if (eventModel.IsPrimaryEvent || eventModel.IsLiveEvent || previousPE == null)
-                    //{
-                    //    lastGroupName = eventModel.ProgramCode;
-                    //}
-                    //eventModel.GroupName = lastGroupName;
+                    //eventModel.GroupName = eventModel.ProgramCode;
 
                     //Kiểm tra các sự kiện chính bị cắt ra thành nhiều phần mà duration không thỏa mãn
-                    if (eventModel.IsPrimaryEvent || eventModel.IsLiveEvent)
+                    if (eventModel.IsPrimaryEvent || eventModel.IsUserPrimaryEvent || eventModel.IsLiveEvent)
                     {
                         int splitIndex = -1;
                         string originalProgramCode = eventModel.ProgramCode;
                         eventModel.GroupName = eventModel.ProgramCode;
-                        //if(IsProgramCodeInPart(eventModel.ProgramCode,out originalProgramCode,out splitIndex))
-                        //{
-                        //    eventModel.GroupName = originalProgramCode;
-                        //}
 
                         for (int j = i - 10; j <= i + 10; j++)
                         {
@@ -1292,7 +1296,6 @@ namespace VTVPlaylistEditor.Models
                             bool isInGroup = false;
                             if (eventModels[j].ProgramCode.Equals(eventModel.ProgramCode, StringComparison.OrdinalIgnoreCase))
                             {
-                                //lastGroupName = originalProgramCode;
                                 isInGroup = true;
                             }
 
@@ -1302,7 +1305,6 @@ namespace VTVPlaylistEditor.Models
                                 {
                                     if (eventModels[j].ProgramCode.Equals(originalProgramCode))
                                     {
-                                        //lastGroupName = originalProgramCode;
                                         isInGroup = true;
                                     }
                                 }
@@ -1314,7 +1316,6 @@ namespace VTVPlaylistEditor.Models
                                     {
                                         if (originalProgramCode.Equals(originalProgramCode2, StringComparison.OrdinalIgnoreCase))
                                         {
-                                            //lastGroupName = originalProgramCode;
                                             isInGroup = true;
                                         }
                                     }
@@ -1323,35 +1324,52 @@ namespace VTVPlaylistEditor.Models
 
                             if (isInGroup)
                             {
-                                //eventModel.GroupName = lastGroupName;
-                                //eventModels[j].GroupName = lastGroupName;
                                 eventModel.GroupName = originalProgramCode;
                                 eventModels[j].GroupName = originalProgramCode;
 
                                 if (eventModel.IsPrimaryEvent && eventModels[j].IsPrimaryEvent == false)
                                 {
                                     eventModels[j].IsPrimaryEvent = eventModel.IsPrimaryEvent;
-                                    eventModels[j].IsUserPrimaryEvent = eventModel.IsUserPrimaryEvent;
-                                    eventModels[j].IsTemporaryCGEvent = eventModel.IsTemporaryCGEvent;
-                                    eventModels[j].IsAdvertismentEvent = eventModel.IsAdvertismentEvent;
+                                    //eventModels[j].IsUserPrimaryEvent = eventModel.IsUserPrimaryEvent;
+                                    //eventModels[j].IsTemporaryCGEvent = eventModel.IsTemporaryCGEvent;
+                                    //eventModels[j].IsAdvertismentEvent = eventModel.IsAdvertismentEvent;
                                     eventModels[j].IsReadOnly = eventModel.IsReadOnly;
                                 }
-
-                                if (eventModel.IsPrimaryEvent == false && eventModels[j].IsPrimaryEvent)
+                                else if (eventModel.IsPrimaryEvent == false && eventModels[j].IsPrimaryEvent)
                                 {
                                     eventModel.IsPrimaryEvent = eventModels[j].IsPrimaryEvent;
-                                    eventModel.IsUserPrimaryEvent = eventModels[j].IsUserPrimaryEvent;
-                                    eventModel.IsTemporaryCGEvent = eventModels[j].IsTemporaryCGEvent;
-                                    eventModel.IsAdvertismentEvent = eventModels[j].IsAdvertismentEvent;
+                                    //eventModel.IsUserPrimaryEvent = eventModels[j].IsUserPrimaryEvent;
+                                    //eventModel.IsTemporaryCGEvent = eventModels[j].IsTemporaryCGEvent;
+                                    //eventModel.IsAdvertismentEvent = eventModels[j].IsAdvertismentEvent;
                                     eventModel.IsReadOnly = eventModels[j].IsReadOnly;
                                     break;
                                 }
                             }
                         }
                     }
+
+                    //EventModel previousPE = GetPreviousPE(eventModels, eventModel, i, true);
+                    //EventModel nextPE = GetNextPE(eventModels, eventModel, i, true);
+                    //if (eventModel.IsPrimaryEvent == false && previousPE != null && nextPE != null && previousPE.GroupName.Equals(nextPE.GroupName, StringComparison.OrdinalIgnoreCase))
+                    //{
+                    //    eventModel.GroupName = previousPE.GroupName;
+                    //}
                     ///
 
+
                 }
+
+                //string
+                //for (int i = 0; i < eventModels.Count; i++)
+                //{
+                //    EventModel eventModel = eventModels[i];
+                //    EventModel previousPE = GetPreviousPE(eventModels, eventModel, i, true);
+                //    EventModel nextPE = GetNextPE(eventModels, eventModel, i, true);
+                //    if(eventModel.IsPrimaryEvent==false && previousPE!=null && nextPE!=null && previousPE.GroupName.Equals(nextPE.GroupName, StringComparison.OrdinalIgnoreCase))
+                //    {
+                //        eventModel.GroupName = previousPE.GroupName;
+                //    }
+                //}
             }
         }
 
@@ -1359,25 +1377,36 @@ namespace VTVPlaylistEditor.Models
         {
             originalProgramCode = programCode;
             splitIndex = -1;
-            string[] words = programCode.ToUpper().Split(new char[] { '_' }, StringSplitOptions.RemoveEmptyEntries);
-            if (words != null && words.Length >= 2)
+
+            try
             {
-                int.TryParse(words[words.Length - 1], out splitIndex);
-                if (splitIndex > 0 && splitIndex < 10 && words[words.Length - 2].Length >= 3 && words[words.Length - 2].Substring(words[words.Length - 2].Length - 3, 3).Equals("TAP") == false && words[words.Length - 2].Substring(words[words.Length - 2].Length - 4, 4).Equals("PHAN") == false)
+                string[] words = programCode.ToUpper().Split(new char[] { '_' });
+                if (words != null && words.Length >= 2)
                 {
-                    StringBuilder sb = new StringBuilder();
-                    for (int i = 0; i < words.Length - 1; i++)
+                    int.TryParse(words[words.Length - 1], out splitIndex);
+                    if (splitIndex > 0 && splitIndex < 10 &&
+                        ((words[words.Length - 2].Length >= 3 && words[words.Length - 2].Substring(words[words.Length - 2].Length - 3, 3).Equals("TAP") == false) ||
+                        (words[words.Length - 2].Length >= 4 && words[words.Length - 2].Substring(words[words.Length - 2].Length - 4, 4).Equals("PHAN") == false)))
                     {
-                        if (i > 0)
+                        StringBuilder sb = new StringBuilder();
+                        for (int i = 0; i < words.Length - 1; i++)
                         {
-                            sb.Append("_");
+                            if (i > 0)
+                            {
+                                sb.Append("_");
+                            }
+                            sb.Append(words[i]);
                         }
-                        sb.Append(words[i]);
+                        originalProgramCode = sb.ToString();
+                        return true;
                     }
-                    originalProgramCode = sb.ToString();
-                    return true;
                 }
             }
+            catch (Exception ex)
+            {
+
+            }
+
             //string twoCharactersProgramCodeEnding = programCode.Substring(programCode.Length - 2, 2);
             //if (twoCharactersProgramCodeEnding[0] == '_' && int.TryParse(twoCharactersProgramCodeEnding[1].ToString(), out splitIndex))
             //{
@@ -1605,7 +1634,15 @@ namespace VTVPlaylistEditor.Models
                         //vd: 13:32 -> 13:00, 13:36 -> 13:35, 13:38 -> 13:40
                         if (this.Channel.Setting.ComingUpRoundTimeEnabled)
                         {
-                            ts = Common.Utility.RoundMinutesInTimeSpan(ts, 3);
+                            switch (this.Channel.Setting.ComingUpRoundTimeMode.Trim())
+                            {
+                                case "0358":
+                                    ts = Common.Utility.RoundMinutesInTimeSpan(ts, 3);
+                                    break;
+                                default:
+                                    ts = Common.Utility.RoundMinutesInTimeSpan(ts, 5);
+                                    break;
+                            }
                         }
                         sb.Append(ts.ToString(@"hh\:mm", CultureInfo.InvariantCulture));
                         sb.Append("|");
@@ -1626,7 +1663,7 @@ namespace VTVPlaylistEditor.Models
                         Thread.Sleep(100);
                     }
 
-                    using (StreamWriter sw = new StreamWriter(filePath, false, Encoding.Unicode))
+                    using (StreamWriter sw = new StreamWriter(filePath, false, Encoding.UTF8))
                     {
                         sw.Write(sb.ToString());
                         sw.Flush();
@@ -1675,7 +1712,7 @@ namespace VTVPlaylistEditor.Models
                         Thread.Sleep(100);
                     }
 
-                    using (StreamWriter sw = new StreamWriter(filePath, false, Encoding.Unicode))
+                    using (StreamWriter sw = new StreamWriter(filePath, false, Encoding.UTF8))
                     {
                         sw.Write(sb.ToString());
                         sw.Flush();
@@ -1736,7 +1773,7 @@ namespace VTVPlaylistEditor.Models
                         if (comingUpBlockItem.ProgramCode.Equals(currentEvent.ProgramCode, StringComparison.OrdinalIgnoreCase))
                         {
                             TimeSpan beginTime = Common.Utility.GetTimeSpanFromString(currentEvent.BeginTime);
-                            if (comingUpBlockItem.HasBeginTime && comingUpBlockItem.BeginTime > beginTime)
+                            if (comingUpList == this.Channel.Setting.CTomorrow || (comingUpBlockItem.HasBeginTime && comingUpBlockItem.BeginTime > beginTime))
                             {
                                 beginTime = comingUpBlockItem.BeginTime;
                             }
@@ -2029,7 +2066,7 @@ namespace VTVPlaylistEditor.Models
                     Thread.Sleep(100);
                 }
 
-                using (StreamWriter sw = new StreamWriter(filePath, false, Encoding.Unicode))
+                using (StreamWriter sw = new StreamWriter(filePath, false, Encoding.UTF8))
                 {
                     xmlDocument.Save(sw);
                     sw.Close();

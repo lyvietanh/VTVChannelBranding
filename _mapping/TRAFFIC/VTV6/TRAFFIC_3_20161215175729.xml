@@ -1,0 +1,699 @@
+<data datetime="12/15/2016 00:00:00">
+  <TRAFFICXML description="Station=VTV6 (channel=VTV6) ">
+    <row>
+      <EXTERSTRID>T0_ceb8e817-9725-449a-878f-6c0f0fd6b3c4</EXTERSTRID>
+      <COD_PROGRA>KTPPT_TINHYEUNGAYTHANG_TAP16</COD_PROGRA>
+      <DESCRIZIO>Tình yêu ngay thẳng - Tập 16</DESCRIZIO>
+      <TITLE>Tình yêu ngay thẳng - Tập 16</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>90000</ORA>
+      <TENCM>Phim truyện NN</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>Tình yêu ngay thẳng - Tập 16</TenCongBo>
+      <TenChuyenMucCongbo>Phim truyện</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_be23ea69-e65f-470c-97d8-63f5dd28ec28</EXTERSTRID>
+      <COD_PROGRA>TTNSRTL_LAMGIAUTUBOTNGHEKOLOGO</COD_PROGRA>
+      <DESCRIZIO>Làm giàu từ bột nghệ (Không Logo)</DESCRIZIO>
+      <TITLE>Làm giàu từ bột nghệ (Không Logo)</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>157500</ORA>
+      <TENCM>Sinh ra từ làng</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>Làm giàu từ bột nghệ</TenCongBo>
+      <TenChuyenMucCongbo>Sinh ra từ làng</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_abc87169-7fc9-4e40-9a39-559341b6a5eb</EXTERSTRID>
+      <COD_PROGRA>KGKPTG_CONDUONGCOXUA__4</COD_PROGRA>
+      <DESCRIZIO>Con đường cổ xưa -  4/6</DESCRIZIO>
+      <TITLE>Con đường cổ xưa -  4/6</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>202500</ORA>
+      <TENCM>Khám phá thế giới</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>Con đường cổ xưa - Phần 4</TenCongBo>
+      <TenChuyenMucCongbo>Khám phá thế giới</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_3f7ee47a-2c51-444c-98e8-179fe74193c0</EXTERSTRID>
+      <COD_PROGRA>VFCBOOI_BOOIMINHDIDAUTHE_1012</COD_PROGRA>
+      <DESCRIZIO>Bố ơi mình đi đâu thế - Tập 32 - 10/12</DESCRIZIO>
+      <TITLE>Bố ơi mình đi đâu thế - Tập 32 - 10/12</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>270000</ORA>
+      <TENCM>Bố ơi! Mình đi đâu thế (V6)</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Bố ơi! Mình đi đâu thế?</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_d67b7a88-30cb-41e3-8c71-bae2d978e12d</EXTERSTRID>
+      <COD_PROGRA>TTNHNAD_SO112</COD_PROGRA>
+      <DESCRIZIO>Số 112</DESCRIZIO>
+      <TITLE>Số 112</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>360000</ORA>
+      <TENCM>Hôm nay ai đến?</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Hôm nay ai đến?</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_7488996a-036f-4dba-b6f7-40c5fa3a54cb</EXTERSTRID>
+      <COD_PROGRA>BHDBDPC_SO50_2016</COD_PROGRA>
+      <DESCRIZIO>Số 50 - 2016 (2 lần Pop up, 4 lần Logo xoay - Không chạy khi phát lại)</DESCRIZIO>
+      <TITLE>Số 50 - 2016 (2 lần Pop up, 4 lần Logo xoay - Không chạy khi phát lại)</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>405000</ORA>
+      <TENCM>Biệt đội phong cách</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Biệt đội phong cách</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_d049b231-87b9-418f-94b6-13ec9d1a0029</EXTERSTRID>
+      <COD_PROGRA>KGKPTG_XUONGCHEBIEN_11</COD_PROGRA>
+      <DESCRIZIO>Xưởng chế biến thực phẩm của Jimmy - Phần  11/14</DESCRIZIO>
+      <TITLE>Xưởng chế biến thực phẩm của Jimmy - Phần  11/14</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>472500</ORA>
+      <TENCM>Khám phá thế giới</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>Xưởng chế biến thực phẩm của Jimmy - Phần  11</TenCongBo>
+      <TenChuyenMucCongbo>Khám phá thế giới</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_b1a5cb46-a9c5-4ac6-b7ec-3385222a55ab</EXTERSTRID>
+      <COD_PROGRA>TKBTKPVN_TAP4_2016NGOILANGDA</COD_PROGRA>
+      <DESCRIZIO>Tập 4 - 2016: Ngôi làng đá 400 tuổi</DESCRIZIO>
+      <TITLE>Tập 4 - 2016: Ngôi làng đá 400 tuổi</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>517500</ORA>
+      <TENCM>Khám phá Việt Nam</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>Ngôi làng đá 400 tuổi</TenCongBo>
+      <TenChuyenMucCongbo>Khám phá Việt Nam</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_fbdb9ebb-9e9f-4e44-bc6b-901f30bbb642</EXTERSTRID>
+      <COD_PROGRA>TTNGKT_PHUONGANHIDOL</COD_PROGRA>
+      <DESCRIZIO>Phương Anh Idol</DESCRIZIO>
+      <TITLE>Phương Anh Idol</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>540000</ORA>
+      <TENCM>Ghế không tựa</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>Phương Anh Idol</TenCongBo>
+      <TenChuyenMucCongbo>Ghế không tựa</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_fdda9576-e075-4e70-bcef-b26e7752c9dc</EXTERSTRID>
+      <COD_PROGRA>TTNBXHH_SO165</COD_PROGRA>
+      <DESCRIZIO>Số 165</DESCRIZIO>
+      <TITLE>Số 165</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>585000</ORA>
+      <TENCM>Bảng xếp hạng âm nhạc Hàn Quốc - M! Countdown</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Bảng xếp hạng âm nhạc Hàn Quốc</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_95bc4b2c-03d9-4c16-a255-822a34c652f8</EXTERSTRID>
+      <COD_PROGRA>SXTTTT_FIFACLUBNACIONAL_THANG3</COD_PROGRA>
+      <DESCRIZIO>FIFA Club World Cup 2016: Atletico Nacional - Kashima</DESCRIZIO>
+      <TITLE>FIFA Club World Cup 2016: Atletico Nacional - Kashima</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>630000</ORA>
+      <TENCM>Thể thao</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>FIFA Club World Cup 2016: Atletico Nacional - Kashima</TenCongBo>
+      <TenChuyenMucCongbo>Thể thao</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_e24c7928-3e9b-49cd-a63f-c1f8a5bcacd3</EXTERSTRID>
+      <COD_PROGRA>TTNHNAD_SO112</COD_PROGRA>
+      <DESCRIZIO>Số 112</DESCRIZIO>
+      <TITLE>Số 112</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>765000</ORA>
+      <TENCM>Hôm nay ai đến?</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Hôm nay ai đến?</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_bb423bd2-557e-49e7-990d-d10d102f6985</EXTERSTRID>
+      <COD_PROGRA>TTNBXHH_SO163</COD_PROGRA>
+      <DESCRIZIO>Số 163</DESCRIZIO>
+      <TITLE>Số 163</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>810000</ORA>
+      <TENCM>Bảng xếp hạng âm nhạc Hàn Quốc - M! Countdown</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Bảng xếp hạng âm nhạc Hàn Quốc</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_e971908d-733e-48c0-9e92-0fe58388c89d</EXTERSTRID>
+      <COD_PROGRA>9H30_VTV6_15122016_0925</COD_PROGRA>
+      <DESCRIZIO>Thời tiết V6 9h30</DESCRIZIO>
+      <TITLE>Thời tiết V6 9h30</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>847500</ORA>
+      <TENCM>Thời tiết V6 9h30</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Thời tiết</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_2bee5943-e096-4935-81dd-0f3b6ccee86c</EXTERSTRID>
+      <COD_PROGRA>BHDBDPC_SO50_2016</COD_PROGRA>
+      <DESCRIZIO>Số 50 - 2016 (2 lần Pop up, 4 lần Logo xoay - Không chạy khi phát lại)</DESCRIZIO>
+      <TITLE>Số 50 - 2016 (2 lần Pop up, 4 lần Logo xoay - Không chạy khi phát lại)</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>855000</ORA>
+      <TENCM>Biệt đội phong cách</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Biệt đội phong cách</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_a4663422-95c7-4c99-9dae-e6d229798fe6</EXTERSTRID>
+      <COD_PROGRA>DOKNS_DAYCONBIETNHANKHUYETDIEM</COD_PROGRA>
+      <DESCRIZIO>Dạy con biết nhận khuyết điểm</DESCRIZIO>
+      <TITLE>Dạy con biết nhận khuyết điểm</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>930000</ORA>
+      <TENCM>Kỹ năng sống</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>Dạy con biết nhận khuyết điểm</TenCongBo>
+      <TenChuyenMucCongbo>Kỹ năng sống</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_7f3a39e7-eb29-438f-b933-610b6f966ef7</EXTERSTRID>
+      <COD_PROGRA>TTNNBHN_TPDAONGUOC_SO502016</COD_PROGRA>
+      <DESCRIZIO>Thành phố đảo ngược - Số 50/2016</DESCRIZIO>
+      <TITLE>Thành phố đảo ngược - Số 50/2016</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>945000</ORA>
+      <TENCM>Những bông hoa nhỏ</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>Thành phố đảo ngược</TenCongBo>
+      <TenChuyenMucCongbo>Những bông hoa nhỏ</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_2a6fe00e-ab02-4c78-8664-73c8c21cb5b9</EXTERSTRID>
+      <COD_PROGRA>TTNXTT_SO242016</COD_PROGRA>
+      <DESCRIZIO>Số 24/2016</DESCRIZIO>
+      <TITLE>Số 24/2016</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>990000</ORA>
+      <TENCM>Xưởng thời trang</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Xưởng thời trang</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_7ef79e03-7d7a-460e-98e3-cfd27eb20144</EXTERSTRID>
+      <COD_PROGRA>TTNNC_CONDUONGTOIDI</COD_PROGRA>
+      <DESCRIZIO>Con đường tôi đi</DESCRIZIO>
+      <TITLE>Con đường tôi đi</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>1035000</ORA>
+      <TENCM>Ngược chiều</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>Con đường tôi đi</TenCongBo>
+      <TenChuyenMucCongbo>Ngược chiều</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_ddf34ac2-da5a-453b-932f-0345d48291dc</EXTERSTRID>
+      <COD_PROGRA>12H0_VTV6_15122016_1155</COD_PROGRA>
+      <DESCRIZIO>Thời tiết V6 12h00</DESCRIZIO>
+      <TITLE>Thời tiết V6 12h00</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>1072500</ORA>
+      <TENCM>Thời tiết V6 12h00</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Thời tiết</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_98be61c4-fbe0-411c-89df-a791cc0944d1</EXTERSTRID>
+      <COD_PROGRA>BTVV_VTV6_15122016_1200</COD_PROGRA>
+      <DESCRIZIO>Bữa trưa vui vẻ</DESCRIZIO>
+      <TITLE>Bữa trưa vui vẻ</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>1080000</ORA>
+      <TENCM>Bữa trưa vui vẻ</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Bữa trưa vui vẻ</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_e4917536-8f2d-48fc-8c35-3bcd13e29c37</EXTERSTRID>
+      <COD_PROGRA>SXTTTHAO_TAPCHIGOLFCHAUA1512</COD_PROGRA>
+      <DESCRIZIO>Tạp chí Golf châu Á ngày 15/12</DESCRIZIO>
+      <TITLE>Tạp chí Golf châu Á ngày 15/12</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>1170000</ORA>
+      <TENCM>Thể thao 30</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>Tạp chí Golf châu Á</TenCongBo>
+      <TenChuyenMucCongbo>Thể thao</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_158af88d-bd3f-42b5-a63f-9cbb1f335b48</EXTERSTRID>
+      <COD_PROGRA>TTNHNAD_SO40</COD_PROGRA>
+      <DESCRIZIO>Số 40</DESCRIZIO>
+      <TITLE>Số 40</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>1215000</ORA>
+      <TENCM>Hôm nay ai đến?</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Hôm nay ai đến?</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_637a06aa-fa51-4b93-8b14-d04c4161a39f</EXTERSTRID>
+      <COD_PROGRA>VFCBOOI_BOOIMINHDIDAUTHE_1012</COD_PROGRA>
+      <DESCRIZIO>Bố ơi mình đi đâu thế - Tập 32 - 10/12</DESCRIZIO>
+      <TITLE>Bố ơi mình đi đâu thế - Tập 32 - 10/12</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>1260000</ORA>
+      <TENCM>Bố ơi! Mình đi đâu thế (V6)</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Bố ơi! Mình đi đâu thế?</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_bb4f34f4-e151-4848-9f0b-c90476bcbff8</EXTERSTRID>
+      <COD_PROGRA>TKBTVKN2_HTDIEUBIMATHH2112</COD_PROGRA>
+      <DESCRIZIO>Hậu trường phim Điều bí mật (HH2112)</DESCRIZIO>
+      <TITLE>Hậu trường phim Điều bí mật (HH2112)</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>1327500</ORA>
+      <TENCM>VTV kết nối</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>VTV kết nối</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_2517d492-e8ee-4d45-81f8-a60944c37f8c</EXTERSTRID>
+      <COD_PROGRA>TKBTKPVN_TAP5_16NGUOIDANVONG</COD_PROGRA>
+      <DESCRIZIO>Tập 5 - 16: Người đan võng ngô đồng</DESCRIZIO>
+      <TITLE>Tập 5 - 16: Người đan võng ngô đồng</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>1348500</ORA>
+      <TENCM>Khám phá Việt Nam</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>Người đan võng ngô đồng</TenCongBo>
+      <TenChuyenMucCongbo>Khám phá Việt Nam</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_5f5e21fa-ae91-494d-af02-de02a3b67976</EXTERSTRID>
+      <COD_PROGRA>TTNKVVN_SO41</COD_PROGRA>
+      <DESCRIZIO>Số 41: Ông giám đốc nhà nông năng động</DESCRIZIO>
+      <TITLE>Số 41: Ông giám đốc nhà nông năng động</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>1372500</ORA>
+      <TENCM>Khát vọng Việt Nam</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Khát vọng Việt Nam</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_5aa303bf-412a-4943-8d16-ff207fdb0c58</EXTERSTRID>
+      <COD_PROGRA>TTNGKT_PHUONGANHIDOL</COD_PROGRA>
+      <DESCRIZIO>Phương Anh Idol</DESCRIZIO>
+      <TITLE>Phương Anh Idol</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>1395000</ORA>
+      <TENCM>Ghế không tựa</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>Phương Anh Idol</TenCongBo>
+      <TenChuyenMucCongbo>Ghế không tựa</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_ef7d703d-99ef-4966-925a-6273176399ef</EXTERSTRID>
+      <COD_PROGRA>TTNSRTL_LAMGIAUTUBOTNGHEKOLOGO</COD_PROGRA>
+      <DESCRIZIO>Làm giàu từ bột nghệ (Không Logo)</DESCRIZIO>
+      <TITLE>Làm giàu từ bột nghệ (Không Logo)</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>1440000</ORA>
+      <TENCM>Sinh ra từ làng</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>Làm giàu từ bột nghệ</TenCongBo>
+      <TenChuyenMucCongbo>Sinh ra từ làng</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_4f8adbd0-65e0-4c5e-9d52-3215c3ed5e4f</EXTERSTRID>
+      <COD_PROGRA>KGKPTG_XUONGCHEBIEN_11</COD_PROGRA>
+      <DESCRIZIO>Xưởng chế biến thực phẩm của Jimmy - Phần  11/14</DESCRIZIO>
+      <TITLE>Xưởng chế biến thực phẩm của Jimmy - Phần  11/14</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>1485000</ORA>
+      <TENCM>Khám phá thế giới</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>Xưởng chế biến thực phẩm của Jimmy - Phần  11</TenCongBo>
+      <TenChuyenMucCongbo>Khám phá thế giới</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_028377ed-ff14-467e-b747-b28d5ecea13e</EXTERSTRID>
+      <COD_PROGRA>SXTTTHTT_FIFACLUB2016BK</COD_PROGRA>
+      <DESCRIZIO>FIFA Club World Cup 2016: Trận bán kết 2: Club America - Real Madrid</DESCRIZIO>
+      <TITLE>FIFA Club World Cup 2016: Trận bán kết 2: Club America - Real Madrid</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>1530000</ORA>
+      <TENCM>Truyền hình trực tiếp V6</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>FIFA Club World Cup 2016: Trận bán kết 2: Club America - Real Madrid</TenCongBo>
+      <TenChuyenMucCongbo>Truyền hình trực tiếp</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_33be181c-404f-46c4-8323-c52666e93b61</EXTERSTRID>
+      <COD_PROGRA>BHDBDPC_SO51_2016</COD_PROGRA>
+      <DESCRIZIO>Số 51 - 2016 (2 lần Pop up, 4 lần Logo xoay - Không chạy khi phát lại)</DESCRIZIO>
+      <TITLE>Số 51 - 2016 (2 lần Pop up, 4 lần Logo xoay - Không chạy khi phát lại)</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>1792500</ORA>
+      <TENCM>Biệt đội phong cách</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Biệt đội phong cách</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_50df63e4-4ce6-437e-8269-92f86f522073</EXTERSTRID>
+      <COD_PROGRA>TTNKVVN_SO41</COD_PROGRA>
+      <DESCRIZIO>Số 41: Ông giám đốc nhà nông năng động</DESCRIZIO>
+      <TITLE>Số 41: Ông giám đốc nhà nông năng động</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>1867500</ORA>
+      <TENCM>Khát vọng Việt Nam</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Khát vọng Việt Nam</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_3db7a06d-cbc0-4f04-94a3-d1d7573811b6</EXTERSTRID>
+      <COD_PROGRA>TKBTPT_NGUOIGOAPHUDEN_TAP71</COD_PROGRA>
+      <DESCRIZIO>Người góa phụ đen - Tập 71</DESCRIZIO>
+      <TITLE>Người góa phụ đen - Tập 71</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>1890000</ORA>
+      <TENCM>Phim truyện 21h00</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>Người góa phụ đen - Tập 71</TenCongBo>
+      <TenChuyenMucCongbo>Phim truyện</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_af44337c-349b-439e-8df8-a91e90b66dcf</EXTERSTRID>
+      <COD_PROGRA>TKBTVKT2_CTTETDLCUABANTSHH1612</COD_PROGRA>
+      <DESCRIZIO>Chương trình đặc sắc Tết DL của Ban Thời sự (HH1612)</DESCRIZIO>
+      <TITLE>Chương trình đặc sắc Tết DL của Ban Thời sự (HH1612)</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>1957500</ORA>
+      <TENCM>VTV kết nối</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>VTV kết nối</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_b4f7bb65-25fd-4d71-bbd9-6a5c2e2b5e9f</EXTERSTRID>
+      <COD_PROGRA>22H0_VTV6_15122016_2155</COD_PROGRA>
+      <DESCRIZIO>Thời tiết V6 22h00</DESCRIZIO>
+      <TITLE>Thời tiết V6 22h00</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>1972500</ORA>
+      <TENCM>Thời tiết V6 22h00</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Thời tiết</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_c4f97129-e78e-40c8-b652-271971c38907</EXTERSTRID>
+      <COD_PROGRA>TTN5PHU_SO22016</COD_PROGRA>
+      <DESCRIZIO>Số 2/2016</DESCRIZIO>
+      <TITLE>Số 2/2016</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>1972525</ORA>
+      <TENCM>5 phút trong cuộc sống</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>5 phút trong cuộc sống</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_1b5aa2e5-6014-4fc9-9356-07a54b4b8661</EXTERSTRID>
+      <COD_PROGRA>360T_VTV6_15122016_2200</COD_PROGRA>
+      <DESCRIZIO>360° Thể thao</DESCRIZIO>
+      <TITLE>360° Thể thao</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>1980000</ORA>
+      <TENCM>360° Thể thao</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>360° thể thao</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_8f400604-e2bb-4f2a-b05c-6bc5d07a9393</EXTERSTRID>
+      <COD_PROGRA>TTNHNAD_SO69</COD_PROGRA>
+      <DESCRIZIO>Số 69</DESCRIZIO>
+      <TITLE>Số 69</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>2025000</ORA>
+      <TENCM>Hôm nay ai đến?</TENCM>
+      <HTPS>1</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Hôm nay ai đến?</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_e59db937-4682-43e5-aa7f-f4b4624fc85f</EXTERSTRID>
+      <COD_PROGRA>SXTTTHAO_NHATKYAFF15122016</COD_PROGRA>
+      <DESCRIZIO>Nhật ký AFF Suzuki Cup 2016 - 15/12/2016</DESCRIZIO>
+      <TITLE>Nhật ký AFF Suzuki Cup 2016 - 15/12/2016</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>2070000</ORA>
+      <TENCM>Thể thao 30</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>Nhật ký AFF Suzuki Cup 2016 </TenCongBo>
+      <TenChuyenMucCongbo>Thể thao</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_d3676eb1-8791-4508-942d-fc83f3d63b00</EXTERSTRID>
+      <COD_PROGRA>TTNLKV6_NGAY15122016</COD_PROGRA>
+      <DESCRIZIO>Ngày 15/12/2016</DESCRIZIO>
+      <TITLE>Ngày 15/12/2016</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>2092500</ORA>
+      <TENCM>Lăng kính V6</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>
+      </TenCongBo>
+      <TenChuyenMucCongbo>Lăng kính V6</TenChuyenMucCongbo>
+    </row>
+    <row>
+      <EXTERSTRID>T0_90946e8b-5e33-4536-96f5-07b4296f4ad1</EXTERSTRID>
+      <COD_PROGRA>SXTTTT_FIFACLUBNACIONAL_THANG3</COD_PROGRA>
+      <DESCRIZIO>FIFA Club World Cup 2016: Atletico Nacional - Kashima</DESCRIZIO>
+      <TITLE>FIFA Club World Cup 2016: Atletico Nacional - Kashima</TITLE>
+      <ASPECT>H</ASPECT>
+      <DATA>15/12/2016</DATA>
+      <DATA_SCAD>25/12/2016</DATA_SCAD>
+      <ORA>2115000</ORA>
+      <TENCM>Thể thao</TENCM>
+      <HTPS>0</HTPS>
+      <KENHPS>VTV6</KENHPS>
+      <KENHPSHT>VTV6</KENHPSHT>
+      <TenCongBo>FIFA Club World Cup 2016: Atletico Nacional - Kashima</TenCongBo>
+      <TenChuyenMucCongbo>Thể thao</TenChuyenMucCongbo>
+    </row>
+  </TRAFFICXML>
+</data>

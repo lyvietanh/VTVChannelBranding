@@ -26,6 +26,10 @@ namespace VTVTrafficDataManager.ViewModels
         public ICommand OpenAboutWindowCommand { get; private set; }
         public ICommand SearchTrafficEventCommand { get; private set; }
         public ICommand ClearSearchTrafficEventCommand { get; private set; }
+        public ICommand GoToFirstPageCommand { get; private set; }
+        public ICommand GoToPreviousPageCommand { get; private set; }
+        public ICommand GoToNextPageCommand { get; private set; }
+        public ICommand GoToLastPageCommand { get; private set; }
 
         private ChannelModel _channelSelected = null;
         private string _searchTrafficEventKeyWord = "";
@@ -102,6 +106,10 @@ namespace VTVTrafficDataManager.ViewModels
             this.OpenAboutWindowCommand = new DelegateCommand(ExecuteOpenAboutWindowCommand);
             this.SearchTrafficEventCommand = new DelegateCommand(ExecuteSearchTrafficEventCommand);
             this.ClearSearchTrafficEventCommand = new DelegateCommand(ExecuteClearSearchTrafficEventCommand);
+            this.GoToFirstPageCommand = new DelegateCommand(ExecuteGoToFirstPageCommand);
+            this.GoToPreviousPageCommand = new DelegateCommand(ExecuteGoToPreviousPageCommand);
+            this.GoToNextPageCommand = new DelegateCommand(ExecuteGoToNextPageCommand);
+            this.GoToLastPageCommand = new DelegateCommand(ExecuteGoToLastPageCommand);
 
             _isMainProcessorThreadRunning = true;
             _mainProcessorThread = new Thread(new ThreadStart(ExecuteMainProcessorThread));
@@ -112,6 +120,26 @@ namespace VTVTrafficDataManager.ViewModels
             {
                 this.ChannelSelected = AppData.Default.Channels[0];
             }
+        }
+
+        private void ExecuteGoToLastPageCommand()
+        {
+            if (this.ChannelSelected != null) this.ChannelSelected.GoToLastPage();
+        }
+
+        private void ExecuteGoToNextPageCommand()
+        {
+            if (this.ChannelSelected != null) this.ChannelSelected.GoToNextPage();
+        }
+
+        private void ExecuteGoToPreviousPageCommand()
+        {
+            if (this.ChannelSelected != null) this.ChannelSelected.GoToPreviousPage();
+        }
+
+        private void ExecuteGoToFirstPageCommand()
+        {
+            if (this.ChannelSelected != null) this.ChannelSelected.GoToFirstPage();
         }
 
         private async void ExecuteExitApplicationCommand()

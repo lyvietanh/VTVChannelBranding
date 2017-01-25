@@ -38,6 +38,7 @@ namespace VTVPlaylistEditor.Models
         private SecondaryEventModel defaultSecondaryEventVideoSpecialProgram = null;
 
         private bool comingUpRoundTimeEnabled = false;
+        private string comingUpRoundTimeMode = "0358";
         private ComingUpListModel cToday = new ComingUpListModel() { Name = "CToday" };
         private ComingUpListModel cTomorrow = new ComingUpListModel() { Name = "CTomorrow" };
 
@@ -410,6 +411,20 @@ namespace VTVPlaylistEditor.Models
             {
                 this.customPrimaryEventContainProgramCodeFilter = value;
                 OnPropertyChanged(() => this.CustomPrimaryEventContainProgramCodeFilter);
+            }
+        }
+
+        public string ComingUpRoundTimeMode
+        {
+            get
+            {
+                return comingUpRoundTimeMode;
+            }
+
+            set
+            {
+                comingUpRoundTimeMode = value;
+                OnPropertyChanged();
             }
         }
 

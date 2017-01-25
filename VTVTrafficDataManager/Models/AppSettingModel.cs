@@ -16,10 +16,26 @@ namespace VTVTrafficDataManager.Models
     [XmlRoot(ElementName = "AppSetting")]
     public class AppSettingModel : AppSettingModelBase<AppSettingModel>
     {
+        private PagingModel _paging = new PagingModel();
         private ConnectionStringModel _connectionString = new ConnectionStringModel();
         private ObservableCollection<ChannelModel> _channels = new ObservableCollection<ChannelModel>();
 
-        [XmlElement(ElementName = "ConnectionString", Order = 1)]
+        [XmlElement(ElementName = "Paging", Order = 1)]
+        public PagingModel Paging
+        {
+            get
+            {
+                return _paging;
+            }
+
+            set
+            {
+                _paging = value;
+                OnPropertyChanged();
+            }
+        }
+
+        [XmlElement(ElementName = "ConnectionString", Order = 2)]
         public ConnectionStringModel ConnectionString
         {
             get
@@ -34,7 +50,7 @@ namespace VTVTrafficDataManager.Models
             }
         }
 
-        [XmlArray(ElementName = "Channels", Order = 2)]
+        [XmlArray(ElementName = "Channels", Order = 3)]
         public ObservableCollection<ChannelModel> Channels
         {
             get

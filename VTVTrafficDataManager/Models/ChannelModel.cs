@@ -36,11 +36,14 @@ namespace VTVTrafficDataManager.Models
         private string _trafficFolderPath = "";
         private string _trafficFileFilter = "";
         private ObservableCollection<TrafficEventModel> _trafficEvents = new ObservableCollection<TrafficEventModel>();
+        private int _currentPage = 1;
+        private int _totalPage = 1;
 
         private Thread _trafficProcessorThread = null;
         private bool _isTrafficProcessorThreadRunning = false;
         private DateTime _lastTrafficProcessorUpdateTime = DateTime.MinValue;
         private List<string> _skippedTrafficFiles = new List<string>();
+        private int _count = 0;
 
         [XmlAttribute]
         [Required(ErrorMessage = "Bắt buộc.")]
@@ -235,6 +238,47 @@ namespace VTVTrafficDataManager.Models
             }
         }
 
+        [XmlIgnore]
+        public int CurrentPage
+        {
+            get
+            {
+                return _currentPage;
+            }
+
+            set
+            {
+                _currentPage = value;
+                OnPropertyChanged();
+
+                if (this.CurrentPage < 1)
+                {
+                    this.CurrentPage = 1;
+                }
+                else if (this.CurrentPage > this.TotalPage)
+                {
+                    this.CurrentPage = this.TotalPage;
+                }
+
+                UpdateTrafficData();
+            }
+        }
+
+        [XmlIgnore]
+        public int TotalPage
+        {
+            get
+            {
+                return _totalPage;
+            }
+
+            set
+            {
+                _totalPage = value;
+                OnPropertyChanged();
+            }
+        }
+
         public ChannelModel()
         {
 
@@ -271,14 +315,6 @@ namespace VTVTrafficDataManager.Models
 
         public void UpdateTrafficData()
         {
-            if (this.TrafficEvents.Count != DataService.Service.Default.CountOfTrafficEvents(this.Name))
-            {
-                Application.Current.Dispatcher.Invoke(delegate
-                {
-                    var trafficEventEntities = DataService.Service.Default.GetTrafficEvents(this.Name);
-                    this.TrafficEvents = AppData.Mapper.Map<List<BusinessObjects.TrafficEvent>, ObservableCollection<TrafficEventModel>>(trafficEventEntities);
-                });
-            }
             var channelEntity = DataService.Service.Default.GetChannel(this.Name);
             if (channelEntity != null)
             {
@@ -291,6 +327,22 @@ namespace VTVTrafficDataManager.Models
                 channelEntity = AppData.Mapper.Map<ChannelModel, BusinessObjects.Channel>(this);
                 DataService.Service.Default.CreateChannel(channelEntity);
             }
+
+            int count = DataService.Service.Default.CountOfTrafficEvents(this.Name);
+            this.TotalPage = (count / AppData.Default.AppSetting.Paging.ItemsPerPage) + 1;
+            if (this.TotalPage <= 0) ++this.TotalPage;
+
+            //if (_count != count)
+            //{
+            //    _count = count;
+
+                Application.Current.Dispatcher.Invoke(delegate
+                {
+                    //var trafficEventEntities = DataService.Service.Default.GetTrafficEvents(this.Name);
+                    var trafficEventEntities = DataService.Service.Default.GetTrafficEvents(this.Name, this.CurrentPage, AppData.Default.AppSetting.Paging.ItemsPerPage, "UpdateTime DESC, ProgramCode ASC");
+                    this.TrafficEvents = AppData.Mapper.Map<List<BusinessObjects.TrafficEvent>, ObservableCollection<TrafficEventModel>>(trafficEventEntities);
+                });
+            //}
 
 
             string backupFileName = this.Name + "_TRAFFICLIST" + ".xml";
@@ -329,17 +381,6 @@ namespace VTVTrafficDataManager.Models
 
                         ++j;
                     }
-                    //while (_skippedTrafficFiles.Count > 0 && _isTrafficProcessorThreadRunning)
-                    //{
-                    //    if (_isTrafficProcessorThreadRunning == false)
-                    //        return;
-
-                    //    if (ProcessToUpdateTrafficDataFile(_skippedTrafficFiles[0]))
-                    //    {
-                    //        hasNew = true;
-                    //        _skippedTrafficFiles.RemoveAt(0);
-                    //    }
-                    //}
                 }
                 else
                 {
@@ -407,7 +448,12 @@ namespace VTVTrafficDataManager.Models
 
                         Application.Current.Dispatcher.Invoke(delegate
                         {
-                            var trafficEventEntities = DataService.Service.Default.GetTrafficEvents(this.Name);
+                            int count = DataService.Service.Default.CountOfTrafficEvents(this.Name);
+                            this.TotalPage = (count / AppData.Default.AppSetting.Paging.ItemsPerPage) + 1;
+                            if (this.TotalPage <= 0) ++this.TotalPage;
+
+                            //var trafficEventEntities = DataService.Service.Default.GetTrafficEvents(this.Name);
+                            var trafficEventEntities = DataService.Service.Default.GetTrafficEvents(this.Name, this.CurrentPage, AppData.Default.AppSetting.Paging.ItemsPerPage, "UpdateTime DESC, ProgramCode ASC");
                             this.TrafficEvents = AppData.Mapper.Map<List<BusinessObjects.TrafficEvent>, ObservableCollection<TrafficEventModel>>(trafficEventEntities);
                         });
 
@@ -420,6 +466,26 @@ namespace VTVTrafficDataManager.Models
 
             }
             return false;
+        }
+
+        public void GoToLastPage()
+        {
+            this.CurrentPage = this.TotalPage;
+        }
+
+        public void GoToNextPage()
+        {
+            ++this.CurrentPage;
+        }
+
+        public void GoToPreviousPage()
+        {
+            --this.CurrentPage;
+        }
+
+        public void GoToFirstPage()
+        {
+            this.CurrentPage = 1;
         }
 
         private ObservableCollection<TrafficEventModel> LoadTrafficDataFromFile(string filePath)

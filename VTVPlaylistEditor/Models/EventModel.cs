@@ -22,6 +22,7 @@ namespace VTVPlaylistEditor.Models
         private bool isLocking = false;
         private DateTime lockedAt = DateTime.MinValue;
         private UserModel lockedBy = null;
+        private EventModel parent = null;
 
         private ObservableCollection<SecondaryEventModel> secondaryEvents = new ObservableCollection<SecondaryEventModel>();
 
@@ -109,7 +110,8 @@ namespace VTVPlaylistEditor.Models
 
             set
             {
-                this.maBang = Utility.ConvertTextToUpper(value);
+                this.maBang = Utility.ConvertCompositeToPrecomposed(value);
+                this.maBang = Utility.ConvertTextToUpper(maBang);
                 OnPropertyChanged(() => this.ProgramCode);
             }
         }
@@ -165,7 +167,8 @@ namespace VTVPlaylistEditor.Models
 
             set
             {
-                this.tenMu = Utility.ConvertToValidString(value, AppData.Default.EnableAsciiCharacter, AppData.Default.UserValidCharacter, AppData.Default.ConvertInvalidCharacterTo);
+                this.tenMu = Utility.ConvertCompositeToPrecomposed(value);
+                this.tenMu = Utility.ConvertToValidString(this.tenMu, AppData.Default.EnableAsciiCharacter, AppData.Default.UserValidCharacter, AppData.Default.ConvertInvalidCharacterTo);
                 this.tenMu = Utility.ConvertTextToUpper(this.tenMu);
                 OnPropertyChanged(() => this.TenMu);
 
@@ -185,7 +188,8 @@ namespace VTVPlaylistEditor.Models
 
             set
             {
-                this.tenCt = Utility.ConvertToValidString(value, AppData.Default.EnableAsciiCharacter, AppData.Default.UserValidCharacter, AppData.Default.ConvertInvalidCharacterTo);
+                this.tenCt = Utility.ConvertCompositeToPrecomposed(value);
+                this.tenCt = Utility.ConvertToValidString(this.tenCt, AppData.Default.EnableAsciiCharacter, AppData.Default.UserValidCharacter, AppData.Default.ConvertInvalidCharacterTo);
                 this.tenCt = Utility.ConvertTextToUpper(this.tenCt);
                 OnPropertyChanged(() => this.TenCt);
 
@@ -219,7 +223,7 @@ namespace VTVPlaylistEditor.Models
 
             set
             {
-                this.description = value;
+                this.description = Utility.ConvertCompositeToPrecomposed(value);
                 OnPropertyChanged(() => this.Description);
             }
         }
@@ -233,7 +237,7 @@ namespace VTVPlaylistEditor.Models
 
             set
             {
-                this.title = value;
+                this.title = Utility.ConvertCompositeToPrecomposed(value);
                 OnPropertyChanged(() => this.Title);
             }
         }
@@ -275,7 +279,7 @@ namespace VTVPlaylistEditor.Models
 
             set
             {
-                this.noiDung = value;
+                this.noiDung = Utility.ConvertCompositeToPrecomposed(value);
                 OnPropertyChanged(() => this.NoiDung);
             }
         }
@@ -751,6 +755,20 @@ namespace VTVPlaylistEditor.Models
             {
                 groupName = value;
                 OnPropertyChanged(() => this.GroupName);
+            }
+        }
+
+        public EventModel Parent
+        {
+            get
+            {
+                return parent;
+            }
+
+            set
+            {
+                parent = value;
+                OnPropertyChanged(() => this.Parent);
             }
         }
 

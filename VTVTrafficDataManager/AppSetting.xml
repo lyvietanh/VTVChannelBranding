@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <AppSetting>
+  <Paging ItemsPerPage="100" />
   <ConnectionString ServerName="LYVIETANH-PC" DatabaseName="db_VTVChannelBranding" User="sa" Password="123456" ConnectionTimeOut="00:00:03" />
   <Channels>
-    <Channel Name="SEC2" Title="VTV3" TrafficUpdateInterval="00:00:10" TrafficFolderPath="Y:\TRAFFIC\SEC2" TrafficFileFilter="TRAFFIC_6_" />
     <Channel Name="VTV6" TrafficUpdateInterval="00:00:10" TrafficFolderPath="Y:\TRAFFIC\VTV6" TrafficFileFilter="TRAFFIC_3_" />
     <Channel Name="VTV4" TrafficUpdateInterval="00:00:10" TrafficFolderPath="Y:\TRAFFIC\VTV4" TrafficFileFilter="TRAFFIC_4_" />
+    <Channel Name="SEC2" Title="VTV3" TrafficUpdateInterval="00:00:10" TrafficFolderPath="Y:\TRAFFIC\SEC2" TrafficFileFilter="TRAFFIC_6_" />
     <Channel Name="VTV2" TrafficUpdateInterval="00:00:10" TrafficFolderPath="Y:\TRAFFIC\VTV2" TrafficFileFilter="TRAFFIC_2_" />
   </Channels>
 </AppSetting>

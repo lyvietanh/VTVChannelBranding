@@ -60,7 +60,7 @@
                 </MenuItem>
             </Menu>
 
-            <!-- HEADER BAR -->
+            <!-- MAIN HEADER BAR -->
             <materialDesign:ColorZone DockPanel.Dock="Top" Padding="8" materialDesign:ShadowAssist.ShadowDepth="Depth1" Mode="PrimaryDark">
                 <DockPanel>
                     <materialDesign:PopupBox DockPanel.Dock="Left" 
@@ -116,6 +116,48 @@
                         </materialDesign:ColorZone>
                     </StackPanel>
                     <TextBlock Text="{Binding ChannelSelected.Title, StringFormat='{}Kênh {0}'}" Style="{StaticResource MaterialDesignTitleTextBlock}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="8 0 0 0" />
+                </DockPanel>
+            </materialDesign:ColorZone>
+
+            <!-- HEADER BAR -->
+            <materialDesign:ColorZone DockPanel.Dock="Top" Padding="8" Background="WhiteSmoke" materialDesign:ShadowAssist.ShadowDepth="Depth1" Mode="Standard">
+                <DockPanel>
+                    <StackPanel DockPanel.Dock="Left" Orientation="Horizontal">
+                        <TextBlock Text="Trang:" VerticalAlignment="Center" />
+                        <Button Command="{Binding GoToFirstPageCommand}" Style="{StaticResource MaterialDesignFlatButton}" VerticalAlignment="Bottom" Margin="8 0 0 0">
+                            <Button.Content>
+                                <StackPanel Orientation="Horizontal">
+                                    <materialDesign:PackIcon Kind="PageFirst" Margin="0" />
+                                </StackPanel>
+                            </Button.Content>
+                        </Button>
+                        <Button Command="{Binding GoToPreviousPageCommand}" Style="{StaticResource MaterialDesignFlatButton}" VerticalAlignment="Bottom" Margin="8 0 0 0">
+                            <Button.Content>
+                                <StackPanel Orientation="Horizontal">
+                                    <materialDesign:PackIcon Kind="ChevronLeft" Margin="0" />
+                                </StackPanel>
+                            </Button.Content>
+                        </Button>
+                        <TextBlock VerticalAlignment="Center" Margin="8 0 0 0">
+                            <Run Text="{Binding ChannelSelected.CurrentPage, Mode=OneWay}" />
+                            <Run Text="/" />
+                            <Run Text="{Binding ChannelSelected.TotalPage, Mode=OneWay}" />
+                        </TextBlock>
+                        <Button Command="{Binding GoToNextPageCommand}" Style="{StaticResource MaterialDesignFlatButton}" VerticalAlignment="Bottom" Margin="8 0 0 0">
+                            <Button.Content>
+                                <StackPanel Orientation="Horizontal">
+                                    <materialDesign:PackIcon Kind="ChevronRight" Margin="0" />
+                                </StackPanel>
+                            </Button.Content>
+                        </Button>
+                        <Button Command="{Binding GoToLastPageCommand}" Style="{StaticResource MaterialDesignFlatButton}" VerticalAlignment="Bottom" Margin="8 0 0 0">
+                            <Button.Content>
+                                <StackPanel Orientation="Horizontal">
+                                    <materialDesign:PackIcon Kind="PageLast" Margin="0" />
+                                </StackPanel>
+                            </Button.Content>
+                        </Button>
+                    </StackPanel>
                 </DockPanel>
             </materialDesign:ColorZone>
 

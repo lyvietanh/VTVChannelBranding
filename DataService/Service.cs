@@ -97,6 +97,22 @@ namespace DataService
             return _trafficEventDao.GetTrafficEvents(channelName, sortExpression);
         }
 
+        public List<TrafficEvent> GetTrafficEvents(string channelName, int currentPage, int itemsPerPage, string sortExpression = "UpdateTime DESC")
+        {
+            if (IsServerConnected == false)
+                throw new DatabaseServerNotConnectedException();
+
+            return _trafficEventDao.GetTrafficEvents(channelName, currentPage, itemsPerPage, sortExpression);
+        }
+
+        public List<TrafficEvent> GetTrafficEvents(string channelName, string searchForProgramCode, string sortExpression = "UpdateTime DESC")
+        {
+            if (IsServerConnected == false)
+                throw new DatabaseServerNotConnectedException();
+
+            return _trafficEventDao.GetTrafficEvents(channelName, searchForProgramCode, sortExpression);
+        }
+
         public void CreateTrafficEvent(TrafficEvent trafficEvent)
         {
             if (IsServerConnected == false)
