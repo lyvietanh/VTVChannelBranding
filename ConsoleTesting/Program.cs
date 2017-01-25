@@ -18,7 +18,7 @@ namespace ConsoleTesting
 
             isMasterMode |= a;
             isMasterMode |= b;
-            isMasterMode |= c;
+            isMasterMode |= c;//B
 
             Console.WriteLine(isMasterMode);
             Console.ReadKey();
